@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://tookiiiii.github.io"
-CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428-bochi">'
-CUSTOM_JS = '<script src="/js/custom.js?v=20260428-bochi"></script>'
+CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428-search-comment">'
+CUSTOM_JS = '<script src="/js/custom.js?v=20260428-search-comment"></script>'
 
 
 def read_text(path: Path) -> str:
@@ -24,6 +24,18 @@ def write_text(path: Path, content: str) -> None:
 
 
 def ensure_custom_assets(content: str) -> str:
+    content = re.sub(
+        r'<link[^>]+href=["\']/css/custom\.css\?v=[^"\']+["\'][^>]*>',
+        CUSTOM_CSS,
+        content,
+        count=1,
+    )
+    content = re.sub(
+        r'<script[^>]+src=["\']/js/custom\.js\?v=[^"\']+["\'][^>]*></script>',
+        CUSTOM_JS,
+        content,
+        count=1,
+    )
     if "/css/custom.css" not in content:
         content = content.replace("</head>", f"{CUSTOM_CSS}</head>", 1)
     if "/js/custom.js" not in content:
@@ -100,7 +112,14 @@ def link_cards() -> str:
     return f"""
 <div id="page" class="container tooki-page">
   <h1 class="page-title">友情链接</h1>
-  <div class="tooki-callout">友链页已经接入 <code>link.json</code> 数据。后续新增朋友时，只需要按同样结构补充名称、链接、头像和描述。</div>
+  <section class="tooki-section tooki-link-actions">
+    <div>
+      <div class="tooki-kicker">Friends</div>
+      <h2>随机拜访一个朋友</h2>
+      <p>不知道点谁时，可以随机跳转到一个友链站点。</p>
+    </div>
+    <button class="tooki-btn" id="tooki-random-friend" type="button"><i class="fa-fw fas fa-dice"></i>随机访问</button>
+  </section>
   {''.join(sections)}
   <section class="tooki-section">
     <div class="tooki-kicker">Link Exchange</div>
@@ -313,11 +332,41 @@ def enhance_existing_pages() -> None:
         write_text(path, content)
 
 
+def build_search_index() -> None:
+    entries: list[dict[str, str]] = []
+    for path in sorted(ROOT.glob("20[0-9][0-9]/*/*/*/index.html")):
+        soup = BeautifulSoup(read_text(path), "html.parser")
+        title_node = soup.select_one("h1.post-title") or soup.title
+        article_node = soup.select_one("#article-container")
+        if not title_node or not article_node:
+            continue
+
+        title = title_node.get_text(" ", strip=True).replace(" | Tooki", "")
+        content = re.sub(r"\s+", " ", article_node.get_text(" ", strip=True))
+        time_node = soup.select_one("time[datetime]")
+        date = time_node.get_text(" ", strip=True) if time_node else ""
+        url = "/" + path.relative_to(ROOT).as_posix().replace("index.html", "")
+        entries.append(
+            {
+                "title": title,
+                "url": url,
+                "date": date,
+                "content": content[:1200],
+            }
+        )
+
+    write_text(
+        ROOT / "search.json",
+        json.dumps(entries, ensure_ascii=False, separators=(",", ":")),
+    )
+
+
 def main() -> None:
     enhance_existing_pages()
     base_content = ensure_custom_assets(common_cleanups(read_text(ROOT / "archives" / "index.html")))
     for slug, page in PAGES.items():
         render_page(slug, page, base_content)
+    build_search_index()
 
 
 if __name__ == "__main__":

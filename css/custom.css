@@ -403,6 +403,155 @@
   transform: translateY(0);
 }
 
+.tooki-typewriter {
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.88);
+  font-size: clamp(1rem, 2vw, 1.35rem);
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.tooki-typewriter-cursor {
+  display: inline-block;
+  margin-left: 3px;
+  animation: tookiCursor 0.9s step-end infinite;
+}
+
+.tooki-search-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 2147482500;
+  display: none;
+  place-items: start center;
+  padding: 10vh 18px 18px;
+  background: rgba(16, 18, 28, 0.52);
+  backdrop-filter: blur(12px);
+}
+
+.tooki-search-mask.is-open {
+  display: grid;
+}
+
+.tooki-search-panel {
+  width: min(760px, 100%);
+  overflow: hidden;
+  border: 1px solid var(--tooki-glass-border);
+  border-radius: 22px;
+  background: var(--tooki-glass);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px) saturate(1.15);
+}
+
+.tooki-search-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid rgba(73, 177, 245, 0.16);
+}
+
+.tooki-search-input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid rgba(73, 177, 245, 0.22);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.52);
+  color: var(--font-color);
+  outline: none;
+}
+
+[data-theme='dark'] .tooki-search-input {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.tooki-search-close {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(73, 177, 245, 0.18);
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+.tooki-search-results {
+  max-height: min(58vh, 520px);
+  overflow: auto;
+  padding: 10px 16px 16px;
+}
+
+.tooki-search-empty {
+  padding: 28px 8px;
+  color: var(--card-meta);
+  text-align: center;
+}
+
+.tooki-search-item {
+  display: block;
+  margin-top: 10px;
+  padding: 14px;
+  border-radius: 14px;
+  background: rgba(73, 177, 245, 0.08);
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+.tooki-search-item:hover {
+  background: rgba(73, 177, 245, 0.16);
+  transform: translateY(-2px);
+}
+
+.tooki-search-title {
+  margin-bottom: 6px;
+  font-weight: 800;
+}
+
+.tooki-search-meta,
+.tooki-search-excerpt {
+  color: var(--card-meta);
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.tooki-comment-section {
+  margin: 28px 0 0;
+  padding: 22px;
+  border: 1px solid var(--tooki-glass-border);
+  border-radius: 16px;
+  background: var(--tooki-glass);
+  box-shadow: var(--tooki-shadow);
+  backdrop-filter: blur(14px) saturate(1.15);
+}
+
+.tooki-comment-head {
+  margin-bottom: 14px;
+}
+
+.tooki-comment-head h2 {
+  margin: 0 0 8px;
+}
+
+.tooki-comment-head p {
+  margin: 0;
+  color: var(--card-meta);
+  line-height: 1.7;
+}
+
+.tooki-link-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: center;
+}
+
+.tooki-link-actions p {
+  margin-bottom: 0;
+}
+
 @keyframes tookiBootLoad {
   from {
     transform: translateX(-22%);
@@ -412,12 +561,27 @@
   }
 }
 
+@keyframes tookiCursor {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .tooki-stat-grid,
   .tooki-grid,
   .tooki-movie-list,
-  .tooki-hero {
+  .tooki-hero,
+  .tooki-link-actions {
     grid-template-columns: 1fr;
+  }
+
+  .tooki-link-actions {
+    display: grid;
   }
 
   .tooki-home-panel,
