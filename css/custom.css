@@ -17,6 +17,12 @@
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.52));
 }
 
+#page-header.not-home-page,
+#page-header.post-bg {
+  background-image: url('/img/bochi.jpg') !important;
+  background-position: center 48% !important;
+}
+
 #site-title {
   letter-spacing: 0.04em;
 }

@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://tookiiiii.github.io"
-CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428-clean">'
-CUSTOM_JS = '<script src="/js/custom.js?v=20260428-clean"></script>'
+CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428-bochi">'
+CUSTOM_JS = '<script src="/js/custom.js?v=20260428-bochi"></script>'
 
 
 def read_text(path: Path) -> str:
