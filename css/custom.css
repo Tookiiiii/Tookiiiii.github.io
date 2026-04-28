@@ -13,28 +13,8 @@
   --tooki-shadow: 0 18px 45px rgba(0, 0, 0, 0.42);
 }
 
-#web_bg::after {
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background:
-    radial-gradient(circle at 16% 18%, rgba(73, 177, 245, 0.24), transparent 26%),
-    radial-gradient(circle at 82% 12%, rgba(255, 114, 210, 0.22), transparent 24%),
-    linear-gradient(120deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.04));
-  content: '';
-}
-
 #page-header::before {
-  background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.58)),
-    radial-gradient(circle at 50% 30%, rgba(73, 177, 245, 0.3), transparent 42%);
-}
-
-#site-title,
-.post-title,
-.page-title {
-  text-shadow: 0 8px 24px rgba(0, 0, 0, 0.26);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.52));
 }
 
 #site-title {

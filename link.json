@@ -4,6 +4,12 @@
     "class_desc": "一起折腾博客、技术和学习记录",
     "link_list": [
       {
+        "name": "Yanxisishi",
+        "link": "https://blog.yanxisishi.top/",
+        "avatar": "https://blog.yanxisishi.top/favicon.ico",
+        "descr": "Yanxisishi 的个人博客"
+      },
+      {
         "name": "Hexo",
         "link": "https://hexo.io/zh-cn/",
         "avatar": "https://hexo.io/icon/favicon-96x96.png",
@@ -14,60 +20,54 @@
         "link": "https://butterfly.js.org/",
         "avatar": "https://butterfly.js.org/img/avatar.png",
         "descr": "当前博客使用的 Hexo 主题"
-      },
-      {
-        "name": "GitHub",
-        "link": "https://github.com/tookiiiii",
-        "avatar": "https://github.githubassets.com/favicons/favicon.svg",
-        "descr": "代码、项目和博客部署仓库"
       }
     ]
   },
   {
-    "class_name": "学习与工具",
-    "class_desc": "写博客、查资料、做题时常用的入口",
+    "class_name": "工具站点",
+    "class_desc": "折腾系统、安全和常用工具时会用到的入口",
     "link_list": [
       {
-        "name": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/zh-CN/",
-        "avatar": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
-        "descr": "前端基础和 Web API 文档"
+        "name": "吾爱破解",
+        "link": "https://www.52pojie.cn/",
+        "avatar": "https://www.52pojie.cn/favicon.ico",
+        "descr": "软件安全、逆向分析和工具交流论坛"
       },
       {
-        "name": "CTFtime",
-        "link": "https://ctftime.org/",
-        "avatar": "https://ctftime.org/static/images/ct/logo.svg",
-        "descr": "CTF 赛事、队伍和 Writeup 索引"
+        "name": "看雪论坛",
+        "link": "https://bbs.kanxue.com/",
+        "avatar": "https://bbs.kanxue.com/favicon.ico",
+        "descr": "安全研究、逆向工程和漏洞分析社区"
       },
       {
-        "name": "GitHub Pages",
-        "link": "https://pages.github.com/",
-        "avatar": "https://github.githubassets.com/favicons/favicon.svg",
-        "descr": "静态博客托管服务"
+        "name": "菜鸟工具",
+        "link": "https://c.runoob.com/",
+        "avatar": "https://static.runoob.com/images/favicon.ico",
+        "descr": "编码转换、格式化和在线小工具"
       }
     ]
   },
   {
-    "class_name": "网站",
-    "class_desc": "内容平台和社交入口",
+    "class_name": "社交平台",
+    "class_desc": "常用社交、视频和联系方式",
     "link_list": [
       {
-        "name": "YouTube",
-        "link": "https://www.youtube.com/",
-        "avatar": "https://www.youtube.com/s/desktop/fc99f417/img/favicon_144x144.png",
-        "descr": "视频内容平台"
+        "name": "QQ",
+        "link": "https://im.qq.com/",
+        "avatar": "https://im.qq.com/favicon.ico",
+        "descr": "常用即时通讯入口"
       },
       {
-        "name": "Weibo",
-        "link": "https://www.weibo.com/",
-        "avatar": "https://weibo.com/favicon.ico",
-        "descr": "中文社交平台"
+        "name": "Bilibili",
+        "link": "https://www.bilibili.com/",
+        "avatar": "https://www.bilibili.com/favicon.ico",
+        "descr": "视频、学习和技术内容平台"
       },
       {
-        "name": "X / Twitter",
-        "link": "https://twitter.com/",
-        "avatar": "https://abs.twimg.com/favicons/twitter.3.ico",
-        "descr": "信息流和社交平台"
+        "name": "QQ 邮箱",
+        "link": "mailto:3323198776@qq.com",
+        "avatar": "https://mail.qq.com/favicon.ico",
+        "descr": "通过邮箱联系 Tooki"
       }
     ]
   }

@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE_URL = "https://tookiiiii.github.io"
-CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428">'
-CUSTOM_JS = '<script src="/js/custom.js?v=20260428"></script>'
+CUSTOM_CSS = '<link rel="stylesheet" href="/css/custom.css?v=20260428-clean">'
+CUSTOM_JS = '<script src="/js/custom.js?v=20260428-clean"></script>'
 
 
 def read_text(path: Path) -> str:
@@ -46,7 +46,7 @@ def home_panel() -> str:
 <section class="tooki-home-panel tooki-section" id="tooki-home-panel">
   <div class="tooki-kicker">Study Mode Online</div>
   <h2>欢迎来到 Tooki 的学习现场</h2>
-  <p>这里目前记录博客搭建、Hexo 使用和后续 CTF / 开发学习笔记。首页保留文章流，同时增加常用入口、站点状态和内容方向。</p>
+  <p>这里目前记录博客搭建、Hexo 使用和学习笔记。首页保留文章流，同时增加常用入口和站点状态。</p>
   <div class="tooki-action-row">
     <a class="tooki-btn" href="/archives/"><i class="fa-fw fas fa-archive"></i>查看归档</a>
     <a class="tooki-btn" href="/music/"><i class="fa-fw fas fa-music"></i>打开歌单</a>
@@ -56,15 +56,6 @@ def home_panel() -> str:
     <div class="tooki-stat"><strong>2</strong><span>已发布文章</span></div>
     <div class="tooki-stat"><strong>Hexo</strong><span>静态博客框架</span></div>
     <div class="tooki-stat"><strong>Butterfly</strong><span>当前主题</span></div>
-  </div>
-</section>
-<section class="tooki-section">
-  <div class="tooki-kicker">Next Content</div>
-  <h2>后续内容方向</h2>
-  <div class="tooki-grid">
-    <div class="tooki-card"><h3>CTF Writeup</h3><p>按 Web、Crypto、Reverse、Pwn、Forensics 分类沉淀解题流程。</p></div>
-    <div class="tooki-card"><h3>博客维护</h3><p>记录主题配置、部署报错、页面美化和静态站点调试经验。</p></div>
-    <div class="tooki-card"><h3>开发札记</h3><p>把工具链、脚本、自动化和工程实践整理成可复用笔记。</p></div>
   </div>
 </section>
 """
