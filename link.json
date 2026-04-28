@@ -1,1 +1,74 @@
-[{"class_name":"友情链接","class_desc":"那些人，那些事","link_list":[{"name":"Hexo","link":"https://hexo.io/zh-tw/","avatar":"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg","descr":"快速、简单且强大的网志框架"}]},{"class_name":"网站","class_desc":"值得推荐的网站","link_list":[{"name":"Youtube","link":"https://www.youtube.com/","avatar":"https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png","descr":"视频网站"},{"name":"Weibo","link":"https://www.weibo.com/","avatar":"https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png","descr":"中国最大社交分享平台"},{"name":"Twitter","link":"https://twitter.com/","avatar":"https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png","descr":"社交分享平台"}]}]
+[
+  {
+    "class_name": "友情链接",
+    "class_desc": "一起折腾博客、技术和学习记录",
+    "link_list": [
+      {
+        "name": "Hexo",
+        "link": "https://hexo.io/zh-cn/",
+        "avatar": "https://hexo.io/icon/favicon-96x96.png",
+        "descr": "快速、简洁且高效的博客框架"
+      },
+      {
+        "name": "Butterfly",
+        "link": "https://butterfly.js.org/",
+        "avatar": "https://butterfly.js.org/img/avatar.png",
+        "descr": "当前博客使用的 Hexo 主题"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/tookiiiii",
+        "avatar": "https://github.githubassets.com/favicons/favicon.svg",
+        "descr": "代码、项目和博客部署仓库"
+      }
+    ]
+  },
+  {
+    "class_name": "学习与工具",
+    "class_desc": "写博客、查资料、做题时常用的入口",
+    "link_list": [
+      {
+        "name": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/zh-CN/",
+        "avatar": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png",
+        "descr": "前端基础和 Web API 文档"
+      },
+      {
+        "name": "CTFtime",
+        "link": "https://ctftime.org/",
+        "avatar": "https://ctftime.org/static/images/ct/logo.svg",
+        "descr": "CTF 赛事、队伍和 Writeup 索引"
+      },
+      {
+        "name": "GitHub Pages",
+        "link": "https://pages.github.com/",
+        "avatar": "https://github.githubassets.com/favicons/favicon.svg",
+        "descr": "静态博客托管服务"
+      }
+    ]
+  },
+  {
+    "class_name": "网站",
+    "class_desc": "内容平台和社交入口",
+    "link_list": [
+      {
+        "name": "YouTube",
+        "link": "https://www.youtube.com/",
+        "avatar": "https://www.youtube.com/s/desktop/fc99f417/img/favicon_144x144.png",
+        "descr": "视频内容平台"
+      },
+      {
+        "name": "Weibo",
+        "link": "https://www.weibo.com/",
+        "avatar": "https://weibo.com/favicon.ico",
+        "descr": "中文社交平台"
+      },
+      {
+        "name": "X / Twitter",
+        "link": "https://twitter.com/",
+        "avatar": "https://abs.twimg.com/favicons/twitter.3.ico",
+        "descr": "信息流和社交平台"
+      }
+    ]
+  }
+]
