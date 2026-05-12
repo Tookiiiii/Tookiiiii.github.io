@@ -2,6 +2,6 @@
 :HL["/_next/static/css/d67a168efce9b35f.css","style"]
 :HL["/_next/static/css/6dd657f1797c2b17.css","style"]
 :HL["/_next/static/css/7f6bd37aab40623f.css","style"]
-:HL["/img/bizhi.png","image"]
+:HL["/uploads/20260512/d6717369cfe04050a3f2056accec7094.jpeg","image"]
 :HL["/img/zipai.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"posts","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"welcome","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"8VSqVreJKMk3q9ihKnbZh"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"posts","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"welcome","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lsvuREsd6z0WmPmQSLO5d"}

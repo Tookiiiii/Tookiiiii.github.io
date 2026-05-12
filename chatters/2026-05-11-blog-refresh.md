@@ -6,7 +6,7 @@ tags:
 - Next.js
 - CTF
 mood: 开心
-cover: /uploads/20260512/53a5e124d3974bf480f9cb1962689160.jpeg
+cover: /uploads/20260512/d2ab38c8744b4bac944f7904133fbad9.png
 description: 从旧静态博客切到新的 Next.js 博客框架。
 ---
 
