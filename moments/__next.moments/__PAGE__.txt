@@ -1,0 +1,8 @@
+1:"$Sreact.fragment"
+2:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","296","static/chunks/296-c103f2e9df2be8b4.js","88","static/chunks/app/moments/page-006769cad9f1941f.js"],"default"]
+3:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","296","static/chunks/296-c103f2e9df2be8b4.js","88","static/chunks/app/moments/page-006769cad9f1941f.js"],"default"]
+4:I[914,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","296","static/chunks/296-c103f2e9df2be8b4.js","88","static/chunks/app/moments/page-006769cad9f1941f.js"],"default"]
+5:I[484,[],"OutletBoundary"]
+6:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen relative pb-10 flex flex-col","children":[["$","$L2",null,{}],["$","$L3",null,{"className":"flex-1 flex flex-col","children":["$","$L4",null,{"moments":[{"id":"moment-20260511-migration","date":"2026-05-11T23:10:00+08:00","location":"Tooki Blog","images":["/img/zipai.png"],"content":"新博客框架替换完成，先把关键身份信息和友链放稳，后面再慢慢继续写。"}],"authorName":"Tooki","avatarUrl":"/img/zipai.png"}]}]]}],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"xjRU-OxaOZLK4gCMPp_0s"}
+7:null
