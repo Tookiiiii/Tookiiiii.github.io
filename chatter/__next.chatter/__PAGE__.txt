@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-fd02ede3cc3c0960.js"],"default"]
-3:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-fd02ede3cc3c0960.js"],"default"]
-4:I[589,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-fd02ede3cc3c0960.js"],"default"]
+2:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-57672397a22f8cee.js"],"default"]
+3:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-57672397a22f8cee.js"],"default"]
+4:I[589,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","20","static/chunks/app/chatter/page-57672397a22f8cee.js"],"default"]
 5:I[484,[],"OutletBoundary"]
 6:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"chatters":[{"slug":"2026-05-11-blog-refresh","title":"新博客框架替换记录","date":"2026-05-11 23:05:00","tags":["Blog","Next.js","CTF"],"mood":"折腾","cover":"/img/bizhi.png","content":"\n这次只迁移关键资料，不把旧静态页面整站搬过来。\n\n已保留的信息包括 Tooki 的头像、站点描述、GitHub、QQ 邮箱、友链和旧博客常用素材。新框架后续更适合继续扩展文章、项目、照片墙和碎片记录。\n"}]}]}]]}],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"xjRU-OxaOZLK4gCMPp_0s"}
+0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"chatters":[{"slug":"2026-05-11-blog-refresh","title":"新博客框架替换记录","date":"2026-05-11 23:05:00","tags":["Blog","Next.js","CTF"],"mood":"折腾","cover":"/img/bizhi.png","content":"\n这次只迁移关键资料，不把旧静态页面整站搬过来。\n\n已保留的信息包括 Tooki 的头像、站点描述、GitHub、QQ 邮箱、友链和旧博客常用素材。新框架后续更适合继续扩展文章、项目、照片墙和碎片记录。\n"}]}]}]]}],null,["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"xJir5TLrL3U0odZIxdAC2"}
 7:null

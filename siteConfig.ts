@@ -21,8 +21,13 @@ export const siteConfig = {
   // 如果想用纯图片背景，请在下面 bgImage 写路径，并将 useGradient 设为 false
   useGradient: false,
   themeColors: ["#38bdf8", "#5eead4", "#f472b6", "#facc15"], // 呼吸流动的颜色组合
-// 修改这里：变成图片数组
-  bgImages: ["/img/bizhi.png"],
+  // 修改这里：变成图片数组
+  bgImages: [
+    "/img/bizhi.png",
+    "/uploads/20260512/b609c4af8a204212ab5468a5189da7cc.png",
+    "/uploads/20260512/14a283be08ef4a378e6c38b56a6cfc8a.jpg",
+    "/uploads/20260512/4e49bcaf334e48629343fefbffc02ddf.jpeg",
+  ],
 
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)
   defaultPostCover: "/img/bizhi.png",
