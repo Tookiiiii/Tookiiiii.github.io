@@ -12,15 +12,15 @@ export const albums: Album[] = [
     "photos": [
       {
         "url": "/img/zipai.png",
-        "caption": "头像"
+        "caption": "这就是我("
       },
       {
         "url": "/img/bizhi.png",
-        "caption": "旧博客背景"
+        "caption": "xni1"
       },
       {
         "url": "/img/bochi.jpg",
-        "caption": "旧博客图片素材"
+        "caption": "hua"
       }
     ]
   }

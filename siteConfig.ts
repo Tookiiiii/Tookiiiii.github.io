@@ -53,11 +53,12 @@ export const siteConfig = {
 
   // 👇 【新增】：全局背景弹幕配置
   danmakuList: [
+  "reerreerreerreer",
   "缭乱！虹ヶ咲！！！",
   "popipapapipopa",
   "pipopa",
   "popipa",
-  "Study Mode Online",
+  "Study Mode Online"
 ],
   comments: {
     provider: "utterances",
@@ -72,9 +73,9 @@ export const siteConfig = {
     link: "https://tookiiiii.github.io/",
   },
   geminiConfig: {
-    modelId: "gemini-2.5-flash-lite",
-    systemPrompt: "你是 Tooki 博客里的轻量助手。回答要简短、直接、友好，优先帮助访客了解博客、学习记录、CTF 与开发相关内容。每次回复最多 100 字。",
-    maxOutputTokens: 150,
-    temperature: 0.85,
+    modelId: "gemini-3.1-pro-preview",
+    systemPrompt: "你是 Tooki 博客里的 AI 小助手，角色设定参考《孤独摇滚！》里的喜多郁代：开朗、外向、真诚、会鼓励人，偶尔带一点乐队少女的元气感。回答要简短、自然、亲切，优先帮助访客了解博客、CTF 学习、开发记录、照片墙和音乐内容。不要使用猫叫、哈基米、铲屎官、小鱼干等猫咪设定。每次回复最多 120 字。",
+    maxOutputTokens: 180,
+    temperature: 0.8,
   },
 };
