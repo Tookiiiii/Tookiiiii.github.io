@@ -8,6 +8,15 @@ const jsonResponse = (body: unknown, status = 200) =>
     headers: { "Content-Type": "application/json" },
   });
 
+const cleanReply = (text: unknown) => {
+  if (typeof text !== "string") return "";
+  return text
+    .replace(/^["'“”]+|["'“”]+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 160);
+};
+
 export async function POST(req: Request) {
   try {
     const { message } = await req.json();
@@ -79,9 +88,9 @@ export async function POST(req: Request) {
       );
     }
 
-    const reply = isGoogleNative
+    const reply = cleanReply(isGoogleNative
       ? data.candidates?.[0]?.content?.parts?.[0]?.text
-      : data.choices?.[0]?.message?.content;
+      : data.choices?.[0]?.message?.content);
 
     return jsonResponse({ reply: reply || "现在稍微有点卡住了，等我缓一下。" });
   } catch (error) {
