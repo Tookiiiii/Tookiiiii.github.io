@@ -5,11 +5,10 @@ tags:
 - Blog
 - Next.js
 - CTF
-mood: 折腾
-cover: /img/bizhi.png
-description: '从旧静态博客切到新的 Next.js 博客框架。'
+mood: 开心
+cover: /uploads/20260512/53a5e124d3974bf480f9cb1962689160.jpeg
+description: 从旧静态博客切到新的 Next.js 博客框架。
 ---
 
-这次只迁移关键资料，不把旧静态页面整站搬过来。
-
-已保留的信息包括 Tooki 的头像、站点描述、GitHub、QQ 邮箱、友链和旧博客常用素材。新框架后续更适合继续扩展文章、项目、照片墙和碎片记录。
+这是一个占位博客,用来放图片捏  
+虽然说是迁移,但是实际上就是重新搭建了一个,不过这次有codex帮忙,所有bug都轻松解决了

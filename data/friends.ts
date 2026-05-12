@@ -1,4 +1,4 @@
-// 🛡️ 本文件由 Tooki 迁移配置生成
+// 🛡️ 本文件由 Tooki 控制台自动生成
 export interface Friend { id: string; name: string; url: string; description: string; avatar: string; themeColor: string; }
 
 export const friendsData: Friend[] = [
@@ -9,14 +9,6 @@ export const friendsData: Friend[] = [
     "avatar": "https://blog.yanxisishi.top/favicon.ico",
     "url": "https://blog.yanxisishi.top/",
     "themeColor": "rgba(56, 189, 248, 0.5)"
-  },
-  {
-    "id": "hexo",
-    "name": "Hexo",
-    "description": "快速、简洁且高效的博客框架",
-    "avatar": "https://hexo.io/icon/favicon-96x96.png",
-    "url": "https://hexo.io/zh-cn/",
-    "themeColor": "rgba(250, 204, 21, 0.5)"
   },
   {
     "id": "52pojie",
@@ -49,5 +41,5 @@ export const friendsData: Friend[] = [
     "avatar": "https://www.bilibili.com/favicon.ico",
     "url": "https://www.bilibili.com/",
     "themeColor": "rgba(236, 72, 153, 0.5)"
-  },
+  }
 ];
