@@ -2,10 +2,10 @@
 
 export const siteConfig = {
   // 1. 网站标题与博主信息
-  title: "Tooki - blog",
+  title: "Cyber Rain",
   faviconUrl: "/img/wangyettubiao.png",
   authorName: "Tooki",
-  bio: "So Futuristic Player!",
+  bio: "",
 
   navTitle: "Tooki",
 
@@ -21,13 +21,13 @@ export const siteConfig = {
   // 如果想用纯图片背景，请在下面 bgImage 写路径，并将 useGradient 设为 false
   useGradient: false,
   themeColors: ["#38bdf8", "#5eead4", "#f472b6", "#facc15"], // 呼吸流动的颜色组合
-  // 修改这里：变成图片数组
+// 修改这里：变成图片数组
   bgImages: [
-    "/img/bizhi.png",
-    "/uploads/20260512/b609c4af8a204212ab5468a5189da7cc.png",
-    "/uploads/20260512/14a283be08ef4a378e6c38b56a6cfc8a.jpg",
-    "/uploads/20260512/4e49bcaf334e48629343fefbffc02ddf.jpeg",
-  ],
+  "/img/bizhi.png",
+  "/uploads/20260512/b609c4af8a204212ab5468a5189da7cc.png",
+  "/uploads/20260512/14a283be08ef4a378e6c38b56a6cfc8a.jpg",
+  "/uploads/20260512/4e49bcaf334e48629343fefbffc02ddf.jpeg"
+],
 
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)
   defaultPostCover: "/img/bizhi.png",
@@ -52,17 +52,23 @@ export const siteConfig = {
 
 
   // 👇 【新增】：全局背景弹幕配置
-  danmakuList: ["Study Mode Online", "So Futuristic Player!", "CTF 学习中", "博客继续折腾", "今天也要写点东西", "工具箱启动", "代码施工中", "记录一点灵感"],
+  danmakuList: [
+  "缭乱！虹ヶ咲！！！",
+  "popipapapipopa",
+  "pipopa",
+  "popipa",
+  "Study Mode Online",
+],
   comments: {
     provider: "utterances",
     repo: "Tookiiiii/Tookiiiii.github.io",
     issueTerm: "pathname",
     label: "comment",
   },
-  buildDate: "2025-11-28T00:00:00", // 建站日期
+  buildDate: "2026-05-10T00:00:00", // 建站日期
   footerBadges: [{"name": "Next.js 15", "color": "text-sky-500", "svg": "<path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/>"}, {"name": "React 19", "color": "text-cyan-400", "svg": "<path d=\"M12 22.6l-9.8-5.6V5.6L12 0l9.8 5.6v11.4l-9.8 5.6zm-8.2-6.5l8.2 4.7 8.2-4.7V7.5L12 2.8 3.8 7.5v8.6z\"/>"}, {"name": "Tailwind 4", "color": "text-teal-400", "svg": "<path d=\"M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624C13.666,10.618,15.027,12,18.001,12 c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624c1.177,1.194,2.538,2.576,5.512,2.576 c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624C10.337,13.382,8.976,12,6.001,12z\"/>"}],
   icpConfig: {
-    name: "Tooki Blog",
+    name: "Tooki  Blog",
     link: "https://tookiiiii.github.io/",
   },
   geminiConfig: {

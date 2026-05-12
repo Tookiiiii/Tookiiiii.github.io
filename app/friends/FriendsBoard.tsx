@@ -25,7 +25,7 @@ export default function FriendsBoard() {
   const [isCopied, setIsCopied] = useState(false);
 
   // 预设的申请格式
-  const applyFormat = `名称：Tooki - blog\n简介：So Futuristic Player!\n链接：https://tookiiiii.github.io/\n头像：https://tookiiiii.github.io/img/zipai.png`;
+  const applyFormat = `名称：Tooki - blog\n链接：https://tookiiiii.github.io/\n头像：https://tookiiiii.github.io/img/zipai.png`;
 
   const handleCopy = () => {
     navigator.clipboard.writeText(applyFormat);
