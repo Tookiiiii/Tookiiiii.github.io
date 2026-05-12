@@ -1,5 +1,5 @@
 :HL["/_next/static/css/856ba4ac6691cf8d.css","style"]
 :HL["/_next/static/css/d67a168efce9b35f.css","style"]
 :HL["/_next/static/css/6dd657f1797c2b17.css","style"]
-:HL["/img/bizhi.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"lsvuREsd6z0WmPmQSLO5d"}
+:HL["/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"T5XVlxkPi-9l3MohaYXQ4"}
