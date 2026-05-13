@@ -7,19 +7,6 @@ cover: /uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png
 description: ''
 ---
 
-﻿---  
-title: RC4 / ARC4 算法整理  
-date: '2026-05-14 20:10:00'  
-tags:  
-- Crypto  
-- Reverse  
-- CTF  
-mood: ''  
-cover: /uploads/20260514/renwu/rc4-flow.svg  
-description: 整理 RC4 的 KSA、PRGA、密钥流生成和 CTF 逆向识别方法。
-
----
-
 # RC4 / ARC4 算法整理
 
 > RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。

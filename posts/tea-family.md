@@ -7,19 +7,6 @@ cover: /uploads/20260514/1317e7b691244dd9b6f7fe84ae72b314.jpg
 description: ''
 ---
 
-﻿---  
-title: TEA 家族：TEA、XTEA、XXTEA 原理与逆向识别  
-date: '2026-05-14 20:30:00'  
-tags:  
-- Crypto  
-- Reverse  
-- CTF  
-mood: ''  
-cover: /uploads/20260514/renwu/tea-family-flow.svg  
-description: 整理 TEA、XTEA、XXTEA 的结构差异、典型常量和逆向复现要点。
-
----
-
 # TEA 家族：TEA、XTEA、XXTEA 原理与逆向识别
 
 > TEA 这一家子很适合放在一起看。最早的 TEA 追求的就是“小”，核心操作只有加法、异或和移位；XTEA 在它的基础上改了 key 的使用方式；XXTEA 又把两个 32 位 word 的处理扩展到一整串 word。逆向题喜欢它们也不奇怪，常量醒目，代码不长，稍微改几个参数就能变成一道新题。

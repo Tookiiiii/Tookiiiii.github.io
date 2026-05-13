@@ -7,19 +7,6 @@ cover: /uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg
 description: ''
 ---
 
-﻿---  
-title: SM4 算法整理  
-date: '2026-05-14 20:20:00'  
-tags:  
-- Crypto  
-- Reverse  
-- CTF  
-mood: ''  
-cover: /uploads/20260514/renwu/sm4-flow.svg  
-description: 整理国密 SM4 的轮函数、密钥扩展、常量特征和逆向分析入口。
-
----
-
 # SM4 算法整理
 
 SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 `SM2/SM3/SM4` 这几个字样时，可以先把国密这条线拉出来。
