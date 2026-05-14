@@ -3,9 +3,17 @@ export interface Friend { id: string; name: string; url: string; description: st
 
 export const friendsData: Friend[] = [
   {
+    "id": "friend_1778766630812",
+    "name": "uky",
+    "url": "https://ukyblog-s2.vercel.app/",
+    "avatar": "https://bu.dusays.com/2026/05/12/6a02aba5ae116.jpg",
+    "description": "web界的goat",
+    "themeColor": "#6366f1"
+  },
+  {
     "id": "yanxisishi",
     "name": "Yanxisishi",
-    "description": "Yanxisishi 的个人博客",
+    "description": "全栈的卡密",
     "avatar": "https://blog.yanxisishi.top/favicon.ico",
     "url": "https://blog.yanxisishi.top/",
     "themeColor": "rgba(56, 189, 248, 0.5)"

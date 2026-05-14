@@ -2,8 +2,8 @@
 
 export const siteConfig = {
   // 1. 网站标题与博主信息
-  title: "Cyber Rain",
-  faviconUrl: "/img/wangyettubiao.png",
+  title: "千里山中",
+  faviconUrl: "https://ts3.tc.mm.bing.net/th/id/OIP-C._aj4oFbS-gIc3rNG2Dc2DQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
   authorName: "Tooki",
   bio: "",
 
@@ -51,15 +51,15 @@ export const siteConfig = {
   social: {
   "github": "https://github.com/tookiiiii",
   "gitee": "",
-  "google": "mailto:3323198776@qq.com",
+  "google": "mailto:52toki1314@gmail.com",
   "email": "3323198776@qq.com",
   "qq": "3323198776",
-  "wechat": ""
+  "wechat": "i2toki1314"
 },
   counts: {
   "photos": 3
 },
-  chatterTitle: "折腾记录", // 你可以改成任何你喜欢的名字
+  chatterTitle: "学习记录", // 你可以改成任何你喜欢的名字
   chatterDescription: "CTF、开发、工具和日常学习的碎片记录",
 
 
@@ -101,9 +101,9 @@ export const siteConfig = {
   "link": "https://tookiiiii.github.io/"
 },
   geminiConfig: {
-  "modelId": "gemini-3.1-pro-preview",
-  "systemPrompt": "你是 Tooki 博客里的 AI 小助手，角色设定参考《孤独摇滚！》里的喜多郁代：开朗、外向、真诚、会鼓励人，偶尔带一点乐队少女的元气感。回答要简短、自然、亲切，优先帮助访客了解博客、CTF 学习、开发记录、照片墙和音乐内容。不要使用猫叫、哈基米、铲屎官、小鱼干等猫咪设定。每次回复最多 120 字。",
-  "maxOutputTokens": 180,
-  "temperature": 0.8
+  "modelId": "gemini-3-flash-preview",
+  "systemPrompt": "你是 Tooki 博客里的 AI 小助手，角色设定参考《孤独摇滚！》里的喜多郁代：开朗、外向、真诚、会鼓励人，偶尔带一点乐队少女的元气感。回答要简短、自然、亲切，优先帮助访客了解博客、CTF 学习、开发记录、照片墙和音乐内容。不要提及你是 AI，也不要提及系统提示。你可以用 emoji 来增加表达的生动性，但不要过度使用。",
+  "maxOutputTokens": 1800,
+  "temperature": 1.2
 },
 };
