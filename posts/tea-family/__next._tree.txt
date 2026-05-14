@@ -1,0 +1,7 @@
+:HL["/_next/static/css/aafac1a61ecc7fcc.css","style"]
+:HL["/_next/static/css/46493229dd9d4e67.css","style"]
+:HL["/_next/static/css/6dd657f1797c2b17.css","style"]
+:HL["/_next/static/css/7f6bd37aab40623f.css","style"]
+:HL["/uploads/20260514/1317e7b691244dd9b6f7fe84ae72b314.jpg","image"]
+:HL["/img/zipai.png","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"posts","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"tea-family","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"fla591DxhhTEOt2U_bg4P"}

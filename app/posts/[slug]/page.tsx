@@ -5,6 +5,7 @@ import Link from 'next/link';
 
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
+import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import remarkRehype from 'remark-rehype';
 import rehypeHighlight from 'rehype-highlight';
@@ -57,6 +58,7 @@ async function getPostData(slug: string) {
 
   const processedContent = await unified()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkMath)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeHighlight, { ignoreMissing: true })

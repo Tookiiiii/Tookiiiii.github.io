@@ -1,48 +1,1988 @@
 1:"$Sreact.fragment"
-2:I[3435,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"ThemeProvider"]
-3:I[2072,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-4:I[6241,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"MusicProvider"]
-5:I[1166,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-6:I[5260,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-7:I[6131,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
+2:I[3435,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"ThemeProvider"]
+3:I[2072,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+4:I[6241,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"MusicProvider"]
+5:I[1166,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+6:I[5260,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+7:I[6131,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
 8:I[7121,[],""]
 9:I[4581,[],""]
 12:I[7123,[],"default",1]
-:HL["/_next/static/css/856ba4ac6691cf8d.css","style"]
-:HL["/_next/static/css/d67a168efce9b35f.css","style"]
+:HL["/_next/static/css/aafac1a61ecc7fcc.css","style"]
+:HL["/_next/static/css/46493229dd9d4e67.css","style"]
 :HL["/_next/static/css/6dd657f1797c2b17.css","style"]
-0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/856ba4ac6691cf8d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/d67a168efce9b35f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_188709 __variable_9a8899 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{},null,false,null]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"dTTQU4zD26hLcOgcKb_9r"}
-13:I[3976,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-14:I[1481,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-15:I[9126,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-16:I[9536,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
-17:I[7068,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-9642db7f68e9c20e.js"],"default"]
+0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aafac1a61ecc7fcc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/46493229dd9d4e67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_246ccd __variable_4c40f6 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{},null,false,null]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"fla591DxhhTEOt2U_bg4P"}
+13:I[3976,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+14:I[1481,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+15:I[9126,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+16:I[9536,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+17:I[7068,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
 18:I[6653,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"ToastProvider"]
 19:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
 1a:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
 1b:I[8812,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-1c:I[38,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-1d:I[595,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-1e:I[6545,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-1f:I[4267,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-20:I[8500,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],""]
-21:I[1489,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-22:I[4067,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-23:I[4676,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
-24:I[484,[],"OutletBoundary"]
+22:I[484,[],"ViewportBoundary"]
+24:I[484,[],"MetadataBoundary"]
 25:"$Sreact.suspense"
-27:I[484,[],"ViewportBoundary"]
-29:I[484,[],"MetadataBoundary"]
-:HL["/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","image"]
 a:["$","div",null,{"className":"hidden md:block","children":["$","$L13",null,{}]}]
 b:["$","div",null,{"className":"hidden md:block","children":["$","$L14",null,{}]}]
 c:["$","div",null,{"className":"md:hidden block","children":["$","$L15",null,{}]}]
 d:["$","div",null,{"className":"hidden md:block","children":["$","$L16",null,{}]}]
 e:["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              @keyframes gradientMove { \n                0% { background-position: 0% 50%; } \n                50% { background-position: 100% 50%; } \n                100% { background-position: 0% 50%; } \n              }\n            "}}]
 f:["$","div",null,{"className":"hidden md:block","children":["$","$L17",null,{}]}]
-10:["$","$1","c",{"children":[["$","$L18",null,{"children":["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L19",null,{}],["$","$L1a",null,{"children":["$","div",null,{"className":"w-full max-w-6xl mx-auto mt-24 sm:mt-28 px-4 sm:px-6 lg:px-10 relative z-10","children":[["$","$L1b",null,{"posts":[{"slug":"welcome","title":"博客迁移到新框架","date":"2026-05-11 23:00:00","tags":["Blog","Next.js","Migration"],"mood":"","cover":"/uploads/20260512/d6717369cfe04050a3f2056accec7094.jpeg","description":"Tooki 的博客已切换到新的 Next.js 框架","content":"\r\n这是一篇迁移占位文章。\r\n\r\n‍","formattedDate":"2026.05.11 23:00"}]}],["$","main",null,{"className":"flex flex-col gap-6 w-full mt-6","children":[["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-7 flex flex-col","children":["$","$L1c",null,{"postCount":1,"chatterCount":1,"photoCount":3}]}],["$","div",null,{"className":"col-span-1 lg:col-span-5 flex flex-col","children":["$","$L1d",null,{}]}]]}],["$","div",null,{"className":"w-full mt-[-10px]","children":["$","$L1e",null,{}]}],["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-4 flex flex-col min-h-[300px]","children":["$","$L1f",null,{"posts":["$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:0"]}]}],["$","div",null,{"className":"col-span-1 lg:col-span-8 flex flex-col gap-6","children":[["$","$L20",null,{"href":"/photowall","className":"w-full rounded-3xl bg-white/40 dark:bg-slate-800/50 backdrop-blur-md border border-white/40 dark:border-white/10 shadow-xl overflow-hidden transition-all duration-700 hover:scale-[1.02] relative group min-h-[200px] sm:min-h-[220px] flex-shrink-0","children":[["$","img",null,{"src":"/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","className":"w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"}],["$","div",null,{"className":"absolute inset-0 bg-black/30 dark:bg-black/50 group-hover:bg-black/10 transition-colors duration-500"}],["$","div",null,{"className":"absolute bottom-4 left-4 sm:bottom-6 sm:left-6 right-6","children":[["$","h3",null,{"className":"text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2 underline decoration-pink-400","children":"嗯 ? 嗯~"}],["$","p",null,{"className":"text-white/90 text-sm sm:text-lg line-clamp-1","children":" 如 数 家 珍"}]]}]]}],["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-3 gap-6 w-full flex-1","children":[["$","div",null,{"className":"sm:col-span-2 flex flex-col min-h-[200px]","children":["$","$L21",null,{"chatters":[{"slug":"2026-05-11-blog-refresh","title":"新博客框架替换记录","description":"从旧静态博客切到新的 Next.js 博客框架。","cover":"/uploads/20260512/d2ab38c8744b4bac944f7904133fbad9.png","date":"2026-05-11 23:05:00","formattedDate":"2026.05.11 23:05"}]}]}],["$","div",null,{"className":"sm:col-span-1 flex flex-col min-h-[120px]","children":["$","$L22",null,{}]}]]}]]}]]}],["$","div",null,{"className":"w-full mt-4","children":["$","$L23",null,{}]}]]}]]}]}]]}]}],null,["$","$L24",null,{"children":["$","$25",null,{"name":"Next.MetadataOutlet","children":"$@26"}]}]]}]
-11:["$","$1","h",{"children":[null,["$","$L27",null,{"children":"$L28"}],["$","div",null,{"hidden":true,"children":["$","$L29",null,{"children":["$","$25",null,{"name":"Next.Metadata","children":"$L2a"}]}]}],null]}]
-28:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-2b:I[6869,[],"IconMark"]
-26:null
-2a:[["$","title","0",{"children":"Cyber Rain"}],["$","link","1",{"rel":"icon","href":"/img/wangyettubiao.png"}],["$","link","2",{"rel":"apple-touch-icon","href":"/img/wangyettubiao.png"}],["$","$L2b","3",{}]]
+1c:T494c,
+# TEA 家族：TEA、XTEA、XXTEA 原理与逆向识别
+
+> TEA 这一家子很适合放在一起看。最早的 TEA 追求的就是“小”，核心操作只有加法、异或和移位；XTEA 在它的基础上改了 key 的使用方式；XXTEA 又把两个 32 位 word 的处理扩展到一整串 word。逆向题喜欢它们也不奇怪，常量醒目，代码不长，稍微改几个参数就能变成一道新题。
+
+## 图解：TEA 家族演进
+
+  
+‍![TEA、XTEA、XXTEA 家族关系图](/uploads/20260514/renwu/tea-family-flow.svg)
+
+这张图可以先当作“第一眼判断表”。TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
+
+## 实战识别
+
+TEA 家族最适合从常量下手。反编译窗口里搜 `0x9e3779b9`，有时也会搜到 `0x61c88647` 或 `0xC6EF3720`。只要搜到了，再去看附近有没有 `<< 4`、`>> 5`、`sum`、四个 32 位 key。看到这些东西，不用急着细分，先把它当 TEA 家族处理。
+
+接下来才区分具体是哪一个。key 下标固定在 `k0/k1/k2/k3` 的，多半是 TEA；出现 `sum & 3`、`(sum >> 11) & 3` 的，多半是 XTEA；出现 `6 + 52 / n`、`MX` 那种一长串 `z/y/sum/p/e` 混合表达式的，就往 XXTEA 想。新手最容易卡在大小端和轮数上，尤其是 x86 程序直接把 `char *` 强转成 `uint32_t *` 时，基本就是小端，不要拿大端脚本硬跑。
+
+逆向时不用给变量名太大压力。IDA 可能把 `v0/v1` 叫成 `v7/v8`，把 key 数组叫成 `a2`，这不影响理解。你只要把“两个 32 位数据 word、四个 32 位 key word、sum 怎么变化、循环几次”抄准，后面 Python 复现就能慢慢调出来。
+
+新手做这类题不要一开始就想着“我要完全理解密码学证明”。更实际的目标是把二进制里的加密函数还原到脚本里。先让脚本对上一组输入输出，再去谈是不是 TEA、XTEA 或 XXTEA。
+
+## 1. 家族总览
+
+算法数据单位密钥常见轮数逆向识别点主要意义TEA64 bit，两个 `uint32_t`128 bit32 cycles`0x9e3779b9`、`<<4`、`>>5`、固定 `k0..k3`最初的 Tiny Encryption AlgorithmXTEA64 bit，两个 `uint32_t`128 bit32 rounds`sum & 3`、`(sum >> 11) & 3`改进 TEA 的 key 调度XXTEAn 个 `uint32_t`，n >= 2128 bit`6 + 52 // nMX`、`z/y/sum/e/p`、`6+52/n`宽分组，修正 Block TEA
+
+这三个算法的底子是一样的：都吃 128 bit key，都在 32 位无符号整数上做加法、异或和移位，也都绕不开 `delta = 0x9e3779b9`。它们没有像 AES 那样在库里形成特别统一的“模式 + padding”封装，所以 CTF 里一定要贴着题目实现走。Python 复现时尤其要记得 `& 0xffffffff`，不然 C 里的自然溢出在 Python 里不会自动发生。
+
+最重要的区别：
+
+```
+TEA/XTEA: 每次处理 8 字节 block
+XXTEA:    把整个 uint32_t 数组作为一个大 block
+```
+
+## 2. 算法详解前的共同基础
+
+### 2.1 32 位溢出
+
+C 里的 `uint32_t` 会自然溢出：
+
+```
+uint32_t x = 0xffffffff;
+x += 1;  /* x == 0 */
+```
+
+Python 整数不会溢出，所以 TEA 家族脚本必须写：
+
+```
+x = (x + y) & 0xffffffff
+```
+
+忘记掩码是这类脚本里最容易犯的错。表面上代码还在跑，输出也有十六进制，但和题目里的 C 程序已经不是同一个算法了。
+
+### 2.2 delta
+
+```
+delta = 0x9e3779b9
+```
+
+标准 TEA/XTEA 32 轮解密时的 sum：
+
+```
+0xC6EF3720 = 0x9e3779b9 * 32 mod 2^32
+```
+
+逆向里也常见：
+
+```
+0x61c88647 = 2^32 - 0x9e3779b9
+```
+
+出现这个值也要想到 TEA 家族，因为有些代码用减法维护 `sum`。
+
+### 2.3 字节序
+
+算法处理的是 `uint32_t`，题目给的是 bytes。必须确认大小端：
+
+```
+struct.unpack("<2I", block)  # 小端
+struct.unpack(">2I", block)  # 大端
+```
+
+逆向题如果看到 `uint32_t *p = (uint32_t *)buf`，在 x86/x64 上通常是小端。
+
+## 3. TEA
+
+### 3.1 参数
+
+项目内容分组长度64 bit密钥长度128 bit状态`v0, v1`key`k0, k1, k2, k3`标准轮数32 cycles
+
+### 3.2 加密流程
+
+```
+sum = 0
+repeat 32:
+    sum += delta
+    v0 += ((v1 << 4) + k0) XOR (v1 + sum) XOR ((v1 >> 5) + k1)
+    v1 += ((v0 << 4) + k2) XOR (v0 + sum) XOR ((v0 >> 5) + k3)
+```
+
+TEA 的 key 使用方式很死板，更新 `v0` 用 `k0/k1`，更新 `v1` 用 `k2/k3`。这种固定感就是它和 XTEA 的一个分界。
+
+### 3.3 解密流程
+
+```
+sum = delta * 32
+repeat 32:
+    v1 -= ((v0 << 4) + k2) XOR (v0 + sum) XOR ((v0 >> 5) + k3)
+    v0 -= ((v1 << 4) + k0) XOR (v1 + sum) XOR ((v1 >> 5) + k1)
+    sum -= delta
+```
+
+解密顺序别写反。加密最后一步更新的是 `v1`，所以解密要先把 `v1` 减回去，再处理 `v0`。
+
+### 3.4 TEA 识别点
+
+```
+0x9e3779b9
+循环 32 次
+两个 uint32_t
+四个 uint32_t key
+<< 4
+>> 5
+固定 k0/k1/k2/k3
+```
+
+## 4. XTEA
+
+### 4.1 XTEA 改了什么
+
+TEA 的 key 下标固定，XTEA 把 key 下标和 `sum` 绑定：
+
+```
+key[sum & 3]
+key[(sum >> 11) & 3]
+```
+
+所以 XTEA 逆向特征比 TEA 更明显。
+
+### 4.2 加密流程
+
+```
+sum = 0
+repeat rounds:
+    v0 += (((v1 << 4) XOR (v1 >> 5)) + v1) XOR (sum + key[sum & 3])
+    sum += delta
+    v1 += (((v0 << 4) XOR (v0 >> 5)) + v0) XOR (sum + key[(sum >> 11) & 3])
+```
+
+### 4.3 解密流程
+
+```
+sum = delta * rounds
+repeat rounds:
+    v1 -= (((v0 << 4) XOR (v0 >> 5)) + v0) XOR (sum + key[(sum >> 11) & 3])
+    sum -= delta
+    v0 -= (((v1 << 4) XOR (v1 >> 5)) + v1) XOR (sum + key[sum & 3])
+```
+
+### 4.4 TEA 与 XTEA 的关键对照
+
+项目TEAXTEAblock64 bit64 bitkey128 bit128 bitkey 下标固定随 `sum` 变化强特征`k0/k1/k2/k3sum&3`、`sum>>11&3`轮数口径32 cycles常见 32 rounds
+
+如果只看到 `delta`、`<<4`、`>>5`，还不能直接判断 TEA，要继续看 key 下标。
+
+## 5. XXTEA
+
+### 5.1 XXTEA 和 TEA/XTEA 的关系
+
+TEA/XTEA 处理：
+
+```
+[v0, v1]
+```
+
+XXTEA 处理：
+
+```
+[v0, v1, v2, ..., v(n-1)]
+```
+
+它不是 8 字节一组独立加密，而是整个 word 数组一起扩散。
+
+### 5.2 轮数
+
+```
+rounds = 6 + 52 // n
+```
+
+`n` 是 32 位 word 数。看到 `6 + 52 / n` 基本就是 XXTEA。
+
+### 5.3 MX 函数
+
+常见宏：
+
+```
+#define MX (((z >> 5 ^ y << 2) + (y >> 3 ^ z << 4)) ^ ((sum ^ y) + (key[(p & 3) ^ e] ^ z)))
+```
+
+这里的变量名看着短，其实分工很明确：`y` 是右侧 word，`z` 是左侧或者上一个已经更新过的 word，`p` 是当前下标，`e` 来自 `(sum >> 2) & 3`，最后 key 下标用 `(p & 3) ^ e` 算出来。把这几个位置对齐，XXTEA 的循环就没那么绕了。
+
+Python 里推荐加满括号：
+
+```
+mx = (((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4))) ^ ((s ^ y) + (k[(p & 3) ^ e] ^ z))
+```
+
+### 5.4 加密流程
+
+```
+rounds = 6 + 52 // n
+sum = 0
+z = v[n - 1]
+
+repeat rounds:
+    sum += delta
+    e = (sum >> 2) & 3
+    for p = 0..n-2:
+        y = v[p + 1]
+        v[p] += MX
+        z = v[p]
+    y = v[0]
+    v[n - 1] += MX
+```
+
+### 5.5 解密流程
+
+```
+sum = rounds * delta
+y = v[0]
+
+while sum != 0:
+    e = (sum >> 2) & 3
+    for p = n-1..1:
+        z = v[p - 1]
+        v[p] -= MX
+        y = v[p]
+    z = v[n - 1]
+    v[0] -= MX
+    sum -= delta
+```
+
+### 5.6 长度 word
+
+XXTEA 核心只处理 `uint32_t[]`。实际字节串封装常见两种：
+
+封装表现追加原始长度 word解密后最后 4 字节像明文长度只补零到 4 字节倍数解密后末尾可能有 `\x00`
+
+如果解密结果主体正确、末尾奇怪，优先检查是否用了长度 word。
+
+## 6. 魔改排查表
+
+检查项标准常见魔改delta`0x9e3779b90x61c88647`、随机常量TEA/XTEA 轮数3216、64、自定义sum 初值0非零固定值字节序题目自定大端/小端混用key16 字节ASCII/hex/base64 混淆padding无标准PKCS#7、零填充、NoPaddingXXTEA 长度常追加长度 word裸 word 数组移位TEA `<<4 >>5`改移位数或改括号
+
+做题时可以按这个顺序走：先判断它到底是 TEA、XTEA 还是 XXTEA，再确认 key 是 ASCII 还是 hex 解码，接着看 endian、rounds、delta，最后再处理 padding 或长度 word。不要一上来就怀疑密钥错，很多时候只是大小端或轮数没对上。拿 `flag{`、文件头或者题目给的样例明密文做验证，效率会高很多。
+
+如果是 crackme 里拿 TEA 家族校验输入，动态调试也很好用。先找最终 `memcmp/strcmp` 或手写比较的位置，往前看一层，通常能看到程序把你的输入按 8 字节或 4 字节切开处理。这个时候记录输入 buffer、key buffer、加密后的结果，再回 Python 里复现。新手不要一开始就试图给每个临时变量起完美名字，先把输入输出对上。
+
+## 7. 代码实现：Python 离线工具脚本
+
+保存为 `tea_family_tool.py`。一个脚本同时支持 TEA、XTEA、XXTEA，但每个算法是独立函数，方便线下赛直接改魔改逻辑。
+
+```
+#!/usr/bin/env python3
+import argparse
+import struct
+
+MASK = 0xffffffff
+DELTA = 0x9e3779b9
+
+
+def pad(data, bs):
+    n = bs - len(data) % bs
+    return data + bytes([n]) * n
+
+
+def unpad(data, bs):
+    n = data[-1]
+    if n < 1 or n > bs or data[-n:] != bytes([n]) * n:
+        raise ValueError("bad padding")
+    return data[:-n]
+
+
+def tea_block(block, key, endian, rounds, dec=False):
+    v0, v1 = struct.unpack(endian + "2I", block)
+    k = struct.unpack(endian + "4I", key)
+    if not dec:
+        s = 0
+        for _ in range(rounds):
+            s = (s + DELTA) & MASK
+            v0 = (v0 + (((v1 << 4) + k[0]) ^ (v1 + s) ^ ((v1 >> 5) + k[1]))) & MASK
+            v1 = (v1 + (((v0 << 4) + k[2]) ^ (v0 + s) ^ ((v0 >> 5) + k[3]))) & MASK
+    else:
+        s = (DELTA * rounds) & MASK
+        for _ in range(rounds):
+            v1 = (v1 - (((v0 << 4) + k[2]) ^ (v0 + s) ^ ((v0 >> 5) + k[3]))) & MASK
+            v0 = (v0 - (((v1 << 4) + k[0]) ^ (v1 + s) ^ ((v1 >> 5) + k[1]))) & MASK
+            s = (s - DELTA) & MASK
+    return struct.pack(endian + "2I", v0, v1)
+
+
+def xtea_block(block, key, endian, rounds, dec=False):
+    v0, v1 = struct.unpack(endian + "2I", block)
+    k = struct.unpack(endian + "4I", key)
+    if not dec:
+        s = 0
+        for _ in range(rounds):
+            v0 = (v0 + ((((v1 << 4) ^ (v1 >> 5)) + v1) ^ (s + k[s & 3]))) & MASK
+            s = (s + DELTA) & MASK
+            v1 = (v1 + ((((v0 << 4) ^ (v0 >> 5)) + v0) ^ (s + k[(s >> 11) & 3]))) & MASK
+    else:
+        s = (DELTA * rounds) & MASK
+        for _ in range(rounds):
+            v1 = (v1 - ((((v0 << 4) ^ (v0 >> 5)) + v0) ^ (s + k[(s >> 11) & 3]))) & MASK
+            s = (s - DELTA) & MASK
+            v0 = (v0 - ((((v1 << 4) ^ (v1 >> 5)) + v1) ^ (s + k[s & 3]))) & MASK
+    return struct.pack(endian + "2I", v0, v1)
+
+
+def ecb(data, key, algo, dec, endian, rounds, use_pad):
+    if len(key) != 16:
+        raise ValueError("key must be 16 bytes")
+    if not dec and use_pad:
+        data = pad(data, 8)
+    if len(data) % 8:
+        raise ValueError("TEA/XTEA data length must be multiple of 8")
+    f = tea_block if algo == "tea" else xtea_block
+    out = b"".join(f(data[i:i + 8], key, endian, rounds, dec) for i in range(0, len(data), 8))
+    return unpad(out, 8) if dec and use_pad else out
+
+
+def xx_to_words(data, include_len):
+    raw_len = len(data)
+    n = (raw_len + 3) // 4
+    data = data.ljust(n * 4, b"\0")
+    words = list(struct.unpack("<%dI" % n, data)) if n else []
+    if include_len:
+        words.append(raw_len)
+    return words
+
+
+def xx_to_bytes(words, include_len):
+    if include_len:
+        raw_len = words[-1]
+        words = words[:-1]
+    else:
+        raw_len = len(words) * 4
+    data = struct.pack("<%dI" % len(words), *[w & MASK for w in words])
+    if include_len:
+        if raw_len < 0 or raw_len > len(data):
+            raise ValueError("bad length word")
+        return data[:raw_len]
+    return data
+
+
+def xx_key(key):
+    return list(struct.unpack("<4I", key.ljust(16, b"\0")[:16]))
+
+
+def xx_encrypt_words(v, k):
+    n = len(v)
+    if n < 2:
+        return v[:]
+    v = v[:]
+    rounds = 6 + 52 // n
+    s = 0
+    z = v[-1]
+    for _ in range(rounds):
+        s = (s + DELTA) & MASK
+        e = (s >> 2) & 3
+        for p in range(n - 1):
+            y = v[p + 1]
+            mx = (((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4))) ^ ((s ^ y) + (k[(p & 3) ^ e] ^ z))
+            v[p] = (v[p] + mx) & MASK
+            z = v[p]
+        y = v[0]
+        p = n - 1
+        mx = (((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4))) ^ ((s ^ y) + (k[(p & 3) ^ e] ^ z))
+        v[p] = (v[p] + mx) & MASK
+        z = v[p]
+    return v
+
+
+def xx_decrypt_words(v, k):
+    n = len(v)
+    if n < 2:
+        return v[:]
+    v = v[:]
+    rounds = 6 + 52 // n
+    s = (rounds * DELTA) & MASK
+    y = v[0]
+    while s:
+        e = (s >> 2) & 3
+        for p in range(n - 1, 0, -1):
+            z = v[p - 1]
+            mx = (((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4))) ^ ((s ^ y) + (k[(p & 3) ^ e] ^ z))
+            v[p] = (v[p] - mx) & MASK
+            y = v[p]
+        z = v[-1]
+        p = 0
+        mx = (((z >> 5) ^ (y << 2)) + ((y >> 3) ^ (z << 4))) ^ ((s ^ y) + (k[(p & 3) ^ e] ^ z))
+        v[0] = (v[0] - mx) & MASK
+        y = v[0]
+        s = (s - DELTA) & MASK
+    return v
+
+
+def xxtea(data, key, dec, use_len):
+    k = xx_key(key)
+    if dec:
+        if len(data) % 4:
+            raise ValueError("XXTEA ciphertext length must be multiple of 4")
+        return xx_to_bytes(xx_decrypt_words(xx_to_words(data, False), k), use_len)
+    v = xx_to_words(data, use_len)
+    if len(v) < 2:
+        v.append(0)
+    return xx_to_bytes(xx_encrypt_words(v, k), False)
+
+
+def main():
+    ap = argparse.ArgumentParser(description="TEA/XTEA/XXTEA tool")
+    ap.add_argument("data", help="hex data")
+    ap.add_argument("-a", "--algo", choices=["tea", "xtea", "xxtea"], required=True)
+    ap.add_argument("-k", "--key", required=True, help="hex key by default")
+    ap.add_argument("--key-raw", action="store_true")
+    ap.add_argument("-d", "--decrypt", action="store_true")
+    ap.add_argument("-r", "--rounds", type=int, default=32)
+    ap.add_argument("--big", action="store_true")
+    ap.add_argument("--no-pad", action="store_true")
+    ap.add_argument("--xx-no-len", action="store_true")
+    args = ap.parse_args()
+
+    key = args.key.encode() if args.key_raw else bytes.fromhex(args.key)
+    data = bytes.fromhex(args.data)
+    if args.algo in ("tea", "xtea"):
+        out = ecb(data, key, args.algo, args.decrypt, ">" if args.big else "<", args.rounds, not args.no_pad)
+    else:
+        out = xxtea(data, key, args.decrypt, not args.xx_no_len)
+    print(out.hex())
+
+
+if __name__ == "__main__":
+    main()
+```
+
+使用示例：
+
+```
+python tea_family_tool.py 666c61677b7465617d -a tea -k 30313233343536373839616263646566
+python tea_family_tool.py <cipher_hex> -a tea -k 30313233343536373839616263646566 -d
+python tea_family_tool.py <cipher_hex> -a xtea -k 30313233343536373839616263646566 -d -r 64
+python tea_family_tool.py <cipher_hex> -a xxtea -k 30313233343536373839616263646566 -d
+```
+
+## 8. 代码实现：C 语言核心速查
+
+### 8.1 TEA block
+
+```
+#include <stdint.h>
+#define DELTA 0x9e3779b9u
+
+void tea_encrypt(uint32_t v[2], const uint32_t k[4]) {
+    uint32_t v0 = v[0], v1 = v[1], sum = 0;
+    for (int i = 0; i < 32; i++) {
+        sum += DELTA;
+        v0 += ((v1 << 4) + k[0]) ^ (v1 + sum) ^ ((v1 >> 5) + k[1]);
+        v1 += ((v0 << 4) + k[2]) ^ (v0 + sum) ^ ((v0 >> 5) + k[3]);
+    }
+    v[0] = v0; v[1] = v1;
+}
+
+void tea_decrypt(uint32_t v[2], const uint32_t k[4]) {
+    uint32_t v0 = v[0], v1 = v[1], sum = DELTA * 32u;
+    for (int i = 0; i < 32; i++) {
+        v1 -= ((v0 << 4) + k[2]) ^ (v0 + sum) ^ ((v0 >> 5) + k[3]);
+        v0 -= ((v1 << 4) + k[0]) ^ (v1 + sum) ^ ((v1 >> 5) + k[1]);
+        sum -= DELTA;
+    }
+    v[0] = v0; v[1] = v1;
+}
+```
+
+### 8.2 XTEA block
+
+```
+void xtea_encrypt(uint32_t v[2], const uint32_t k[4], unsigned rounds) {
+    uint32_t v0 = v[0], v1 = v[1], sum = 0;
+    for (unsigned i = 0; i < rounds; i++) {
+        v0 += ((((v1 << 4) ^ (v1 >> 5)) + v1) ^ (sum + k[sum & 3]));
+        sum += DELTA;
+        v1 += ((((v0 << 4) ^ (v0 >> 5)) + v0) ^ (sum + k[(sum >> 11) & 3]));
+    }
+    v[0] = v0; v[1] = v1;
+}
+
+void xtea_decrypt(uint32_t v[2], const uint32_t k[4], unsigned rounds) {
+    uint32_t v0 = v[0], v1 = v[1], sum = DELTA * rounds;
+    for (unsigned i = 0; i < rounds; i++) {
+        v1 -= ((((v0 << 4) ^ (v0 >> 5)) + v0) ^ (sum + k[(sum >> 11) & 3]));
+        sum -= DELTA;
+        v0 -= ((((v1 << 4) ^ (v1 >> 5)) + v1) ^ (sum + k[sum & 3]));
+    }
+    v[0] = v0; v[1] = v1;
+}
+```
+
+### 8.3 XXTEA word array
+
+```
+#define MX (((z >> 5 ^ y << 2) + (y >> 3 ^ z << 4)) ^ ((sum ^ y) + (key[(p & 3) ^ e] ^ z)))
+
+void xxtea_encrypt(uint32_t *v, int n, const uint32_t key[4]) {
+    if (n < 2) return;
+    uint32_t y, z = v[n - 1], sum = 0, e;
+    unsigned rounds = 6 + 52 / (unsigned)n;
+    while (rounds--) {
+        sum += DELTA;
+        e = (sum >> 2) & 3;
+        for (int p = 0; p < n - 1; p++) {
+            y = v[p + 1];
+            v[p] += MX;
+            z = v[p];
+        }
+        int p = n - 1;
+        y = v[0];
+        v[p] += MX;
+        z = v[p];
+    }
+}
+```
+
+## 9. 魔改与做题套路
+
+快速分类可以这么记：
+
+```
+0x9e3779b9 + 固定 k0/k1/k2/k3       -> TEA
+0x9e3779b9 + sum&3 + sum>>11&3     -> XTEA
+0x9e3779b9 + 6+52/n + MX/z/y/e/p   -> XXTEA
+```
+
+真正卡人的通常不是公式本身，而是实现细节。Python 忘记 `& 0xffffffff`、大小端用错、把 hex 文本当 ASCII、TEA/XTEA 轮数口径没对上、XXTEA 忘记长度 word，这些都很常见。还有一个坑是把 XXTEA 当成 8 字节 ECB 去切，结果当然越解越怪，因为它本来处理的是整个 word 数组。
+
+## 10. 参考资料
+
+* TEA 原始说明页：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/djw-rmn-tea.html
+* TEA/XTEA 相关论文索引：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/
+* CTF Wiki TEA/XTEA/XXTEA：https://ctf-wiki.org/crypto/blockcipher/tea/
+* XXTEA 说明：https://www.movable-type.co.uk/scripts/tea-block.html
+* Python xxtea 包：https://pypi.org/project/xxtea/
+* CSDN TEA/XTEA/XXTEA 系列笔记：https://blog.csdn.net/qq\_43390703/article/details/105541782
+* 博客园 TEA 算法分析：https://www.cnblogs.com/shangdawei/p/4600697.html
+
+  
+‍
+1d:T3afe,
+# SM4 算法整理
+
+SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 `SM2/SM3/SM4` 这几个字样时，可以先把国密这条线拉出来。
+
+## 图解：SM4 加密结构
+
+  
+‍![SM4 轮函数与密钥扩展流程图](/uploads/20260514/renwu/sm4-flow.svg)
+
+这张图要同时看两条线。key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
+
+## 实战识别
+
+SM4 在逆向里比 AES 还好认一点，因为国密实现经常把常量表老老实实放在二进制里。先搜 `A3 B1 BA C6`，这是 FK 的开头；再搜 S 盒开头 `D6 90 E9 FE CC E1 3D B7`。如果这两组都能找到，旁边又有 32 轮循环，基本就可以确认是 SM4。
+
+如果是 Java、Android 或前端相关题，也可以先看字符串。`SM4/ECB/PKCS5Padding`、`SM4/CBC/PKCS7Padding`、`CryptSM4`、`sm4.encrypt` 这类名字一出来，算法就不用猜了。新手真正要花时间的是 key/iv 编码：它可能是 16 字节 ASCII，也可能是一串 hex 解码后的 16 字节，还可能先 base64 再 hex。看见 `Hex.decode()`、`bytes.fromhex()`、`Base64.decode()`，先把数据流捋清楚。
+
+我觉得 SM4 题最适合按“先认常量，再追参数”的路线做。FK、CK、S 盒能说明这是 SM4，但 flag 能不能出来，还是看你有没有把 key、iv、模式和 padding 还原对。
+
+## 1. 参数速查
+
+项目内容类型对称分组密码分组长度128 bit，16 字节密钥长度128 bit，16 字节轮数32 轮结构非平衡 Feistel-like 结构基本操作XOR、循环左移、S 盒、线性变换常见模式ECB、CBC、CTR、GCM 类似封装，实际看库支持CTF 特征`FK`、`CK` 常量表，32 轮，`0xd6 0x90 0xe9 0xfe` 开头的 S 盒
+
+SM4 的核心：
+
+```
+128 bit 明文 -> X0 X1 X2 X3，每个 32 bit
+32 轮迭代:
+    X(i+4) = X(i) XOR T(X(i+1) XOR X(i+2) XOR X(i+3) XOR rk(i))
+输出:
+    X35 X34 X33 X32
+```
+
+注意最后输出是反序。
+
+## 2. 算法详解
+
+### 2.1 轮函数
+
+一轮更新：
+
+```
+X(i+4) = X(i) XOR T(X(i+1) XOR X(i+2) XOR X(i+3) XOR rk(i))
+```
+
+这里的 `T` 不是一个单独查表，而是“过 S 盒 + 线性扩散”的合成变换：
+
+```
+T(A) = L(tau(A))
+```
+
+`tau` 负责非线性，把 32 bit 拆成 4 个字节后逐个过 S 盒；`L` 负责扩散，用几次循环左移再 XOR 回来。看代码时如果先过 S 盒、再出现 `<<< 2/10/18/24`，基本就是 SM4 的加密轮函数。
+
+### 2.2 加密线性变换 L
+
+```
+L(B) = B XOR (B <<< 2) XOR (B <<< 10) XOR (B <<< 18) XOR (B <<< 24)
+```
+
+这里 `<<<` 表示 32 bit 循环左移。
+
+### 2.3 密钥扩展
+
+SM4 主密钥为 128 bit，拆成：
+
+```
+MK0 MK1 MK2 MK3
+```
+
+先与系统参数 `FK` 异或：
+
+```
+K0 = MK0 XOR FK0
+K1 = MK1 XOR FK1
+K2 = MK2 XOR FK2
+K3 = MK3 XOR FK3
+```
+
+再生成 32 个轮密钥：
+
+```
+rk(i) = K(i+4) = K(i) XOR T'(K(i+1) XOR K(i+2) XOR K(i+3) XOR CK(i))
+```
+
+密钥扩展使用的 `T'` 和加密的 `T` 类似，但线性变换不同：
+
+```
+L'(B) = B XOR (B <<< 13) XOR (B <<< 23)
+```
+
+### 2.4 解密
+
+SM4 解密不用写另一套算法，只需要把轮密钥倒序使用：
+
+```
+加密: rk0, rk1, ..., rk31
+解密: rk31, rk30, ..., rk0
+```
+
+这点和 DES 的 Feistel 解密思路类似。
+
+## 3. 工作模式与 padding
+
+SM4 核心只处理 16 字节分组。ECB/CBC 下需要 padding，常见是 PKCS#7：
+
+```
+明文长度刚好 16 的倍数时，也要额外补一整块 0x10
+```
+
+模式这块和 AES 的直觉差不多。ECB 简单但会泄露重复块；CBC 需要 16 字节 IV，业务系统里很常见；CTR 不需要 padding，但 nonce/counter 不能复用；GCM 带认证能力，不过实际库支持没有 AES-GCM 那么普遍。
+
+国密题里还要注意编码：很多业务代码会把 key/iv 写成 hex 字符串。例如 `"313233..."` 到底是 ASCII 字符串，还是 hex 解码后的字节，必须看代码。
+
+## 4. 代码实现：Python 调用
+
+### 4.1 gmssl 调用 SM4
+
+安装：
+
+```
+pip install gmssl
+```
+
+ECB 示例：
+
+```
+from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
+
+key = b"0123456789abcdef"
+pt = b"flag{sm4_demo}"
+
+crypt = CryptSM4()
+crypt.set_key(key, SM4_ENCRYPT)
+ct = crypt.crypt_ecb(pt)  # gmssl 会按它的实现做填充
+
+crypt.set_key(key, SM4_DECRYPT)
+recovered = crypt.crypt_ecb(ct)
+assert recovered == pt
+
+print(ct.hex())
+```
+
+CBC 示例：
+
+```
+from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
+
+key = b"0123456789abcdef"
+iv = b"1234567890abcdef"
+pt = b"flag{sm4_cbc_demo}"
+
+crypt = CryptSM4()
+crypt.set_key(key, SM4_ENCRYPT)
+ct = crypt.crypt_cbc(iv, pt)
+
+crypt.set_key(key, SM4_DECRYPT)
+recovered = crypt.crypt_cbc(iv, ct)
+assert recovered == pt
+```
+
+gmssl 的封装比较适合快速解题，但不同版本对 padding 的细节要以本地实际为准。若题目给的是“裸 SM4 单块”，建议使用 OpenSSL 或自己实现 block 函数。
+
+### 4.2 PyCryptodome 提醒
+
+PyCryptodome 主文档里常用的是 AES/DES/ARC4 等算法；SM4 支持情况要看本地版本。如果比赛环境没有 SM4，优先准备 `gmssl` 或 OpenSSL 命令行。
+
+## 5. 代码实现：C 语言 OpenSSL EVP 调用
+
+OpenSSL 1.1.1 以后通常提供 SM4，例如 `EVP_sm4_cbc()`、`EVP_sm4_ecb()`、`EVP_sm4_ctr()`。下面是 CBC 示例。
+
+```
+#include <openssl/evp.h>
+#include <stdio.h>
+#include <string.h>
+
+int sm4_cbc_encrypt(const unsigned char *key, const unsigned char *iv,
+                    const unsigned char *pt, int pt_len,
+                    unsigned char *ct, int *ct_len) {
+    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
+    int len = 0, total = 0;
+    if (!ctx) return 0;
+    if (EVP_EncryptInit_ex(ctx, EVP_sm4_cbc(), NULL, key, iv) != 1) return 0;
+    if (EVP_EncryptUpdate(ctx, ct, &len, pt, pt_len) != 1) return 0;
+    total += len;
+    if (EVP_EncryptFinal_ex(ctx, ct + total, &len) != 1) return 0;
+    total += len;
+    *ct_len = total;
+    EVP_CIPHER_CTX_free(ctx);
+    return 1;
+}
+
+int sm4_cbc_decrypt(const unsigned char *key, const unsigned char *iv,
+                    const unsigned char *ct, int ct_len,
+                    unsigned char *pt, int *pt_len) {
+    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
+    int len = 0, total = 0;
+    if (!ctx) return 0;
+    if (EVP_DecryptInit_ex(ctx, EVP_sm4_cbc(), NULL, key, iv) != 1) return 0;
+    if (EVP_DecryptUpdate(ctx, pt, &len, ct, ct_len) != 1) return 0;
+    total += len;
+    if (EVP_DecryptFinal_ex(ctx, pt + total, &len) != 1) return 0;
+    total += len;
+    *pt_len = total;
+    EVP_CIPHER_CTX_free(ctx);
+    return 1;
+}
+
+int main(void) {
+    const unsigned char key[16] = "0123456789abcdef";
+    const unsigned char iv[16] = "1234567890abcdef";
+    const unsigned char msg[] = "flag{sm4_c_demo}";
+    unsigned char ct[128], pt[128];
+    int ct_len = 0, pt_len = 0;
+
+    if (!sm4_cbc_encrypt(key, iv, msg, (int)strlen((const char *)msg), ct, &ct_len)) {
+        puts("encrypt failed");
+        return 1;
+    }
+    if (!sm4_cbc_decrypt(key, iv, ct, ct_len, pt, &pt_len)) {
+        puts("decrypt failed");
+        return 1;
+    }
+    pt[pt_len] = 0;
+
+    printf("cipher hex: ");
+    for (int i = 0; i < ct_len; i++) printf("%02x", ct[i]);
+    printf("\nplain: %s\n", pt);
+    return 0;
+}
+```
+
+编译：
+
+```
+gcc sm4_evp_demo.c -o sm4_evp_demo -lcrypto
+```
+
+如果编译时报 `EVP_sm4_cbc` 未声明，说明 OpenSSL 头文件版本太旧，换新版本或改用 GmSSL / Tongsuo。
+
+## 6. 例题里一般怎么用它
+
+### 6.1 国密组合
+
+业务题里很常见的一套组合是：
+
+```
+SM2 加密会话密钥
+SM3 做摘要
+SM4-CBC 加密数据
+```
+
+如果手里只有 SM4 密文，第一步不是硬解，而是找 key 和 IV 从哪来；如果题里还给了 SM2 私钥、接口泄露或者日志，通常就是先恢复会话密钥，再拿 SM4 解业务数据。
+
+### 6.2 key/iv 编码混淆
+
+key/iv 的编码是 SM4 题里最容易翻车的地方。下面这两种写法看起来都像“313233”，实际完全不是一回事：
+
+```
+key = b"3132333435363738"          # 16 字节 ASCII 的一部分
+key = bytes.fromhex("31323334...") # hex 解码后才是真 key
+```
+
+看到 Java 里的 `Hex.decode()`、Python 里的 `bytes.fromhex()`、JS 里的 `CryptoJS.enc.Hex.parse()` 要格外注意。很多题不是你 SM4 写错了，而是 key 字节一开始就拿错了。
+
+### 6.3 CBC bit flipping 和 padding oracle
+
+SM4-CBC 的攻击面和 AES-CBC 是一套逻辑。算法换成国密不会自动防篡改，如果程序只加密、不校验密文有没有被改过，IV bit flipping、中间块 bit flipping、padding 报错泄露、固定 IV 泄露首块这些问题照样会出现。做题时不要被“SM4”这个名字吓住，CBC 还是那个 CBC。
+
+### 6.4 逆向识别
+
+逆向识别 SM4，最舒服的办法是搜常量。`FK = a3b1bac6 56aa3350 677d9197 b27022dc` 很醒目，`CK` 有 32 个 word，S 盒开头也常见 `d6 90 e9 fe cc e1 3d b7 ...`。如果再看到 32 轮和解密时 reverse round key，基本就不用猜了。
+
+## 7. 更完整的 SM4 细节
+
+### 7.1 常量表识别
+
+SM4 逆向里最容易识别的是三类常量。
+
+系统参数 FK：
+
+```
+A3B1BAC6 56AA3350 677D9197 B27022DC
+```
+
+固定参数 CK 一共 32 个 word，开头通常是：
+
+```
+00070E15 1C232A31 383F464D 545B6269
+70777E85 8C939AA1 A8AFB6BD C4CBD2D9
+```
+
+S 盒开头常见：
+
+```
+D6 90 E9 FE CC E1 3D B7 16 B6 14 C2 28 FB 2C 05
+```
+
+只要二进制里搜到这些常量，基本可以确认 SM4。
+
+### 7.2 字节序
+
+SM4 标准描述通常按大端把 16 字节分成 4 个 32 bit word：
+
+```
+X0 = bytes[0..3]
+X1 = bytes[4..7]
+X2 = bytes[8..11]
+X3 = bytes[12..15]
+```
+
+也就是：
+
+```
+int.from_bytes(block[0:4], "big")
+```
+
+但很多 C 实现为了效率会用宏读写，如果宏写错或平台相关，可能出现大小端差异。逆向时要跟着实现走，不要只跟标准文字走。
+
+### 7.3 ECB/CBC 的 padding 差异
+
+Python `gmssl` 的 `CryptSM4().crypt_ecb()`、`crypt_cbc()` 通常会处理 PKCS#7 风格 padding。但如果题目用的是 OpenSSL、Java BouncyCastle、前端 sm-crypto，不同库的参数可能写成：
+
+```
+SM4/ECB/PKCS5Padding
+SM4/CBC/PKCS7Padding
+SM4/CBC/NoPadding
+```
+
+其中 `PKCS5Padding` 在 16 字节分组算法里很多库实际按 PKCS#7 处理。遇到 NoPadding 时，明文长度必须已经是 16 的倍数。
+
+## 8. 国密题排查清单
+
+1. 先看 key/iv 是 ASCII、hex 还是 base64。
+2. 确认模式：ECB/CBC/CTR/GCM。
+3. 确认 padding：PKCS#7、NoPadding、零填充。
+4. 若是 CBC，确认 IV 是否固定、是否和密文拼在一起。
+5. 若是 Web/Java 题，查 `SM4Utils`、`Cipher.getInstance()`、`Hex.decode()`、`Base64.decode()`。
+6. 若是逆向题，搜 FK/CK/Sbox 常量。
+7. 如果能解出部分明文但末尾错，先调 padding；如果全部乱码，再查 key 编码和大小端。
+
+安卓或 Java 题里可以优先从调用链下手。比如 `Cipher.getInstance("SM4/CBC/PKCS5Padding")`、`setKey`、`crypt_cbc` 这些位置，往上追参数通常比硬啃 32 轮 SM4 轻松。native so 里如果是自实现，就搜 FK/S 盒常量；如果是调用 GmSSL、OpenSSL、Tongsuo 之类库，就先看导入和字符串。逆向的目标不是证明自己能手推 SM4，而是把它实际用的 key、iv、mode 和 padding 还原出来。
+
+### 8.1 Python/Java/JS 编码坑
+
+同一个字符串可能代表三种不同 key：
+
+```
+"0123456789abcdef"                       # 16 字节 ASCII key
+"30313233343536373839616263646566"       # 32 字符 hex 文本
+bytes.fromhex("303132...")               # 解码后又变回 ASCII key
+```
+
+前端 CryptoJS/sm-crypto 常见：
+
+```
+key = "0123456789abcdeffedcba9876543210"
+```
+
+这可能是 16 字节 hex key，也可能被当作 32 字节文本，取决于库 API。做题时必须看调用方式。
+
+## 9. 代码实现：本篇离线脚本
+
+下面保存为 `sm4_tool.py`。依赖 `gmssl`，支持 ECB/CBC，默认使用 gmssl 自带 padding。若需要 NoPadding，可以加 `--no-pad`，脚本会直接调用底层单块函数较麻烦；比赛中更常见做法是确保输入已经按库预期处理。这里保留 gmssl 高层接口，稳定优先。
+
+```
+#!/usr/bin/env python3
+import argparse
+from gmssl.sm4 import CryptSM4, SM4_DECRYPT, SM4_ENCRYPT
+
+
+def parse_key(s: str, raw: bool) -> bytes:
+    return s.encode() if raw else bytes.fromhex(s)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="SM4 ECB/CBC gmssl tool")
+    ap.add_argument("data", help="hex data")
+    ap.add_argument("-k", "--key", required=True, help="hex key by default")
+    ap.add_argument("--key-raw", action="store_true", help="treat key as raw string")
+    ap.add_argument("--iv", help="hex IV for CBC")
+    ap.add_argument("--iv-raw", action="store_true")
+    ap.add_argument("-m", "--mode", choices=["ecb", "cbc"], default="cbc")
+    ap.add_argument("-d", "--decrypt", action="store_true")
+    args = ap.parse_args()
+
+    key = parse_key(args.key, args.key_raw)
+    if len(key) != 16:
+        raise ValueError("SM4 key must be 16 bytes")
+
+    data = bytes.fromhex(args.data)
+    crypt = CryptSM4()
+    crypt.set_key(key, SM4_DECRYPT if args.decrypt else SM4_ENCRYPT)
+
+    if args.mode == "ecb":
+        out = crypt.crypt_ecb(data)
+    else:
+        if args.iv is None:
+            raise ValueError("CBC needs --iv")
+        iv = parse_key(args.iv, args.iv_raw)
+        if len(iv) != 16:
+            raise ValueError("SM4 IV must be 16 bytes")
+        out = crypt.crypt_cbc(iv, data)
+    print(out.hex())
+
+
+if __name__ == "__main__":
+    main()
+```
+
+示例：
+
+```
+python sm4_tool.py 666c61677b736d347d -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566
+python sm4_tool.py <cipher_hex> -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566 -d
+python sm4_tool.py <cipher_hex> -k 0123456789abcdef --key-raw --iv 1234567890abcdef --iv-raw -d
+```
+
+## 10. 参考资料
+
+* GM/T 0002 SM4 相关标准信息：http://www.gmbz.org.cn/
+* IETF RFC 8998 中的 SM4 套件说明：https://www.rfc-editor.org/rfc/rfc8998
+* gmssl Python 项目：https://github.com/knitmesh/gmssl
+* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
+* GMSSL 文档与项目：https://github.com/guanzhi/GmSSL
+* CSDN SM4 原理与代码分析：https://blog.csdn.net/qq\_37638441/article/details/121722493
+* 博客园 SM4 算法介绍：https://www.cnblogs.com/JulianHuang/p/10151561.html
+
+  
+‍
+1e:T3862,
+# RC4 / ARC4 算法整理
+
+> RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。
+
+## 图解：RC4 整体流程
+
+  
+‍![RC4 KSA 与 PRGA 流程图](/uploads/20260514/renwu/rc4-flow.svg)
+
+这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
+
+## 实战识别
+
+新手看 RC4 不用先背 KSA、PRGA 这两个名字，先在反编译结果里找“256”。RC4 基本会有一个 256 字节数组，先被填成 `0,1,2,...,255`，然后进入 256 次交换。这个形状在 IDA/Ghidra 里很显眼，通常能看到类似 `for (i = 0; i < 256; i++) s[i] = i;` 的初始化，后面紧跟着 `j = j + s[i] + key[...]` 和交换 `s[i] / s[j]`。
+
+认出来以后再看 key 从哪来。CTF 逆向里的 key 可能是硬编码字符串，也可能从用户输入、资源段、配置文件里拿出来；有些程序还会先对 key 做 MD5/SHA1，或者拼一个 salt。这里不要嫌麻烦，程序怎么处理 key，脚本里就要怎么处理。RC4 没有 block size，所以不用去找 padding，也不用纠结 ECB/CBC。真正要对齐的是 key、是否 drop 了前几字节密钥流，以及输入输出到底是 raw bytes、hex 还是 base64。
+
+做题时我一般按这个顺序来：先确认有没有 `S[256]`，再确认有没有 KSA 和 PRGA 两段循环，然后找 key，最后拿密文跑脚本。只要密钥流对上，RC4 的解密不会再有别的花活。
+
+## 1. 参数速查
+
+项目内容类型对称流密码分组长度无固定分组，按字节产生密钥流常见密钥长度1~256 字节；PyCryptodome 文档给出的范围是 8~2048 bitIV / nonce原始 RC4 没有内置 IV核心结构256 字节状态数组 `S`，先 KSA 初始化，再 PRGA 输出密钥流安全状态已不推荐用于真实安全场景；CTF 中常见于老协议、弱加密、逆向题
+
+RC4 胜在短，几十行就能写完，逆向时也很显眼。它不是分组密码，所以别往 ECB、CBC、PKCS#7 那套上硬靠；它干的事就是生成一串和明文等长的密钥流，然后 XOR：
+
+```
+ciphertext = plaintext XOR keystream
+plaintext  = ciphertext XOR keystream
+```
+
+## 2. 算法详解
+
+RC4 分成两个阶段。前半段是 KSA，也就是 Key Scheduling Algorithm，用 key 把初始的 `S[0..255]` 打乱；后半段是 PRGA，也就是 Pseudo-Random Generation Algorithm，从这个被打乱的状态里持续生成密钥流。
+
+### 2.1 KSA：用密钥打乱 S 盒
+
+初始状态：
+
+```
+S = [0, 1, 2, ..., 255]
+j = 0
+```
+
+对 `i = 0..255`：
+
+```
+j = (j + S[i] + key[i mod key_len]) mod 256
+swap(S[i], S[j])
+```
+
+KSA 的本质是：把密钥字节循环参与到 256 次交换里，得到一个依赖密钥的置换表 `S`。
+
+这里最该记住的是“同一个 key 会洗出同一个 S”。原始 RC4 自己没有 nonce，所以同一个 key 拿去加密两段不同明文，就会重复同一段密钥流，后面自然变成 `C1 XOR C2 = P1 XOR P2`。有些协议会把 `nonce || long_term_key` 或 HMAC 派生结果再当 RC4 key，用协议层补一下，但这不是 RC4 自带的设计。
+
+### 2.2 PRGA：持续输出密钥流
+
+KSA 后设置：
+
+```
+i = 0
+j = 0
+```
+
+每输出 1 字节：
+
+```
+i = (i + 1) mod 256
+j = (j + S[i]) mod 256
+swap(S[i], S[j])
+t = (S[i] + S[j]) mod 256
+K = S[t]
+```
+
+得到的 `K` 就是密钥流字节，明文字节与它 XOR 得到密文字节。
+
+### 2.3 手算一轮时抓住三个变量
+
+RC4 题里很常见的一种套路，是不给你名字，只给一段 KSA/PRGA 的代码。这个时候不用慌，先找有没有长度 256 的数组，是否初始化成 `0..255`，循环里是不是大量 `% 256` 或 `& 0xff`。如果后面还出现 `i += 1`、`j += S[i]`、交换 `S[i]` 和 `S[j]`，再输出 `S[(S[i] + S[j]) & 0xff]`，基本就能往 RC4 上靠了。
+
+## 3. 代码实现与库调用
+
+### 3.1 PyCryptodome 调用 ARC4
+
+安装：
+
+```
+pip install pycryptodome
+```
+
+示例：
+
+```
+from Crypto.Cipher import ARC4
+from binascii import hexlify
+
+key = b"this_is_a_rc4_key"
+data = b"flag{rc4_demo}"
+
+cipher = ARC4.new(key)
+ct = cipher.encrypt(data)
+
+decipher = ARC4.new(key)
+pt = decipher.decrypt(ct)
+
+print(hexlify(ct).decode())
+print(pt)
+```
+
+RC4 是流密码，`encrypt()` 和 `decrypt()` 本质相同；但对象内部有状态，不能拿已经加密过数据的同一个对象从头解密。要重新 new 一个对象，保证密钥流从第 0 字节开始。
+
+### 3.2 丢弃前 N 字节密钥流
+
+RC4 早期输出有偏差。部分资料会使用 RC4-dropN，例如丢弃前 768 或 3072 字节。PyCryptodome 的 ARC4 支持 `drop` 参数：
+
+```
+from Crypto.Cipher import ARC4
+
+key = b"secret"
+data = b"message"
+
+cipher = ARC4.new(key, drop=3072)
+ct = cipher.encrypt(data)
+
+decipher = ARC4.new(key, drop=3072)
+pt = decipher.decrypt(ct)
+assert pt == data
+```
+
+CTF 中如果你发现官方脚本加密前调用了一段空加密，例如 `rc4.encrypt(b"\x00" * 1024)` 但没有保存结果，本质就是在 drop。
+
+### 3.3 纯 Python 实现，适合断网环境
+
+```
+def rc4_crypt(data: bytes, key: bytes, drop: int = 0) -> bytes:
+    if not key:
+        raise ValueError("RC4 key must not be empty")
+
+    s = list(range(256))
+    j = 0
+    for i in range(256):
+        j = (j + s[i] + key[i % len(key)]) & 0xff
+        s[i], s[j] = s[j], s[i]
+
+    i = j = 0
+    out = bytearray()
+
+    def next_byte() -> int:
+        nonlocal i, j
+        i = (i + 1) & 0xff
+        j = (j + s[i]) & 0xff
+        s[i], s[j] = s[j], s[i]
+        return s[(s[i] + s[j]) & 0xff]
+
+    for _ in range(drop):
+        next_byte()
+
+    for b in data:
+        out.append(b ^ next_byte())
+    return bytes(out)
+
+
+key = b"Wiki"
+pt = b"pedia"
+ct = rc4_crypt(pt, key)
+assert rc4_crypt(ct, key) == pt
+print(ct.hex())
+```
+
+## 4. C 语言全流程实现
+
+下面代码从 KSA、PRGA 到加解密完整实现。加密和解密调用同一个 `rc4_crypt`。
+
+```
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct {
+    uint8_t s[256];
+    uint8_t i;
+    uint8_t j;
+} RC4_CTX;
+
+void rc4_init(RC4_CTX *ctx, const uint8_t *key, size_t key_len) {
+    uint8_t j = 0;
+    for (int i = 0; i < 256; i++) {
+        ctx->s[i] = (uint8_t)i;
+    }
+    for (int i = 0; i < 256; i++) {
+        j = (uint8_t)(j + ctx->s[i] + key[i % key_len]);
+        uint8_t tmp = ctx->s[i];
+        ctx->s[i] = ctx->s[j];
+        ctx->s[j] = tmp;
+    }
+    ctx->i = 0;
+    ctx->j = 0;
+}
+
+uint8_t rc4_next(RC4_CTX *ctx) {
+    ctx->i = (uint8_t)(ctx->i + 1);
+    ctx->j = (uint8_t)(ctx->j + ctx->s[ctx->i]);
+    uint8_t tmp = ctx->s[ctx->i];
+    ctx->s[ctx->i] = ctx->s[ctx->j];
+    ctx->s[ctx->j] = tmp;
+    return ctx->s[(uint8_t)(ctx->s[ctx->i] + ctx->s[ctx->j])];
+}
+
+void rc4_crypt(uint8_t *out, const uint8_t *in, size_t len,
+               const uint8_t *key, size_t key_len, size_t drop) {
+    RC4_CTX ctx;
+    rc4_init(&ctx, key, key_len);
+    for (size_t k = 0; k < drop; k++) {
+        (void)rc4_next(&ctx);
+    }
+    for (size_t k = 0; k < len; k++) {
+        out[k] = in[k] ^ rc4_next(&ctx);
+    }
+}
+
+int main(void) {
+    const uint8_t key[] = "this_is_a_rc4_key";
+    const uint8_t msg[] = "flag{rc4_demo}";
+    size_t len = strlen((const char *)msg);
+
+    uint8_t *ct = malloc(len);
+    uint8_t *pt = malloc(len + 1);
+    if (!ct || !pt) return 1;
+
+    rc4_crypt(ct, msg, len, key, strlen((const char *)key), 0);
+    rc4_crypt(pt, ct, len, key, strlen((const char *)key), 0);
+    pt[len] = 0;
+
+    printf("cipher hex: ");
+    for (size_t i = 0; i < len; i++) printf("%02x", ct[i]);
+    printf("\nplain: %s\n", pt);
+
+    free(ct);
+    free(pt);
+    return 0;
+}
+```
+
+编译：
+
+```
+gcc rc4_demo.c -o rc4_demo
+./rc4_demo
+```
+
+## 5. 例题里一般怎么用它
+
+### 5.1 密钥流复用
+
+RC4 最大的坑就是密钥流复用。如果同一个 key 加密两段消息：
+
+```
+C1 = P1 XOR K
+C2 = P2 XOR K
+C1 XOR C2 = P1 XOR P2
+```
+
+于是只要你知道其中一段明文的某些位置，就能把对应位置的密钥流抠出来，再去还原另一段消息。CTF 里常用 `flag{`、文件头、JSON 固定字段当已知明文：
+
+```
+known_p1 = b"flag{"
+stream = bytes(c ^ p for c, p in zip(c1, known_p1))
+recovered_p2 = bytes(c ^ k for c, k in zip(c2, stream))
+```
+
+### 5.2 明文头恢复
+
+文件题里 RC4 也挺常见，尤其是 PNG、ZIP、PDF 这种有固定文件头的东西。先把密文头和已知文件头 XOR，就能拿到前几字节密钥流，后面再继续拖明文猜测。常见文件头可以先记这几个：
+
+```
+PNG: 89504e470d0a1a0a
+ZIP: 504b0304
+PDF: 25504446
+GIF: 47494638
+```
+
+### 5.3 逆向识别
+
+逆向题里最典型的形状就是两个循环：第一个循环从 0 到 255 初始化并按 key 交换，第二个循环处理输入，每字节更新 `i/j` 后 XOR。如果 key 是硬编码的，很多时候不用再想别的，把 key 提出来跑同一份 RC4 就完事。
+
+## 6. 易错点
+
+RC4 没有内置 IV，题目里要是给了 IV，多半是协议自己把 IV 拼进 key，或者拿它做了一层派生。Python 里还要注意 ARC4 对象是有状态的，加密完以后不能拿同一个对象从头解密，应该重新初始化。遇到 RC4-dropN 时，加解密两边丢弃的字节数也必须一致。C 语言实现尽量用 `uint8_t`，否则 `char` 的符号扩展会让人查半天。最后也要说一句，RC4 现在更适合学习和 CTF，不适合新项目继续用。
+
+## 7. 逆向和流量题排查流程
+
+遇到疑似 RC4 的题，我一般先找 `S[256]`。如果看到它被初始化成 `0,1,2,...,255`，下一步就去找 KSA 的 256 次交换，表达式通常长得像 `j = j + S[i] + key[i % key_len]`。再往后看 PRGA，每处理 1 字节就更新 `i/j` 并从 `S[S[i] + S[j]]` 一类位置取值。确认算法后再看有没有 drop，有没有把 key 写成 hex 文本，有没有先 `fromhex`。最后拿 `flag{`、`ctf{` 或文件头做一下 sanity check，比盲猜舒服很多。
+
+动态调试时可以偷个懒：如果程序是“读入密文 -> RC4 解密 -> 比较/输出”，那就别急着完整还原算法，先在比较函数、输出函数或者解密函数返回后下断点，看内存里的 buffer 有没有明文。很多入门逆向题根本不要求你把 RC4 写得多漂亮，只要你能在合适的位置把解密后的数据捞出来就行。
+
+### 7.1 快速识别伪代码
+
+RC4 伪代码经常长这样：
+
+```
+for (i = 0; i < 256; i++)
+    s[i] = i;
+
+for (i = 0; i < 256; i++) {
+    j = (j + s[i] + key[i % keylen]) & 0xff;
+    swap(s[i], s[j]);
+}
+
+for (n = 0; n < len; n++) {
+    i = (i + 1) & 0xff;
+    j = (j + s[i]) & 0xff;
+    swap(s[i], s[j]);
+    out[n] = in[n] ^ s[(s[i] + s[j]) & 0xff];
+}
+```
+
+如果题目把 `& 0xff` 写成 `% 256`，或者把数组类型写成 `char` 导致符号扩展，仍然可以按 RC4 思路还原，只是 C 代码里要注意强制转 `uint8_t`。
+
+### 7.2 常见协议痕迹
+
+RC4 曾经出现在 WEP、早期 TLS、一些老式软件授权和游戏资源加密里。题目描述里要是出现 `ARCFOUR`、`arcfour-hmac`、`RC4-MD5`、`drop[768]`、`S box 256`、`ksa/prga` 这些词，就可以先把 RC4 脚本掏出来试试。
+
+## 8. 本篇离线脚本
+
+下面脚本可以直接保存为 `rc4_tool.py`。它只依赖 Python 标准库，支持 hex/base64/raw 三种输入输出，适合线下赛断网使用。
+
+```
+#!/usr/bin/env python3
+import argparse
+import base64
+import sys
+
+
+def decode_data(s: str, fmt: str) -> bytes:
+    if fmt == "hex":
+        return bytes.fromhex(s.strip())
+    if fmt == "base64":
+        return base64.b64decode(s.strip())
+    return s.encode()
+
+
+def encode_data(b: bytes, fmt: str) -> str:
+    if fmt == "hex":
+        return b.hex()
+    if fmt == "base64":
+        return base64.b64encode(b).decode()
+    return b.decode(errors="replace")
+
+
+def rc4(data: bytes, key: bytes, drop: int = 0) -> bytes:
+    if not key:
+        raise ValueError("key must not be empty")
+    s = list(range(256))
+    j = 0
+    for i in range(256):
+        j = (j + s[i] + key[i % len(key)]) & 0xff
+        s[i], s[j] = s[j], s[i]
+
+    i = j = 0
+
+    def gen() -> int:
+        nonlocal i, j
+        i = (i + 1) & 0xff
+        j = (j + s[i]) & 0xff
+        s[i], s[j] = s[j], s[i]
+        return s[(s[i] + s[j]) & 0xff]
+
+    for _ in range(drop):
+        gen()
+    return bytes(x ^ gen() for x in data)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="RC4/ARC4 encrypt/decrypt tool")
+    ap.add_argument("data", help="input data")
+    ap.add_argument("-k", "--key", required=True, help="key string or hex key")
+    ap.add_argument("--key-hex", action="store_true", help="treat key as hex")
+    ap.add_argument("--in-fmt", choices=["raw", "hex", "base64"], default="hex")
+    ap.add_argument("--out-fmt", choices=["raw", "hex", "base64"], default="hex")
+    ap.add_argument("--drop", type=int, default=0, help="drop first N keystream bytes")
+    args = ap.parse_args()
+
+    key = bytes.fromhex(args.key) if args.key_hex else args.key.encode()
+    data = decode_data(args.data, args.in_fmt)
+    sys.stdout.write(encode_data(rc4(data, key, args.drop), args.out_fmt) + "\n")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+使用示例：
+
+```
+python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
+python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
+```
+
+## 9. 参考资料
+
+* PyCryptodome ARC4 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html
+* RC4 原理说明：https://en.wikipedia.org/wiki/RC4
+* CTF Wiki RC4：https://ctf-wiki.org/crypto/streamcipher/rc4/
+* 博客园 RC4 算法学习笔记：https://www.cnblogs.com/goodhacker/p/3353465.html
+
+  
+‍
+1f:T4a2d,
+AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两个时代的标准。DES 是 1970s 的产物，AES 是 2000s 后真正大量使用的主力。把它们放在一起讲，是因为逆向里很多工作不是“手推 AES”，而是识别程序用了什么库、什么模式、key/iv 从哪来，然后把同样的流程搬到 Python 里复现。
+
+> DES 现在更像一个经典教材例子，有点像学汇编时绕不开 16 位实模式：不一定天天用，但很适合拿来理解结构。它是 Feistel 网络，64 bit 分组，16 轮，有效密钥 56 bit。
+>
+> AES 则是现代标准里的主力，SPN 结构，128 bit 分组，密钥可以是 128/192/256 bit。把它们放在一起看，不是为了少写一篇，虽然也确实少写了一篇（），而是因为很多 CTF 坑都不在算法核心，而在“分组密码怎么被拿来用”这一层。
+
+‍
+
+## 实战识别
+
+如果是普通 Windows/Linux 程序，先看导入表和字符串。看到 `AES_set_encrypt_key`、`EVP_aes_128_cbc`、`CryptEncrypt`、`BCryptEncrypt`、`javax.crypto.Cipher`、`AES/CBC/PKCS5Padding` 这类东西，比去找 S 盒快得多。很多题根本不是自己实现 AES，而是调用库；这时重点就是往上追 key、iv、mode、padding 从哪来。
+
+如果没有明显库调用，再考虑搜常量。AES 自实现里可能有 S 盒表，开头常见 `63 7c 77 7b f2 6b 6f c5 ...`；DES 自实现会有一堆 IP、E、P、S-box 表，数字表很多，看着像“密密麻麻的置换表”。新手不需要一眼认完所有表，能判断“这里大概率是 AES/DES 自实现”就够了，后面可以先动态调试看输入输出。
+
+实际做题时最重要的是复现链路。比如程序先 `md5(password)` 得到 16 字节 key，再从文件头取 16 字节 IV，最后 AES-CBC 解密资源，那脚本里也必须一模一样。少一步 hash、hex 解码方向错、IV 少截一字节，结果都会像“算法不对”，但其实只是参数没对齐。
+
+所以 AES/DES 逆向题的优先级一般是：先判断是不是库调用，再找模式字符串和 key/iv，再看 padding，最后才考虑算法内部。如果只是普通 CTF crackme，很多时候根本不需要手搓 AES 轮函数，能把参数追出来就已经赢一半了。
+
+## 1. 总览对照
+
+| 特性 | DES (Data Encryption Standard) | AES (Advanced Encryption Standard) |
+|------|--------------------------------|-----------------------------------|
+| 网络结构 | Feistel 网络 | SPN (Substitution-Permutation Network) |
+| 分组长度 | 64 bit (8 字节) | 128 bit (16 字节) |
+| 密钥长度 | 64 bit 输入 (实际有效 56 bit) | 128 / 192 / 256 bit |
+| 轮数 | 16 轮 | 10 / 12 / 14 轮 |
+| 非线性来源 | 8 个 S 盒 (6bit→4bit) | 字节 S 盒 (8bit→8bit) |
+| 扩散方式 | E 扩展、P 置换、多轮左右交换 | ShiftRows (行移位)、MixColumns (列混淆) |
+| 解密方式 | 与加密相同，仅子密钥倒序使用 | 使用对应的逆变换 |
+| 安全状态 | 单 DES 已不安全 (易受暴力破解) | 正确使用时仍是主流标准 |
+
+它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。
+
+## 2. 算法详解：分组密码共同框架
+
+```
+C = E(K, P)
+P = D(K, C)
+```
+
+核心算法都只是处理一个 block，遇到很长的内容时，通常会走这样一条路：
+
+```
+明文 -> padding -> 切块 -> 工作模式 -> 密文
+```
+
+所以 DES-CBC 和 AES-CBC 的很多解密思路是相通的。bit flipping 也好，padding oracle 也好，本质都来自 CBC 的结构，不是来自 AES 或 DES 哪个 S 盒更玄学。区别主要是分组大小：DES 8 字节，AES 16 字节。
+
+## 3. DES 原理
+
+### 3.1 DES 参数
+
+| 项目 | 内容 |
+|------|------|
+| 分组长度 | 64 bit |
+| 输入密钥 | 64 bit |
+| 有效密钥 | 56 bit |
+| 轮数 | 16 |
+| 结构 | Feistel |
+
+DES 总流程：
+
+```
+64 bit 明文
+ -> IP 初始置换
+ -> L0 || R0，各 32 bit
+ -> 16 轮 Feistel
+ -> R16 || L16
+ -> FP / IP^-1
+ -> 64 bit 密文
+```
+
+### 3.2 Feistel 结构
+
+第 i 轮：
+
+```
+Li = R(i-1)
+Ri = L(i-1) XOR F(R(i-1), Ki)
+```
+
+Feistel 的关键是：`F` 函数不需要可逆，整体仍然能解密。解密时只要把子密钥倒序使用：
+
+```
+K16, K15, ..., K1
+```
+
+### 3.3 DES 轮函数 F
+
+```
+R(32)
+ -> E 扩展置换，32 -> 48
+ -> XOR 子密钥 Ki，48 bit
+ -> S 盒替代，8 * (6 -> 4)
+ -> P 置换，32 bit
+```
+
+S 盒输入 6 bit：
+
+```
+b1 b2 b3 b4 b5 b6
+row = b1b6
+col = b2b3b4b5
+```
+
+S 盒是 DES 的主要非线性来源。
+
+### 3.4 DES 密钥调度
+
+1. 输入 64 bit key。
+2. PC-1 去掉奇偶校验位，得到 56 bit。
+3. 拆成 `C0`、`D0`，各 28 bit。
+4. 每轮循环左移 1 或 2 位。
+5. PC-2 选出 48 bit 轮密钥。
+
+DES key 看似 8 字节，实际上每个字节里有 1 bit 是校验位，有效安全强度只有 56 bit。这也是 DES 今天不能再当正常安全算法用的根本原因之一。
+
+### 3.5 3DES
+
+3DES / DES-EDE：
+
+```
+C = E_K3(D_K2(E_K1(P)))
+```
+
+3DES 的 key 常见两种长度：16 字节时一般是两密钥形式，实际按 `K1,K2,K1` 跑；24 字节时是三密钥形式，也就是 `K1,K2,K3`。
+
+3DES 比 DES 强，但 block 仍然只有 64 bit，新系统也不建议继续使用。
+
+## 4. AES 原理
+
+### 4.1 AES 参数
+
+| 项目 | AES-128 | AES-192 | AES-256 |
+|------|---------|---------|---------|
+| 分组长度 | 128 bit | 128 bit | 128 bit |
+| 密钥长度 | 128 bit | 192 bit | 256 bit |
+| Nk | 4 | 6 | 8 |
+| Nr | 10 | 12 | 14 |
+
+AES 状态是 4x4 字节矩阵。
+
+### 4.2 AES 加密流程
+
+AES-128：
+
+```
+明文 state
+ -> AddRoundKey(K0)
+ -> 9 轮:
+      SubBytes
+      ShiftRows
+      MixColumns
+      AddRoundKey
+ -> 最后一轮:
+      SubBytes
+      ShiftRows
+      AddRoundKey
+ -> 密文
+```
+
+最后一轮没有 `MixColumns`。
+
+### 4.3 SubBytes
+
+每个字节通过 AES S 盒替换。作用是引入非线性。逆变换是 `InvSubBytes`。
+
+### 4.4 ShiftRows
+
+状态矩阵按行循环左移：
+
+```
+row0: 左移 0
+row1: 左移 1
+row2: 左移 2
+row3: 左移 3
+```
+
+它把字节打散到不同列，为 MixColumns 扩散做准备。
+
+### 4.5 MixColumns
+
+每一列会按固定矩阵混合。资料里经常说这是在 `GF(2^8)` 上做乘法，我们第一次看不用急着深究有限域，先把它理解成“把一列 4 个字节搅在一起”的扩散步骤就行：
+
+```
+[02 03 01 01]
+[01 02 03 01]
+[01 01 02 03]
+[03 01 01 02]
+```
+
+作用是列内扩散。
+
+### 4.6 AddRoundKey
+
+轮密钥和状态 XOR：
+
+```
+state = state XOR round_key
+```
+
+### 4.7 AES 密钥扩展
+
+AES 不直接重复使用原始 key，而是生成轮密钥。以 AES-128 为例，原始 key 是 16 字节，也就是 4 个 word；扩展后会得到 44 个 word，刚好够 11 组轮密钥使用。扩展时主要围着 `RotWord`、`SubWord` 和 `Rcon` 转，前者负责字节循环，后者负责过 S 盒和引入轮常量。
+
+## 5. DES 与 AES 的结构关联
+
+### 5.1 Feistel vs SPN
+
+对照DESAES结构FeistelSPN状态L/R 两半4x4 字节矩阵轮函数是否必须可逆不需要需要可逆变换解密子密钥倒序逆变换非线性S 盒S 盒扩散E/P 置换和多轮交换ShiftRows/MixColumns
+
+二者虽然结构不同，但都绕不开 Shannon 说的混淆和扩散。混淆主要靠 S 盒，让 key 和 ciphertext 的关系别那么线性；扩散则靠置换、行移位、列混合、多轮迭代，让明文里一点变化慢慢扩到很多位置。
+
+### 5.2 AES 为什么替代 DES
+
+DES 被 AES 替代，不是因为 Feistel 这个想法突然不行了，而是参数撑不住了：56 bit 密钥太短，64 bit 分组也太小，暴力破解成本随着硬件发展越来越低。AES 把分组拉到 128 bit，密钥也给到 128/192/256 bit，同时软件和硬件实现都比较舒服，所以成了后来的主流。
+
+## 6. 工作模式
+
+### 6.1 ECB
+
+```
+C_i = E_K(P_i)
+```
+
+ECB 的问题一句话就够：相同明文块会产生相同密文块，结构藏不住。看到密文里重复块很多，就该怀疑 ECB。后面常见玩法就是块替换、cut-and-paste token，AES 里还经常考 byte-at-a-time。
+
+### 6.2 CBC
+
+```
+C_i = E_K(P_i XOR C_{i-1})
+P_i = D_K(C_i) XOR C_{i-1}
+```
+
+CBC 第一块用 IV，后面的每一块都会和上一块密文发生关系。也正因为这个结构，改 IV 可以影响第一块明文，改 `C_{i-1}` 可以影响 `P_i`。padding oracle 也是从这里长出来的：服务端把 padding 对错泄露出来，攻击者就能一点点逼出明文。
+
+### 6.3 CTR
+
+```
+keystream_i = E_K(nonce || counter_i)
+C_i = P_i XOR keystream_i
+```
+
+CTR 不需要 padding，但 nonce/counter 不能复用。复用后：
+
+```
+C1 XOR C2 = P1 XOR P2
+```
+
+### 6.4 GCM
+
+GCM 常用于 AES：
+
+```
+GCM = CTR 加密 + GHASH 认证
+```
+
+GCM 可以先理解成“加密的同时还带校验”。正常用的时候，它不只保护明文不被看见，也能发现密文有没有被改过；但它对 nonce 复用非常敏感，同一个 key 下 nonce 撞了，问题会比普通 CTR 复用还大。
+
+## 7. Padding
+
+ECB/CBC 要求明文长度是分组长度倍数。
+
+PKCS#7：
+
+```
+缺 n 字节就补 n 个值为 n 的字节
+```
+
+AES block size 是 16，DES block size 是 8。padding 这里不用背太多花样，先把 PKCS#7 认准。零填充、ISO/IEC 7816-4、NoPadding 也会遇到，但多数时候是解密后末尾不对劲，才回头检查具体是哪一种。
+
+padding特点PKCS#7最常见Zero padding补 `\x00`ISO/IEC 7816-4先补 `0x80` 再补 `0x00`NoPadding输入必须已对齐
+
+逆向里最稳的路线是先把“调用点”找出来。库调用题可以在 `EVP_DecryptUpdate`、`CryptDecrypt`、`BCryptDecrypt`、`Cipher.doFinal` 这类函数附近下断，观察传进去的 key、iv、密文和返回后的明文。自实现题可以在最终比较前下断，看程序拿什么东西和你的输入结果比较。这样做不丢人，逆向本来就是能动态拿就别硬熬静态。
+
+## 8. 代码实现：Python 调用
+
+安装：
+
+```
+pip install pycryptodome
+```
+
+### 8.1 AES-CBC
+
+```
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+
+key = b"0123456789abcdef"
+iv = b"1234567890abcdef"
+pt = b"flag{aes_demo}"
+
+ct = AES.new(key, AES.MODE_CBC, iv).encrypt(pad(pt, 16))
+got = unpad(AES.new(key, AES.MODE_CBC, iv).decrypt(ct), 16)
+assert got == pt
+```
+
+### 8.2 DES-CBC
+
+```
+from Crypto.Cipher import DES
+from Crypto.Util.Padding import pad, unpad
+
+key = b"8bytekey"
+iv = b"12345678"
+pt = b"flag{des_demo}"
+
+ct = DES.new(key, DES.MODE_CBC, iv).encrypt(pad(pt, 8))
+got = unpad(DES.new(key, DES.MODE_CBC, iv).decrypt(ct), 8)
+assert got == pt
+```
+
+### 8.3 AES-GCM
+
+```
+from Crypto.Cipher import AES
+
+key = b"0123456789abcdef"
+nonce = b"123456789012"
+aad = b"header"
+pt = b"flag{gcm_demo}"
+
+cipher = AES.new(key, AES.MODE_GCM, nonce=nonce)
+cipher.update(aad)
+ct, tag = cipher.encrypt_and_digest(pt)
+
+dec = AES.new(key, AES.MODE_GCM, nonce=nonce)
+dec.update(aad)
+assert dec.decrypt_and_verify(ct, tag) == pt
+```
+
+GCM 解密必须验证 tag。只 `decrypt()` 不 `verify()` 等于丢掉认证。
+
+## 9. 代码实现：C 语言 OpenSSL EVP 调用
+
+EVP 接口统一，AES/DES 只需要换 `EVP_aes_128_cbc()` 或 `EVP_des_cbc()`。
+
+```
+#include <openssl/evp.h>
+#include <stdio.h>
+#include <string.h>
+
+int evp_crypt(const EVP_CIPHER *cipher, int enc,
+              const unsigned char *key, const unsigned char *iv,
+              const unsigned char *in, int in_len,
+              unsigned char *out, int *out_len) {
+    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
+    int len = 0, total = 0;
+    if (!ctx) return 0;
+    if (EVP_CipherInit_ex(ctx, cipher, NULL, key, iv, enc) != 1) return 0;
+    if (EVP_CipherUpdate(ctx, out, &len, in, in_len) != 1) return 0;
+    total += len;
+    if (EVP_CipherFinal_ex(ctx, out + total, &len) != 1) return 0;
+    total += len;
+    *out_len = total;
+    EVP_CIPHER_CTX_free(ctx);
+    return 1;
+}
+
+int main(void) {
+    const unsigned char aes_key[16] = "0123456789abcdef";
+    const unsigned char aes_iv[16] = "1234567890abcdef";
+    const unsigned char des_key[8] = "8bytekey";
+    const unsigned char des_iv[8] = "12345678";
+    const unsigned char msg[] = "flag{evp_demo}";
+    unsigned char ct[128], pt[128];
+    int ct_len = 0, pt_len = 0;
+
+    if (!evp_crypt(EVP_aes_128_cbc(), 1, aes_key, aes_iv, msg, (int)strlen((const char *)msg), ct, &ct_len)) return 1;
+    if (!evp_crypt(EVP_aes_128_cbc(), 0, aes_key, aes_iv, ct, ct_len, pt, &pt_len)) return 1;
+    pt[pt_len] = 0;
+    printf("AES plain: %s\n", pt);
+
+    if (!evp_crypt(EVP_des_cbc(), 1, des_key, des_iv, msg, (int)strlen((const char *)msg), ct, &ct_len)) return 1;
+    if (!evp_crypt(EVP_des_cbc(), 0, des_key, des_iv, ct, ct_len, pt, &pt_len)) return 1;
+    pt[pt_len] = 0;
+    printf("DES plain: %s\n", pt);
+    return 0;
+}
+```
+
+编译：
+
+```
+gcc aes_des_evp_demo.c -o aes_des_evp_demo -lcrypto
+```
+
+OpenSSL 3.x 中 DES 可能受 legacy provider 影响。如果报 `unsupported`，先检查 provider 配置。
+
+## 10. 代码实现：AES/DES 离线工具脚本
+
+保存为 `aes_des_tool.py`。依赖 `pycryptodome`，支持 AES、DES、3DES 的 ECB/CBC/CTR，以及 AES-GCM。
+
+```
+#!/usr/bin/env python3
+import argparse
+from Crypto.Cipher import AES, DES, DES3
+from Crypto.Util.Padding import pad, unpad
+
+
+def get_module(algo):
+    if algo == "aes":
+        return AES, 16
+    if algo == "des":
+        return DES, 8
+    return DES3, 8
+
+
+def make_cipher(algo, mode, key, iv, nonce):
+    mod, _ = get_module(algo)
+    if mode == "ecb":
+        return mod.new(key, mod.MODE_ECB)
+    if mode == "cbc":
+        if iv is None:
+            raise ValueError("CBC needs --iv")
+        return mod.new(key, mod.MODE_CBC, iv)
+    if mode == "ctr":
+        if nonce is None:
+            raise ValueError("CTR needs --nonce")
+        return mod.new(key, mod.MODE_CTR, nonce=nonce)
+    if mode == "gcm":
+        if algo != "aes":
+            raise ValueError("GCM only supports AES here")
+        if nonce is None:
+            raise ValueError("GCM needs --nonce")
+        return AES.new(key, AES.MODE_GCM, nonce=nonce)
+    raise ValueError("bad mode")
+
+
+def main():
+    ap = argparse.ArgumentParser(description="AES/DES/3DES common mode tool")
+    ap.add_argument("data", help="hex data")
+    ap.add_argument("-a", "--algo", choices=["aes", "des", "3des"], required=True)
+    ap.add_argument("-m", "--mode", choices=["ecb", "cbc", "ctr", "gcm"], default="cbc")
+    ap.add_argument("-k", "--key", required=True, help="hex key")
+    ap.add_argument("--iv", help="hex IV for CBC")
+    ap.add_argument("--nonce", help="hex nonce for CTR/GCM")
+    ap.add_argument("--tag", help="hex tag for GCM decrypt")
+    ap.add_argument("--aad", default="", help="hex AAD for GCM")
+    ap.add_argument("-d", "--decrypt", action="store_true")
+    ap.add_argument("--no-pad", action="store_true")
+    args = ap.parse_args()
+
+    key = bytes.fromhex(args.key)
+    data = bytes.fromhex(args.data)
+    iv = bytes.fromhex(args.iv) if args.iv else None
+    nonce = bytes.fromhex(args.nonce) if args.nonce else None
+    cipher = make_cipher(args.algo, args.mode, key, iv, nonce)
+    _, bs = get_module(args.algo)
+
+    if args.mode == "gcm" and args.aad:
+        cipher.update(bytes.fromhex(args.aad))
+
+    if args.decrypt:
+        if args.mode == "gcm":
+            if not args.tag:
+                raise ValueError("GCM decrypt needs --tag")
+            out = cipher.decrypt_and_verify(data, bytes.fromhex(args.tag))
+        else:
+            out = cipher.decrypt(data)
+            if args.mode in ("ecb", "cbc") and not args.no_pad:
+                out = unpad(out, bs)
+    else:
+        if args.mode in ("ecb", "cbc") and not args.no_pad:
+            data = pad(data, bs)
+        if args.mode == "gcm":
+            out, tag = cipher.encrypt_and_digest(data)
+            print("tag=" + tag.hex())
+        else:
+            out = cipher.encrypt(data)
+    print(out.hex())
+
+
+if __name__ == "__main__":
+    main()
+```
+
+示例：
+
+```
+python aes_des_tool.py 666c61677b6165737d -a aes -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566
+python aes_des_tool.py <cipher_hex> -a aes -k <key_hex> --iv <iv_hex> -d
+python aes_des_tool.py 666c61677b6465737d -a des -k 38627974656b6579 --iv 3132333435363738
+python aes_des_tool.py <cipher_hex> -a des -k 38627974656b6579 --iv 3132333435363738 -d
+```
+
+## 11. 魔改与做题时怎么想
+
+### 11.1 ECB 识别
+
+AES 按 16 字节切块，DES 按 8 字节切块：
+
+```
+blocks = [ct[i:i+16] for i in range(0, len(ct), 16)]
+print(len(blocks), len(set(blocks)))
+```
+
+重复块多就怀疑 ECB。AES 题按 16 字节切，DES 题按 8 字节切，切错了就会误判。
+
+### 11.2 CBC bit flipping
+
+```
+P_i = D_K(C_i) XOR C_{i-1}
+```
+
+修改 `C_{i-1}` 可以定点翻转 `P_i`。如果目标字段在第一块，就不要去动密文块，直接改 IV。很多权限伪造题就是把 `admin=0` 一类字段翻成 `admin=1`。
+
+### 11.3 Padding oracle
+
+padding oracle 这个词听起来吓人，其实先记住一句话就行：程序如果把“padding 对”和“padding 错”表现得不一样，攻击者就可能拿这个差异反推 CBC 明文。HTTP 状态码、错误信息、响应长度、响应时间、连接是否断开，都可能成为这种差异。新手阶段不一定要马上手搓完整攻击，但看到 CBC + padding 报错不同，要知道这是危险信号。
+
+### 11.4 CTR/GCM nonce 复用
+
+CTR 复用 nonce：
+
+```
+C1 XOR C2 = P1 XOR P2
+```
+
+CTR 复用 nonce 会复用密钥流，两个密文一 XOR 就会露出两个明文的 XOR。GCM 底层也用了 CTR 思路，所以 nonce 复用同样很危险；至于更深入的 tag 伪造，先知道“会比 CTR 更严重”就够了，后面遇到专题题再展开。
+
+### 11.5 key/iv 编码坑
+
+```
+key = b"00112233445566778899aabbccddeeff"              # 32 字节 ASCII，AES-256
+key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
+```
+
+DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查 MD5/SHA256/base64/hex。
+
+## 12. 参考资料
+
+* 参考博客 AES/DES 结构写法：https://goodapple.top/archives/162
+* NIST FIPS 197 AES：https://csrc.nist.gov/pubs/fips/197/final
+* NIST FIPS 46-3 DES：https://csrc.nist.gov/pubs/fips/46-3/final
+* PyCryptodome AES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/aes.html
+* PyCryptodome DES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/des.html
+* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
+* CTF Wiki 分组密码模式：https://ctf-wiki.org/crypto/blockcipher/mode/
+* The Cryptopals Crypto Challenges：https://cryptopals.com/
+
+‍10:["$","$1","c",{"children":[["$","$L18",null,{"children":["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L19",null,{}],["$","$L1a",null,{"children":["$","div",null,{"className":"w-full max-w-6xl mx-auto mt-24 sm:mt-28 px-4 sm:px-6 lg:px-10 relative z-10","children":[["$","$L1b",null,{"posts":[{"slug":"tea-family","title":"TEA","date":"2026-05-13 00:25:28","tags":[],"mood":"","cover":"/uploads/20260514/1317e7b691244dd9b6f7fe84ae72b314.jpg","description":"","content":"$1c","formattedDate":"2026.05.13 00:25"},{"slug":"sm4","title":"SM4","date":"2026-05-13 00:24:56","tags":[],"mood":"","cover":"/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","description":"","content":"$1d","formattedDate":"2026.05.13 00:24"},{"slug":"rc4","title":"RC4","date":"2026-05-13 00:24:12","tags":[],"mood":"","cover":"/uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png","description":"","content":"$1e","formattedDate":"2026.05.13 00:24"},{"slug":"aes-des","title":"AES 与 DES","date":"2026-05-13 00:22:10","tags":[],"mood":"","cover":"/uploads/20260514/a0888eef7ba44e5196744dafb424ac06.png","description":"","content":"$1f","formattedDate":"2026.05.13 00:22"},{"slug":"welcome","title":"博客迁移到新框架","date":"2026-05-11 23:00:00","tags":["Blog","Next.js","Migration"],"mood":"","cover":"/uploads/20260512/d6717369cfe04050a3f2056accec7094.jpeg","description":"Tooki 的博客已切换到新的 Next.js 框架","content":"\r\n这是一篇迁移占位文章。\r\n\r\n‍","formattedDate":"2026.05.11 23:00"}]}],"$L20"]}]}]]}]}],null,"$L21"]}]
+11:["$","$1","h",{"children":[null,["$","$L22",null,{"children":"$L23"}],["$","div",null,{"hidden":true,"children":["$","$L24",null,{"children":["$","$25",null,{"name":"Next.Metadata","children":"$L26"}]}]}],null]}]
+27:I[38,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+28:I[595,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+29:I[6545,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+2a:I[4267,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+2b:I[8500,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],""]
+2c:I[1489,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+2d:I[4067,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+2e:I[4676,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","974","static/chunks/app/page-78b148aa230c10c6.js"],"default"]
+2f:I[484,[],"OutletBoundary"]
+:HL["/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","image"]
+20:["$","main",null,{"className":"flex flex-col gap-6 w-full mt-6","children":[["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-7 flex flex-col","children":["$","$L27",null,{"postCount":5,"chatterCount":1,"photoCount":3}]}],["$","div",null,{"className":"col-span-1 lg:col-span-5 flex flex-col","children":["$","$L28",null,{}]}]]}],["$","div",null,{"className":"w-full mt-[-10px]","children":["$","$L29",null,{}]}],["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-4 flex flex-col min-h-[300px]","children":["$","$L2a",null,{"posts":["$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:0","$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:1","$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:2","$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:3","$10:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:4"]}]}],["$","div",null,{"className":"col-span-1 lg:col-span-8 flex flex-col gap-6","children":[["$","$L2b",null,{"href":"/photowall","className":"w-full rounded-3xl bg-white/40 dark:bg-slate-800/50 backdrop-blur-md border border-white/40 dark:border-white/10 shadow-xl overflow-hidden transition-all duration-700 hover:scale-[1.02] relative group min-h-[200px] sm:min-h-[220px] flex-shrink-0","children":[["$","img",null,{"src":"/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","className":"w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"}],["$","div",null,{"className":"absolute inset-0 bg-black/30 dark:bg-black/50 group-hover:bg-black/10 transition-colors duration-500"}],["$","div",null,{"className":"absolute bottom-4 left-4 sm:bottom-6 sm:left-6 right-6","children":[["$","h3",null,{"className":"text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2 underline decoration-pink-400","children":"嗯 ? 嗯~"}],["$","p",null,{"className":"text-white/90 text-sm sm:text-lg line-clamp-1","children":" 如 数 家 珍"}]]}]]}],["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-3 gap-6 w-full flex-1","children":[["$","div",null,{"className":"sm:col-span-2 flex flex-col min-h-[200px]","children":["$","$L2c",null,{"chatters":[{"slug":"2026-05-11-blog-refresh","title":"新博客框架替换记录","description":"从旧静态博客切到新的 Next.js 博客框架。","cover":"/uploads/20260512/d2ab38c8744b4bac944f7904133fbad9.png","date":"2026-05-11 23:05:00","formattedDate":"2026.05.11 23:05"}]}]}],["$","div",null,{"className":"sm:col-span-1 flex flex-col min-h-[120px]","children":["$","$L2d",null,{}]}]]}]]}]]}],["$","div",null,{"className":"w-full mt-4","children":["$","$L2e",null,{}]}]]}]
+21:["$","$L2f",null,{"children":["$","$25",null,{"name":"Next.MetadataOutlet","children":"$@30"}]}]
+23:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+31:I[6869,[],"IconMark"]
+26:[["$","title","0",{"children":"Cyber Rain"}],["$","link","1",{"rel":"icon","href":"/img/wangyettubiao.png"}],["$","link","2",{"rel":"apple-touch-icon","href":"/img/wangyettubiao.png"}],["$","$L31","3",{}]]
+30:null

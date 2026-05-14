@@ -95,3 +95,59 @@ input[type=range]::-webkit-slider-thumb {
   scrollbar-width: thin;
   scrollbar-color: rgba(99, 102, 241, 0.3) transparent;
 }
+
+@layer components {
+  .prose table {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    margin: 1.5rem 0 !important;
+    font-size: 0.9rem !important;
+    line-height: 1.65 !important;
+    border: 1px solid rgba(148, 163, 184, 0.35) !important;
+    border-radius: 0.875rem !important;
+    background: rgba(255, 255, 255, 0.42) !important;
+    box-shadow: 0 12px 32px rgba(15, 23, 42, 0.08) !important;
+  }
+
+  .dark .prose table {
+    background: rgba(15, 23, 42, 0.42) !important;
+    border-color: rgba(148, 163, 184, 0.22) !important;
+  }
+
+  .prose thead {
+    background: rgba(99, 102, 241, 0.12) !important;
+  }
+
+  .dark .prose thead {
+    background: rgba(129, 140, 248, 0.16) !important;
+  }
+
+  .prose th,
+  .prose td {
+    min-width: 8rem !important;
+    padding: 0.75rem 1rem !important;
+    border-right: 1px solid rgba(148, 163, 184, 0.28) !important;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.28) !important;
+    text-align: left !important;
+    vertical-align: top !important;
+    white-space: normal !important;
+  }
+
+  .prose th {
+    color: inherit !important;
+    font-weight: 900 !important;
+  }
+
+  .prose tr:last-child td {
+    border-bottom: 0 !important;
+  }
+
+  .prose th:last-child,
+  .prose td:last-child {
+    border-right: 0 !important;
+  }
+}

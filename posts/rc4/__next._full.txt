@@ -1,0 +1,401 @@
+1:"$Sreact.fragment"
+2:I[3435,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"ThemeProvider"]
+3:I[2072,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+4:I[6241,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"MusicProvider"]
+5:I[1166,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+6:I[5260,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+7:I[6131,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+8:I[7121,[],""]
+9:I[4581,[],""]
+15:I[7123,[],"default",1]
+:HL["/_next/static/css/aafac1a61ecc7fcc.css","style"]
+:HL["/_next/static/css/46493229dd9d4e67.css","style"]
+:HL["/_next/static/css/6dd657f1797c2b17.css","style"]
+:HL["/_next/static/css/7f6bd37aab40623f.css","style"]
+0:{"P":null,"c":["","posts","rc4",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","rc4","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aafac1a61ecc7fcc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/46493229dd9d4e67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_246ccd __variable_4c40f6 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{"children":["$L11",{"children":["$L12",{},null,false,null]},null,false,"$@13"]},null,false,"$@13"]},null,false,null],"$L14",false]],"m":"$undefined","G":["$15",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"fla591DxhhTEOt2U_bg4P"}
+16:I[3976,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+17:I[1481,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+18:I[9126,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+19:I[9536,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+1a:I[7068,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+1c:I[484,[],"OutletBoundary"]
+1d:"$Sreact.suspense"
+20:I[484,[],"ViewportBoundary"]
+22:I[484,[],"MetadataBoundary"]
+a:["$","div",null,{"className":"hidden md:block","children":["$","$L16",null,{}]}]
+b:["$","div",null,{"className":"hidden md:block","children":["$","$L17",null,{}]}]
+c:["$","div",null,{"className":"md:hidden block","children":["$","$L18",null,{}]}]
+d:["$","div",null,{"className":"hidden md:block","children":["$","$L19",null,{}]}]
+e:["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              @keyframes gradientMove { \n                0% { background-position: 0% 50%; } \n                50% { background-position: 100% 50%; } \n                100% { background-position: 0% 50%; } \n              }\n            "}}]
+f:["$","div",null,{"className":"hidden md:block","children":["$","$L1a",null,{}]}]
+10:["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+11:["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L1b",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7f6bd37aab40623f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}]
+1f:[]
+13:"$W1f"
+14:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L23"}]}]}],null]}]
+24:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+25:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+26:I[7808,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+:HL["/uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png","image"]
+27:Tde2,
+                  /* 1. 默认状态（手机端：精致小巧） */
+                  .prose h1 { font-size: 1.8rem !important; font-weight: 900 !important; margin-bottom: 1.2rem !important; margin-top: 2rem !important; line-height: 1.3 !important; color: inherit !important; }
+                  .prose h2 { font-size: 1.5rem !important; font-weight: 800 !important; margin-bottom: 1rem !important; margin-top: 1.5rem !important; color: inherit !important; }
+                  .prose h3 { font-size: 1.2rem !important; font-weight: 700 !important; margin-bottom: 0.8rem !important; color: inherit !important; }
+                  .prose p { font-size: 0.95rem !important; line-height: 1.75 !important; color: inherit !important; }
+                  .prose ul, .prose ol { padding-left: 1.2rem !important; font-size: 0.95rem !important; }
+                  
+                  /* 手机端代码块与图片调整 */
+                  .prose pre {
+                    background-color: #282c34 !important; color: #abb2bf !important;
+                    padding: 1rem !important; border-radius: 0.75rem !important;
+                    overflow-x: auto !important; box-shadow: inset 0 0 10px rgba(0,0,0,0.3) !important;
+                    margin-top: 1rem !important; margin-bottom: 1rem !important;
+                  }
+                  .prose pre code { background-color: transparent !important; padding: 0 !important; color: inherit !important; font-size: 0.85em !important; font-family: ui-monospace, SFMono-Regular, monospace !important; }
+                  .prose code::before, .prose code::after { content: none !important; }
+                  .prose p code, .prose li code { background-color: rgba(99, 102, 241, 0.1) !important; color: #6366f1 !important; padding: 0.1rem 0.3rem !important; border-radius: 0.25rem !important; font-weight: 600 !important; font-size: 0.85em !important; }
+                  .dark .prose p code, .dark .prose li code { background-color: rgba(99, 102, 241, 0.2) !important; color: #818cf8 !important; }
+                  .prose img { display: block !important; margin: 1.5rem auto !important; border-radius: 1rem !important; box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important; max-width: 100% !important; height: auto !important; }
+
+                  /* 2. 平板与桌面端状态（md >= 768px：霸气极客风回归！） */
+                  @media (min-width: 768px) {
+                    .prose h1 { font-size: 3rem !important; font-weight: 950 !important; margin-bottom: 2rem !important; margin-top: 3rem !important; line-height: 1.1 !important; }
+                    .prose h2 { font-size: 2.2rem !important; margin-bottom: 1.5rem !important; margin-top: 2rem !important; }
+                    .prose h3 { font-size: 1.5rem !important; margin-bottom: 1rem !important; }
+                    .prose p { font-size: 1.15rem !important; line-height: 1.85 !important; }
+                    .prose ul, .prose ol { padding-left: 1.5rem !important; font-size: 1.1rem !important; }
+                    .prose pre { padding: 1.25rem !important; margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+                    .prose pre code { font-size: 0.9em !important; }
+                    .prose p code, .prose li code { padding: 0.2rem 0.4rem !important; font-size: 0.9em !important; border-radius: 0.375rem !important;}
+                    .prose img { margin: 2rem auto !important; border-radius: 2rem !important; box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important; }
+                  }
+                1b:["$","div",null,{"className":"min-h-screen relative pb-20","children":[["$","$L24",null,{}],["$","$L25",null,{"children":["$","main",null,{"className":"w-[95%] md:w-[90%] max-w-6xl mx-auto mt-24 md:mt-28 flex flex-col lg:flex-row gap-6 md:gap-8 relative z-10","children":[["$","article",null,{"className":"flex-1 bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/40 dark:border-white/10 overflow-hidden transition-colors duration-700","children":[["$","div",null,{"className":"w-full aspect-video bg-slate-200 dark:bg-slate-700 relative group","children":["$","img",null,{"src":"/uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png","alt":"封面","className":"w-full h-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"}]}],["$","div",null,{"className":"p-5 md:p-12 relative","children":[["$","$L26",null,{}],["$","header",null,{"className":"mb-6 md:mb-8 border-b border-slate-300/50 dark:border-slate-700 pb-5 md:pb-6 relative","children":[["$","h1",null,{"className":"text-2xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight transition-colors duration-700 pr-16 md:pr-24 leading-snug","children":"RC4"}],["$","div",null,{"className":"flex flex-wrap items-center gap-2 md:gap-3","children":[["$","div",null,{"className":"flex items-center gap-1.5 md:gap-2 text-indigo-700 dark:text-indigo-400 font-bold bg-white/30 dark:bg-slate-900/50 px-3 md:px-4 py-1.5 md:py-2 rounded-full w-max text-xs md:text-sm transition-colors duration-700 shadow-sm border border-white/20 dark:border-white/5","children":[["$","svg",null,{"className":"w-3 h-3 md:w-4 md:h-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"}]}],"2026-05-13 00:24:12"]}],[]]}]]}],["$","div",null,{"className":"relative","children":[["$","style",null,{"children":"$27"}],"$L28"]}],"$L29"]}]]}],"$L2a"]}]}]]}]
+2c:I[8987,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2d:I[7192,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2e:I[600,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2f:I[8500,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],""]
+30:I[6650,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+:HL["/img/zipai.png","image"]
+2b:T3df8,<h1>RC4 / ARC4 算法整理</h1>
+<blockquote>
+<p>RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。</p>
+</blockquote>
+<h2>图解：RC4 整体流程</h2>
+<p>‍<img src="/uploads/20260514/renwu/rc4-flow.svg" alt="RC4 KSA 与 PRGA 流程图"></p>
+<p>这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 <code>S[256]</code> 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。</p>
+<h2>实战识别</h2>
+<p>新手看 RC4 不用先背 KSA、PRGA 这两个名字，先在反编译结果里找“256”。RC4 基本会有一个 256 字节数组，先被填成 <code>0,1,2,...,255</code>，然后进入 256 次交换。这个形状在 IDA/Ghidra 里很显眼，通常能看到类似 <code>for (i = 0; i &#x3C; 256; i++) s[i] = i;</code> 的初始化，后面紧跟着 <code>j = j + s[i] + key[...]</code> 和交换 <code>s[i] / s[j]</code>。</p>
+<p>认出来以后再看 key 从哪来。CTF 逆向里的 key 可能是硬编码字符串，也可能从用户输入、资源段、配置文件里拿出来；有些程序还会先对 key 做 MD5/SHA1，或者拼一个 salt。这里不要嫌麻烦，程序怎么处理 key，脚本里就要怎么处理。RC4 没有 block size，所以不用去找 padding，也不用纠结 ECB/CBC。真正要对齐的是 key、是否 drop 了前几字节密钥流，以及输入输出到底是 raw bytes、hex 还是 base64。</p>
+<p>做题时我一般按这个顺序来：先确认有没有 <code>S[256]</code>，再确认有没有 KSA 和 PRGA 两段循环，然后找 key，最后拿密文跑脚本。只要密钥流对上，RC4 的解密不会再有别的花活。</p>
+<h2>1. 参数速查</h2>
+<p>项目内容类型对称流密码分组长度无固定分组，按字节产生密钥流常见密钥长度1<del>256 字节；PyCryptodome 文档给出的范围是 8</del>2048 bitIV / nonce原始 RC4 没有内置 IV核心结构256 字节状态数组 <code>S</code>，先 KSA 初始化，再 PRGA 输出密钥流安全状态已不推荐用于真实安全场景；CTF 中常见于老协议、弱加密、逆向题</p>
+<p>RC4 胜在短，几十行就能写完，逆向时也很显眼。它不是分组密码，所以别往 ECB、CBC、PKCS#7 那套上硬靠；它干的事就是生成一串和明文等长的密钥流，然后 XOR：</p>
+<pre><code>ciphertext = plaintext XOR keystream
+plaintext  = ciphertext XOR keystream
+</code></pre>
+<h2>2. 算法详解</h2>
+<p>RC4 分成两个阶段。前半段是 KSA，也就是 Key Scheduling Algorithm，用 key 把初始的 <code>S[0..255]</code> 打乱；后半段是 PRGA，也就是 Pseudo-Random Generation Algorithm，从这个被打乱的状态里持续生成密钥流。</p>
+<h3>2.1 KSA：用密钥打乱 S 盒</h3>
+<p>初始状态：</p>
+<pre><code>S = [0, 1, 2, ..., 255]
+j = 0
+</code></pre>
+<p>对 <code>i = 0..255</code>：</p>
+<pre><code>j = (j + S[i] + key[i mod key_len]) mod 256
+swap(S[i], S[j])
+</code></pre>
+<p>KSA 的本质是：把密钥字节循环参与到 256 次交换里，得到一个依赖密钥的置换表 <code>S</code>。</p>
+<p>这里最该记住的是“同一个 key 会洗出同一个 S”。原始 RC4 自己没有 nonce，所以同一个 key 拿去加密两段不同明文，就会重复同一段密钥流，后面自然变成 <code>C1 XOR C2 = P1 XOR P2</code>。有些协议会把 <code>nonce || long_term_key</code> 或 HMAC 派生结果再当 RC4 key，用协议层补一下，但这不是 RC4 自带的设计。</p>
+<h3>2.2 PRGA：持续输出密钥流</h3>
+<p>KSA 后设置：</p>
+<pre><code>i = 0
+j = 0
+</code></pre>
+<p>每输出 1 字节：</p>
+<pre><code>i = (i + 1) mod 256
+j = (j + S[i]) mod 256
+swap(S[i], S[j])
+t = (S[i] + S[j]) mod 256
+K = S[t]
+</code></pre>
+<p>得到的 <code>K</code> 就是密钥流字节，明文字节与它 XOR 得到密文字节。</p>
+<h3>2.3 手算一轮时抓住三个变量</h3>
+<p>RC4 题里很常见的一种套路，是不给你名字，只给一段 KSA/PRGA 的代码。这个时候不用慌，先找有没有长度 256 的数组，是否初始化成 <code>0..255</code>，循环里是不是大量 <code>% 256</code> 或 <code>&#x26; 0xff</code>。如果后面还出现 <code>i += 1</code>、<code>j += S[i]</code>、交换 <code>S[i]</code> 和 <code>S[j]</code>，再输出 <code>S[(S[i] + S[j]) &#x26; 0xff]</code>，基本就能往 RC4 上靠了。</p>
+<h2>3. 代码实现与库调用</h2>
+<h3>3.1 PyCryptodome 调用 ARC4</h3>
+<p>安装：</p>
+<pre><code>pip install pycryptodome
+</code></pre>
+<p>示例：</p>
+<pre><code>from Crypto.Cipher import ARC4
+from binascii import hexlify
+
+key = b"this_is_a_rc4_key"
+data = b"flag{rc4_demo}"
+
+cipher = ARC4.new(key)
+ct = cipher.encrypt(data)
+
+decipher = ARC4.new(key)
+pt = decipher.decrypt(ct)
+
+print(hexlify(ct).decode())
+print(pt)
+</code></pre>
+<p>RC4 是流密码，<code>encrypt()</code> 和 <code>decrypt()</code> 本质相同；但对象内部有状态，不能拿已经加密过数据的同一个对象从头解密。要重新 new 一个对象，保证密钥流从第 0 字节开始。</p>
+<h3>3.2 丢弃前 N 字节密钥流</h3>
+<p>RC4 早期输出有偏差。部分资料会使用 RC4-dropN，例如丢弃前 768 或 3072 字节。PyCryptodome 的 ARC4 支持 <code>drop</code> 参数：</p>
+<pre><code>from Crypto.Cipher import ARC4
+
+key = b"secret"
+data = b"message"
+
+cipher = ARC4.new(key, drop=3072)
+ct = cipher.encrypt(data)
+
+decipher = ARC4.new(key, drop=3072)
+pt = decipher.decrypt(ct)
+assert pt == data
+</code></pre>
+<p>CTF 中如果你发现官方脚本加密前调用了一段空加密，例如 <code>rc4.encrypt(b"\x00" * 1024)</code> 但没有保存结果，本质就是在 drop。</p>
+<h3>3.3 纯 Python 实现，适合断网环境</h3>
+<pre><code>def rc4_crypt(data: bytes, key: bytes, drop: int = 0) -> bytes:
+    if not key:
+        raise ValueError("RC4 key must not be empty")
+
+    s = list(range(256))
+    j = 0
+    for i in range(256):
+        j = (j + s[i] + key[i % len(key)]) &#x26; 0xff
+        s[i], s[j] = s[j], s[i]
+
+    i = j = 0
+    out = bytearray()
+
+    def next_byte() -> int:
+        nonlocal i, j
+        i = (i + 1) &#x26; 0xff
+        j = (j + s[i]) &#x26; 0xff
+        s[i], s[j] = s[j], s[i]
+        return s[(s[i] + s[j]) &#x26; 0xff]
+
+    for _ in range(drop):
+        next_byte()
+
+    for b in data:
+        out.append(b ^ next_byte())
+    return bytes(out)
+
+
+key = b"Wiki"
+pt = b"pedia"
+ct = rc4_crypt(pt, key)
+assert rc4_crypt(ct, key) == pt
+print(ct.hex())
+</code></pre>
+<h2>4. C 语言全流程实现</h2>
+<p>下面代码从 KSA、PRGA 到加解密完整实现。加密和解密调用同一个 <code>rc4_crypt</code>。</p>
+<pre><code>#include &#x3C;stdint.h>
+#include &#x3C;stdio.h>
+#include &#x3C;stdlib.h>
+#include &#x3C;string.h>
+
+typedef struct {
+    uint8_t s[256];
+    uint8_t i;
+    uint8_t j;
+} RC4_CTX;
+
+void rc4_init(RC4_CTX *ctx, const uint8_t *key, size_t key_len) {
+    uint8_t j = 0;
+    for (int i = 0; i &#x3C; 256; i++) {
+        ctx->s[i] = (uint8_t)i;
+    }
+    for (int i = 0; i &#x3C; 256; i++) {
+        j = (uint8_t)(j + ctx->s[i] + key[i % key_len]);
+        uint8_t tmp = ctx->s[i];
+        ctx->s[i] = ctx->s[j];
+        ctx->s[j] = tmp;
+    }
+    ctx->i = 0;
+    ctx->j = 0;
+}
+
+uint8_t rc4_next(RC4_CTX *ctx) {
+    ctx->i = (uint8_t)(ctx->i + 1);
+    ctx->j = (uint8_t)(ctx->j + ctx->s[ctx->i]);
+    uint8_t tmp = ctx->s[ctx->i];
+    ctx->s[ctx->i] = ctx->s[ctx->j];
+    ctx->s[ctx->j] = tmp;
+    return ctx->s[(uint8_t)(ctx->s[ctx->i] + ctx->s[ctx->j])];
+}
+
+void rc4_crypt(uint8_t *out, const uint8_t *in, size_t len,
+               const uint8_t *key, size_t key_len, size_t drop) {
+    RC4_CTX ctx;
+    rc4_init(&#x26;ctx, key, key_len);
+    for (size_t k = 0; k &#x3C; drop; k++) {
+        (void)rc4_next(&#x26;ctx);
+    }
+    for (size_t k = 0; k &#x3C; len; k++) {
+        out[k] = in[k] ^ rc4_next(&#x26;ctx);
+    }
+}
+
+int main(void) {
+    const uint8_t key[] = "this_is_a_rc4_key";
+    const uint8_t msg[] = "flag{rc4_demo}";
+    size_t len = strlen((const char *)msg);
+
+    uint8_t *ct = malloc(len);
+    uint8_t *pt = malloc(len + 1);
+    if (!ct || !pt) return 1;
+
+    rc4_crypt(ct, msg, len, key, strlen((const char *)key), 0);
+    rc4_crypt(pt, ct, len, key, strlen((const char *)key), 0);
+    pt[len] = 0;
+
+    printf("cipher hex: ");
+    for (size_t i = 0; i &#x3C; len; i++) printf("%02x", ct[i]);
+    printf("\nplain: %s\n", pt);
+
+    free(ct);
+    free(pt);
+    return 0;
+}
+</code></pre>
+<p>编译：</p>
+<pre><code>gcc rc4_demo.c -o rc4_demo
+./rc4_demo
+</code></pre>
+<h2>5. 例题里一般怎么用它</h2>
+<h3>5.1 密钥流复用</h3>
+<p>RC4 最大的坑就是密钥流复用。如果同一个 key 加密两段消息：</p>
+<pre><code>C1 = P1 XOR K
+C2 = P2 XOR K
+C1 XOR C2 = P1 XOR P2
+</code></pre>
+<p>于是只要你知道其中一段明文的某些位置，就能把对应位置的密钥流抠出来，再去还原另一段消息。CTF 里常用 <code>flag{</code>、文件头、JSON 固定字段当已知明文：</p>
+<pre><code>known_p1 = b"flag{"
+stream = bytes(c ^ p for c, p in zip(c1, known_p1))
+recovered_p2 = bytes(c ^ k for c, k in zip(c2, stream))
+</code></pre>
+<h3>5.2 明文头恢复</h3>
+<p>文件题里 RC4 也挺常见，尤其是 PNG、ZIP、PDF 这种有固定文件头的东西。先把密文头和已知文件头 XOR，就能拿到前几字节密钥流，后面再继续拖明文猜测。常见文件头可以先记这几个：</p>
+<pre><code>PNG: 89504e470d0a1a0a
+ZIP: 504b0304
+PDF: 25504446
+GIF: 47494638
+</code></pre>
+<h3>5.3 逆向识别</h3>
+<p>逆向题里最典型的形状就是两个循环：第一个循环从 0 到 255 初始化并按 key 交换，第二个循环处理输入，每字节更新 <code>i/j</code> 后 XOR。如果 key 是硬编码的，很多时候不用再想别的，把 key 提出来跑同一份 RC4 就完事。</p>
+<h2>6. 易错点</h2>
+<p>RC4 没有内置 IV，题目里要是给了 IV，多半是协议自己把 IV 拼进 key，或者拿它做了一层派生。Python 里还要注意 ARC4 对象是有状态的，加密完以后不能拿同一个对象从头解密，应该重新初始化。遇到 RC4-dropN 时，加解密两边丢弃的字节数也必须一致。C 语言实现尽量用 <code>uint8_t</code>，否则 <code>char</code> 的符号扩展会让人查半天。最后也要说一句，RC4 现在更适合学习和 CTF，不适合新项目继续用。</p>
+<h2>7. 逆向和流量题排查流程</h2>
+<p>遇到疑似 RC4 的题，我一般先找 <code>S[256]</code>。如果看到它被初始化成 <code>0,1,2,...,255</code>，下一步就去找 KSA 的 256 次交换，表达式通常长得像 <code>j = j + S[i] + key[i % key_len]</code>。再往后看 PRGA，每处理 1 字节就更新 <code>i/j</code> 并从 <code>S[S[i] + S[j]]</code> 一类位置取值。确认算法后再看有没有 drop，有没有把 key 写成 hex 文本，有没有先 <code>fromhex</code>。最后拿 <code>flag{</code>、<code>ctf{</code> 或文件头做一下 sanity check，比盲猜舒服很多。</p>
+<p>动态调试时可以偷个懒：如果程序是“读入密文 -> RC4 解密 -> 比较/输出”，那就别急着完整还原算法，先在比较函数、输出函数或者解密函数返回后下断点，看内存里的 buffer 有没有明文。很多入门逆向题根本不要求你把 RC4 写得多漂亮，只要你能在合适的位置把解密后的数据捞出来就行。</p>
+<h3>7.1 快速识别伪代码</h3>
+<p>RC4 伪代码经常长这样：</p>
+<pre><code>for (i = 0; i &#x3C; 256; i++)
+    s[i] = i;
+
+for (i = 0; i &#x3C; 256; i++) {
+    j = (j + s[i] + key[i % keylen]) &#x26; 0xff;
+    swap(s[i], s[j]);
+}
+
+for (n = 0; n &#x3C; len; n++) {
+    i = (i + 1) &#x26; 0xff;
+    j = (j + s[i]) &#x26; 0xff;
+    swap(s[i], s[j]);
+    out[n] = in[n] ^ s[(s[i] + s[j]) &#x26; 0xff];
+}
+</code></pre>
+<p>如果题目把 <code>&#x26; 0xff</code> 写成 <code>% 256</code>，或者把数组类型写成 <code>char</code> 导致符号扩展，仍然可以按 RC4 思路还原，只是 C 代码里要注意强制转 <code>uint8_t</code>。</p>
+<h3>7.2 常见协议痕迹</h3>
+<p>RC4 曾经出现在 WEP、早期 TLS、一些老式软件授权和游戏资源加密里。题目描述里要是出现 <code>ARCFOUR</code>、<code>arcfour-hmac</code>、<code>RC4-MD5</code>、<code>drop[768]</code>、<code>S box 256</code>、<code>ksa/prga</code> 这些词，就可以先把 RC4 脚本掏出来试试。</p>
+<h2>8. 本篇离线脚本</h2>
+<p>下面脚本可以直接保存为 <code>rc4_tool.py</code>。它只依赖 Python 标准库，支持 hex/base64/raw 三种输入输出，适合线下赛断网使用。</p>
+<pre><code>#!/usr/bin/env python3
+import argparse
+import base64
+import sys
+
+
+def decode_data(s: str, fmt: str) -> bytes:
+    if fmt == "hex":
+        return bytes.fromhex(s.strip())
+    if fmt == "base64":
+        return base64.b64decode(s.strip())
+    return s.encode()
+
+
+def encode_data(b: bytes, fmt: str) -> str:
+    if fmt == "hex":
+        return b.hex()
+    if fmt == "base64":
+        return base64.b64encode(b).decode()
+    return b.decode(errors="replace")
+
+
+def rc4(data: bytes, key: bytes, drop: int = 0) -> bytes:
+    if not key:
+        raise ValueError("key must not be empty")
+    s = list(range(256))
+    j = 0
+    for i in range(256):
+        j = (j + s[i] + key[i % len(key)]) &#x26; 0xff
+        s[i], s[j] = s[j], s[i]
+
+    i = j = 0
+
+    def gen() -> int:
+        nonlocal i, j
+        i = (i + 1) &#x26; 0xff
+        j = (j + s[i]) &#x26; 0xff
+        s[i], s[j] = s[j], s[i]
+        return s[(s[i] + s[j]) &#x26; 0xff]
+
+    for _ in range(drop):
+        gen()
+    return bytes(x ^ gen() for x in data)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="RC4/ARC4 encrypt/decrypt tool")
+    ap.add_argument("data", help="input data")
+    ap.add_argument("-k", "--key", required=True, help="key string or hex key")
+    ap.add_argument("--key-hex", action="store_true", help="treat key as hex")
+    ap.add_argument("--in-fmt", choices=["raw", "hex", "base64"], default="hex")
+    ap.add_argument("--out-fmt", choices=["raw", "hex", "base64"], default="hex")
+    ap.add_argument("--drop", type=int, default=0, help="drop first N keystream bytes")
+    args = ap.parse_args()
+
+    key = bytes.fromhex(args.key) if args.key_hex else args.key.encode()
+    data = decode_data(args.data, args.in_fmt)
+    sys.stdout.write(encode_data(rc4(data, key, args.drop), args.out_fmt) + "\n")
+
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+<p>使用示例：</p>
+<pre><code>python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
+python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
+</code></pre>
+<h2>9. 参考资料</h2>
+<ul>
+<li>PyCryptodome ARC4 文档：<a href="https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html">https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html</a></li>
+<li>RC4 原理说明：<a href="https://en.wikipedia.org/wiki/RC4">https://en.wikipedia.org/wiki/RC4</a></li>
+<li>CTF Wiki RC4：<a href="https://ctf-wiki.org/crypto/streamcipher/rc4/">https://ctf-wiki.org/crypto/streamcipher/rc4/</a></li>
+<li>博客园 RC4 算法学习笔记：<a href="https://www.cnblogs.com/goodhacker/p/3353465.html">https://www.cnblogs.com/goodhacker/p/3353465.html</a></li>
+</ul>
+<p>‍</p>28:["$","div",null,{"id":"article-content","className":"prose prose-slate dark:prose-invert prose-base md:prose-lg max-w-none text-slate-800 dark:text-slate-200 transition-colors duration-700 scroll-smooth","dangerouslySetInnerHTML":{"__html":"$2b"}}]
+29:["$","div",null,{"className":"mt-12 md:mt-16","children":["$","$L2c",null,{}]}]
+2a:["$","aside",null,{"className":"w-full lg:w-[320px] flex flex-col gap-6 flex-shrink-0","children":[["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl text-center","children":[["$","div",null,{"className":"w-20 h-20 mx-auto rounded-full p-1 bg-gradient-to-tr from-indigo-500 to-purple-500 shadow-md mb-4 transition-transform duration-500 hover:rotate-3","children":["$","img",null,{"src":"/img/zipai.png","alt":"avatar","className":"w-full h-full rounded-full object-cover bg-white"}]}],["$","h3",null,{"className":"text-xl font-bold text-slate-900 dark:text-white mb-2","children":"Tooki"}],"",["$","$L2d",null,{}]]}],["$","$L2e",null,{}],["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl","children":[["$","h3",null,{"className":"font-black text-slate-900 dark:text-white mb-4 border-l-4 border-indigo-500 pl-2 text-sm","children":"RECOMMENDED"}],["$","div",null,{"className":"space-y-4","children":[["$","$L2f","aes-des",{"href":"/posts/aes-des","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"AES 与 DES"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:22:10"}]]}],["$","$L2f","sm4",{"href":"/posts/sm4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"SM4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:56"}]]}],["$","$L2f","tea-family",{"href":"/posts/tea-family","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"TEA"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:25:28"}]]}]]}]]}],["$","$L30",null,{"toc":[{"level":1,"text":"RC4 / ARC4 算法整理","id":"rc4-/-arc4-算法整理"},{"level":2,"text":"图解：RC4 整体流程","id":"图解：rc4-整体流程"},{"level":2,"text":"实战识别","id":"实战识别"},{"level":2,"text":"1. 参数速查","id":"1.-参数速查"},{"level":2,"text":"2. 算法详解","id":"2.-算法详解"},{"level":3,"text":"2.1 KSA：用密钥打乱 S 盒","id":"2.1-ksa：用密钥打乱-s-盒"},{"level":3,"text":"2.2 PRGA：持续输出密钥流","id":"2.2-prga：持续输出密钥流"},{"level":3,"text":"2.3 手算一轮时抓住三个变量","id":"2.3-手算一轮时抓住三个变量"},{"level":2,"text":"3. 代码实现与库调用","id":"3.-代码实现与库调用"},{"level":3,"text":"3.1 PyCryptodome 调用 ARC4","id":"3.1-pycryptodome-调用-arc4"},{"level":3,"text":"3.2 丢弃前 N 字节密钥流","id":"3.2-丢弃前-n-字节密钥流"},{"level":3,"text":"3.3 纯 Python 实现，适合断网环境","id":"3.3-纯-python-实现，适合断网环境"},{"level":2,"text":"4. C 语言全流程实现","id":"4.-c-语言全流程实现"},{"level":2,"text":"5. 例题里一般怎么用它","id":"5.-例题里一般怎么用它"},{"level":3,"text":"5.1 密钥流复用","id":"5.1-密钥流复用"},{"level":3,"text":"5.2 明文头恢复","id":"5.2-明文头恢复"},{"level":3,"text":"5.3 逆向识别","id":"5.3-逆向识别"},{"level":2,"text":"6. 易错点","id":"6.-易错点"},{"level":2,"text":"7. 逆向和流量题排查流程","id":"7.-逆向和流量题排查流程"},{"level":3,"text":"7.1 快速识别伪代码","id":"7.1-快速识别伪代码"},{"level":3,"text":"7.2 常见协议痕迹","id":"7.2-常见协议痕迹"},{"level":2,"text":"8. 本篇离线脚本","id":"8.-本篇离线脚本"},{"level":2,"text":"9. 参考资料","id":"9.-参考资料"}]}]]}]
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+31:I[6869,[],"IconMark"]
+1e:null
+23:[["$","title","0",{"children":"Cyber Rain"}],["$","link","1",{"rel":"icon","href":"/img/wangyettubiao.png"}],["$","link","2",{"rel":"apple-touch-icon","href":"/img/wangyettubiao.png"}],["$","$L31","3",{}]]

@@ -1,0 +1,382 @@
+1:"$Sreact.fragment"
+2:I[3435,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"ThemeProvider"]
+3:I[2072,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+4:I[6241,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"MusicProvider"]
+5:I[1166,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+6:I[5260,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+7:I[6131,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+8:I[7121,[],""]
+9:I[4581,[],""]
+15:I[7123,[],"default",1]
+:HL["/_next/static/css/aafac1a61ecc7fcc.css","style"]
+:HL["/_next/static/css/46493229dd9d4e67.css","style"]
+:HL["/_next/static/css/6dd657f1797c2b17.css","style"]
+:HL["/_next/static/css/7f6bd37aab40623f.css","style"]
+0:{"P":null,"c":["","posts","sm4",""],"q":"","i":false,"f":[[["",{"children":["posts",{"children":[["slug","sm4","d",null],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aafac1a61ecc7fcc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/46493229dd9d4e67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_246ccd __variable_4c40f6 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{"children":["$L11",{"children":["$L12",{},null,false,null]},null,false,"$@13"]},null,false,"$@13"]},null,false,null],"$L14",false]],"m":"$undefined","G":["$15",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"fla591DxhhTEOt2U_bg4P"}
+16:I[3976,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+17:I[1481,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+18:I[9126,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+19:I[9536,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+1a:I[7068,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
+1c:I[484,[],"OutletBoundary"]
+1d:"$Sreact.suspense"
+20:I[484,[],"ViewportBoundary"]
+22:I[484,[],"MetadataBoundary"]
+a:["$","div",null,{"className":"hidden md:block","children":["$","$L16",null,{}]}]
+b:["$","div",null,{"className":"hidden md:block","children":["$","$L17",null,{}]}]
+c:["$","div",null,{"className":"md:hidden block","children":["$","$L18",null,{}]}]
+d:["$","div",null,{"className":"hidden md:block","children":["$","$L19",null,{}]}]
+e:["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              @keyframes gradientMove { \n                0% { background-position: 0% 50%; } \n                50% { background-position: 100% 50%; } \n                100% { background-position: 0% 50%; } \n              }\n            "}}]
+f:["$","div",null,{"className":"hidden md:block","children":["$","$L1a",null,{}]}]
+10:["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+11:["$","$1","c",{"children":[null,["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L1b",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7f6bd37aab40623f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L1c",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@1e"}]}]]}]
+1f:[]
+13:"$W1f"
+14:["$","$1","h",{"children":[null,["$","$L20",null,{"children":"$L21"}],["$","div",null,{"hidden":true,"children":["$","$L22",null,{"children":["$","$1d",null,{"name":"Next.Metadata","children":"$L23"}]}]}],null]}]
+24:I[5727,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+25:I[7877,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+26:I[7808,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+:HL["/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","image"]
+27:Tde2,
+                  /* 1. 默认状态（手机端：精致小巧） */
+                  .prose h1 { font-size: 1.8rem !important; font-weight: 900 !important; margin-bottom: 1.2rem !important; margin-top: 2rem !important; line-height: 1.3 !important; color: inherit !important; }
+                  .prose h2 { font-size: 1.5rem !important; font-weight: 800 !important; margin-bottom: 1rem !important; margin-top: 1.5rem !important; color: inherit !important; }
+                  .prose h3 { font-size: 1.2rem !important; font-weight: 700 !important; margin-bottom: 0.8rem !important; color: inherit !important; }
+                  .prose p { font-size: 0.95rem !important; line-height: 1.75 !important; color: inherit !important; }
+                  .prose ul, .prose ol { padding-left: 1.2rem !important; font-size: 0.95rem !important; }
+                  
+                  /* 手机端代码块与图片调整 */
+                  .prose pre {
+                    background-color: #282c34 !important; color: #abb2bf !important;
+                    padding: 1rem !important; border-radius: 0.75rem !important;
+                    overflow-x: auto !important; box-shadow: inset 0 0 10px rgba(0,0,0,0.3) !important;
+                    margin-top: 1rem !important; margin-bottom: 1rem !important;
+                  }
+                  .prose pre code { background-color: transparent !important; padding: 0 !important; color: inherit !important; font-size: 0.85em !important; font-family: ui-monospace, SFMono-Regular, monospace !important; }
+                  .prose code::before, .prose code::after { content: none !important; }
+                  .prose p code, .prose li code { background-color: rgba(99, 102, 241, 0.1) !important; color: #6366f1 !important; padding: 0.1rem 0.3rem !important; border-radius: 0.25rem !important; font-weight: 600 !important; font-size: 0.85em !important; }
+                  .dark .prose p code, .dark .prose li code { background-color: rgba(99, 102, 241, 0.2) !important; color: #818cf8 !important; }
+                  .prose img { display: block !important; margin: 1.5rem auto !important; border-radius: 1rem !important; box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important; max-width: 100% !important; height: auto !important; }
+
+                  /* 2. 平板与桌面端状态（md >= 768px：霸气极客风回归！） */
+                  @media (min-width: 768px) {
+                    .prose h1 { font-size: 3rem !important; font-weight: 950 !important; margin-bottom: 2rem !important; margin-top: 3rem !important; line-height: 1.1 !important; }
+                    .prose h2 { font-size: 2.2rem !important; margin-bottom: 1.5rem !important; margin-top: 2rem !important; }
+                    .prose h3 { font-size: 1.5rem !important; margin-bottom: 1rem !important; }
+                    .prose p { font-size: 1.15rem !important; line-height: 1.85 !important; }
+                    .prose ul, .prose ol { padding-left: 1.5rem !important; font-size: 1.1rem !important; }
+                    .prose pre { padding: 1.25rem !important; margin-top: 1.5rem !important; margin-bottom: 1.5rem !important; }
+                    .prose pre code { font-size: 0.9em !important; }
+                    .prose p code, .prose li code { padding: 0.2rem 0.4rem !important; font-size: 0.9em !important; border-radius: 0.375rem !important;}
+                    .prose img { margin: 2rem auto !important; border-radius: 2rem !important; box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important; }
+                  }
+                1b:["$","div",null,{"className":"min-h-screen relative pb-20","children":[["$","$L24",null,{}],["$","$L25",null,{"children":["$","main",null,{"className":"w-[95%] md:w-[90%] max-w-6xl mx-auto mt-24 md:mt-28 flex flex-col lg:flex-row gap-6 md:gap-8 relative z-10","children":[["$","article",null,{"className":"flex-1 bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/40 dark:border-white/10 overflow-hidden transition-colors duration-700","children":[["$","div",null,{"className":"w-full aspect-video bg-slate-200 dark:bg-slate-700 relative group","children":["$","img",null,{"src":"/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","alt":"封面","className":"w-full h-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"}]}],["$","div",null,{"className":"p-5 md:p-12 relative","children":[["$","$L26",null,{}],["$","header",null,{"className":"mb-6 md:mb-8 border-b border-slate-300/50 dark:border-slate-700 pb-5 md:pb-6 relative","children":[["$","h1",null,{"className":"text-2xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight transition-colors duration-700 pr-16 md:pr-24 leading-snug","children":"SM4"}],["$","div",null,{"className":"flex flex-wrap items-center gap-2 md:gap-3","children":[["$","div",null,{"className":"flex items-center gap-1.5 md:gap-2 text-indigo-700 dark:text-indigo-400 font-bold bg-white/30 dark:bg-slate-900/50 px-3 md:px-4 py-1.5 md:py-2 rounded-full w-max text-xs md:text-sm transition-colors duration-700 shadow-sm border border-white/20 dark:border-white/5","children":[["$","svg",null,{"className":"w-3 h-3 md:w-4 md:h-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"}]}],"2026-05-13 00:24:56"]}],[]]}]]}],["$","div",null,{"className":"relative","children":[["$","style",null,{"children":"$27"}],"$L28"]}],"$L29"]}]]}],"$L2a"]}]}]]}]
+2c:I[8987,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2d:I[7192,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2e:I[600,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+2f:I[8500,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],""]
+30:I[6650,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3d58586054b5e1bc.js","537","static/chunks/537-0656ca4aca41605a.js","682","static/chunks/682-58bbbc082337abef.js","858","static/chunks/app/posts/%5Bslug%5D/page-86650dc4743d21a2.js"],"default"]
+:HL["/img/zipai.png","image"]
+2b:T421d,<h1>SM4 算法整理</h1>
+<p>SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 <code>SM2/SM3/SM4</code> 这几个字样时，可以先把国密这条线拉出来。</p>
+<h2>图解：SM4 加密结构</h2>
+<p>‍<img src="/uploads/20260514/renwu/sm4-flow.svg" alt="SM4 轮函数与密钥扩展流程图"></p>
+<p>这张图要同时看两条线。key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 <code>X0..X3</code>，做 32 轮迭代，最后按 <code>X35 X34 X33 X32</code> 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。</p>
+<h2>实战识别</h2>
+<p>SM4 在逆向里比 AES 还好认一点，因为国密实现经常把常量表老老实实放在二进制里。先搜 <code>A3 B1 BA C6</code>，这是 FK 的开头；再搜 S 盒开头 <code>D6 90 E9 FE CC E1 3D B7</code>。如果这两组都能找到，旁边又有 32 轮循环，基本就可以确认是 SM4。</p>
+<p>如果是 Java、Android 或前端相关题，也可以先看字符串。<code>SM4/ECB/PKCS5Padding</code>、<code>SM4/CBC/PKCS7Padding</code>、<code>CryptSM4</code>、<code>sm4.encrypt</code> 这类名字一出来，算法就不用猜了。新手真正要花时间的是 key/iv 编码：它可能是 16 字节 ASCII，也可能是一串 hex 解码后的 16 字节，还可能先 base64 再 hex。看见 <code>Hex.decode()</code>、<code>bytes.fromhex()</code>、<code>Base64.decode()</code>，先把数据流捋清楚。</p>
+<p>我觉得 SM4 题最适合按“先认常量，再追参数”的路线做。FK、CK、S 盒能说明这是 SM4，但 flag 能不能出来，还是看你有没有把 key、iv、模式和 padding 还原对。</p>
+<h2>1. 参数速查</h2>
+<p>项目内容类型对称分组密码分组长度128 bit，16 字节密钥长度128 bit，16 字节轮数32 轮结构非平衡 Feistel-like 结构基本操作XOR、循环左移、S 盒、线性变换常见模式ECB、CBC、CTR、GCM 类似封装，实际看库支持CTF 特征<code>FK</code>、<code>CK</code> 常量表，32 轮，<code>0xd6 0x90 0xe9 0xfe</code> 开头的 S 盒</p>
+<p>SM4 的核心：</p>
+<pre><code>128 bit 明文 -> X0 X1 X2 X3，每个 32 bit
+32 轮迭代:
+    X(i+4) = X(i) XOR T(X(i+1) XOR X(i+2) XOR X(i+3) XOR rk(i))
+输出:
+    X35 X34 X33 X32
+</code></pre>
+<p>注意最后输出是反序。</p>
+<h2>2. 算法详解</h2>
+<h3>2.1 轮函数</h3>
+<p>一轮更新：</p>
+<pre><code>X(i+4) = X(i) XOR T(X(i+1) XOR X(i+2) XOR X(i+3) XOR rk(i))
+</code></pre>
+<p>这里的 <code>T</code> 不是一个单独查表，而是“过 S 盒 + 线性扩散”的合成变换：</p>
+<pre><code>T(A) = L(tau(A))
+</code></pre>
+<p><code>tau</code> 负责非线性，把 32 bit 拆成 4 个字节后逐个过 S 盒；<code>L</code> 负责扩散，用几次循环左移再 XOR 回来。看代码时如果先过 S 盒、再出现 <code>&#x3C;&#x3C;&#x3C; 2/10/18/24</code>，基本就是 SM4 的加密轮函数。</p>
+<h3>2.2 加密线性变换 L</h3>
+<pre><code>L(B) = B XOR (B &#x3C;&#x3C;&#x3C; 2) XOR (B &#x3C;&#x3C;&#x3C; 10) XOR (B &#x3C;&#x3C;&#x3C; 18) XOR (B &#x3C;&#x3C;&#x3C; 24)
+</code></pre>
+<p>这里 <code>&#x3C;&#x3C;&#x3C;</code> 表示 32 bit 循环左移。</p>
+<h3>2.3 密钥扩展</h3>
+<p>SM4 主密钥为 128 bit，拆成：</p>
+<pre><code>MK0 MK1 MK2 MK3
+</code></pre>
+<p>先与系统参数 <code>FK</code> 异或：</p>
+<pre><code>K0 = MK0 XOR FK0
+K1 = MK1 XOR FK1
+K2 = MK2 XOR FK2
+K3 = MK3 XOR FK3
+</code></pre>
+<p>再生成 32 个轮密钥：</p>
+<pre><code>rk(i) = K(i+4) = K(i) XOR T'(K(i+1) XOR K(i+2) XOR K(i+3) XOR CK(i))
+</code></pre>
+<p>密钥扩展使用的 <code>T'</code> 和加密的 <code>T</code> 类似，但线性变换不同：</p>
+<pre><code>L'(B) = B XOR (B &#x3C;&#x3C;&#x3C; 13) XOR (B &#x3C;&#x3C;&#x3C; 23)
+</code></pre>
+<h3>2.4 解密</h3>
+<p>SM4 解密不用写另一套算法，只需要把轮密钥倒序使用：</p>
+<pre><code>加密: rk0, rk1, ..., rk31
+解密: rk31, rk30, ..., rk0
+</code></pre>
+<p>这点和 DES 的 Feistel 解密思路类似。</p>
+<h2>3. 工作模式与 padding</h2>
+<p>SM4 核心只处理 16 字节分组。ECB/CBC 下需要 padding，常见是 PKCS#7：</p>
+<pre><code>明文长度刚好 16 的倍数时，也要额外补一整块 0x10
+</code></pre>
+<p>模式这块和 AES 的直觉差不多。ECB 简单但会泄露重复块；CBC 需要 16 字节 IV，业务系统里很常见；CTR 不需要 padding，但 nonce/counter 不能复用；GCM 带认证能力，不过实际库支持没有 AES-GCM 那么普遍。</p>
+<p>国密题里还要注意编码：很多业务代码会把 key/iv 写成 hex 字符串。例如 <code>"313233..."</code> 到底是 ASCII 字符串，还是 hex 解码后的字节，必须看代码。</p>
+<h2>4. 代码实现：Python 调用</h2>
+<h3>4.1 gmssl 调用 SM4</h3>
+<p>安装：</p>
+<pre><code>pip install gmssl
+</code></pre>
+<p>ECB 示例：</p>
+<pre><code>from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
+
+key = b"0123456789abcdef"
+pt = b"flag{sm4_demo}"
+
+crypt = CryptSM4()
+crypt.set_key(key, SM4_ENCRYPT)
+ct = crypt.crypt_ecb(pt)  # gmssl 会按它的实现做填充
+
+crypt.set_key(key, SM4_DECRYPT)
+recovered = crypt.crypt_ecb(ct)
+assert recovered == pt
+
+print(ct.hex())
+</code></pre>
+<p>CBC 示例：</p>
+<pre><code>from gmssl.sm4 import CryptSM4, SM4_ENCRYPT, SM4_DECRYPT
+
+key = b"0123456789abcdef"
+iv = b"1234567890abcdef"
+pt = b"flag{sm4_cbc_demo}"
+
+crypt = CryptSM4()
+crypt.set_key(key, SM4_ENCRYPT)
+ct = crypt.crypt_cbc(iv, pt)
+
+crypt.set_key(key, SM4_DECRYPT)
+recovered = crypt.crypt_cbc(iv, ct)
+assert recovered == pt
+</code></pre>
+<p>gmssl 的封装比较适合快速解题，但不同版本对 padding 的细节要以本地实际为准。若题目给的是“裸 SM4 单块”，建议使用 OpenSSL 或自己实现 block 函数。</p>
+<h3>4.2 PyCryptodome 提醒</h3>
+<p>PyCryptodome 主文档里常用的是 AES/DES/ARC4 等算法；SM4 支持情况要看本地版本。如果比赛环境没有 SM4，优先准备 <code>gmssl</code> 或 OpenSSL 命令行。</p>
+<h2>5. 代码实现：C 语言 OpenSSL EVP 调用</h2>
+<p>OpenSSL 1.1.1 以后通常提供 SM4，例如 <code>EVP_sm4_cbc()</code>、<code>EVP_sm4_ecb()</code>、<code>EVP_sm4_ctr()</code>。下面是 CBC 示例。</p>
+<pre><code>#include &#x3C;openssl/evp.h>
+#include &#x3C;stdio.h>
+#include &#x3C;string.h>
+
+int sm4_cbc_encrypt(const unsigned char *key, const unsigned char *iv,
+                    const unsigned char *pt, int pt_len,
+                    unsigned char *ct, int *ct_len) {
+    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
+    int len = 0, total = 0;
+    if (!ctx) return 0;
+    if (EVP_EncryptInit_ex(ctx, EVP_sm4_cbc(), NULL, key, iv) != 1) return 0;
+    if (EVP_EncryptUpdate(ctx, ct, &#x26;len, pt, pt_len) != 1) return 0;
+    total += len;
+    if (EVP_EncryptFinal_ex(ctx, ct + total, &#x26;len) != 1) return 0;
+    total += len;
+    *ct_len = total;
+    EVP_CIPHER_CTX_free(ctx);
+    return 1;
+}
+
+int sm4_cbc_decrypt(const unsigned char *key, const unsigned char *iv,
+                    const unsigned char *ct, int ct_len,
+                    unsigned char *pt, int *pt_len) {
+    EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
+    int len = 0, total = 0;
+    if (!ctx) return 0;
+    if (EVP_DecryptInit_ex(ctx, EVP_sm4_cbc(), NULL, key, iv) != 1) return 0;
+    if (EVP_DecryptUpdate(ctx, pt, &#x26;len, ct, ct_len) != 1) return 0;
+    total += len;
+    if (EVP_DecryptFinal_ex(ctx, pt + total, &#x26;len) != 1) return 0;
+    total += len;
+    *pt_len = total;
+    EVP_CIPHER_CTX_free(ctx);
+    return 1;
+}
+
+int main(void) {
+    const unsigned char key[16] = "0123456789abcdef";
+    const unsigned char iv[16] = "1234567890abcdef";
+    const unsigned char msg[] = "flag{sm4_c_demo}";
+    unsigned char ct[128], pt[128];
+    int ct_len = 0, pt_len = 0;
+
+    if (!sm4_cbc_encrypt(key, iv, msg, (int)strlen((const char *)msg), ct, &#x26;ct_len)) {
+        puts("encrypt failed");
+        return 1;
+    }
+    if (!sm4_cbc_decrypt(key, iv, ct, ct_len, pt, &#x26;pt_len)) {
+        puts("decrypt failed");
+        return 1;
+    }
+    pt[pt_len] = 0;
+
+    printf("cipher hex: ");
+    for (int i = 0; i &#x3C; ct_len; i++) printf("%02x", ct[i]);
+    printf("\nplain: %s\n", pt);
+    return 0;
+}
+</code></pre>
+<p>编译：</p>
+<pre><code>gcc sm4_evp_demo.c -o sm4_evp_demo -lcrypto
+</code></pre>
+<p>如果编译时报 <code>EVP_sm4_cbc</code> 未声明，说明 OpenSSL 头文件版本太旧，换新版本或改用 GmSSL / Tongsuo。</p>
+<h2>6. 例题里一般怎么用它</h2>
+<h3>6.1 国密组合</h3>
+<p>业务题里很常见的一套组合是：</p>
+<pre><code>SM2 加密会话密钥
+SM3 做摘要
+SM4-CBC 加密数据
+</code></pre>
+<p>如果手里只有 SM4 密文，第一步不是硬解，而是找 key 和 IV 从哪来；如果题里还给了 SM2 私钥、接口泄露或者日志，通常就是先恢复会话密钥，再拿 SM4 解业务数据。</p>
+<h3>6.2 key/iv 编码混淆</h3>
+<p>key/iv 的编码是 SM4 题里最容易翻车的地方。下面这两种写法看起来都像“313233”，实际完全不是一回事：</p>
+<pre><code>key = b"3132333435363738"          # 16 字节 ASCII 的一部分
+key = bytes.fromhex("31323334...") # hex 解码后才是真 key
+</code></pre>
+<p>看到 Java 里的 <code>Hex.decode()</code>、Python 里的 <code>bytes.fromhex()</code>、JS 里的 <code>CryptoJS.enc.Hex.parse()</code> 要格外注意。很多题不是你 SM4 写错了，而是 key 字节一开始就拿错了。</p>
+<h3>6.3 CBC bit flipping 和 padding oracle</h3>
+<p>SM4-CBC 的攻击面和 AES-CBC 是一套逻辑。算法换成国密不会自动防篡改，如果程序只加密、不校验密文有没有被改过，IV bit flipping、中间块 bit flipping、padding 报错泄露、固定 IV 泄露首块这些问题照样会出现。做题时不要被“SM4”这个名字吓住，CBC 还是那个 CBC。</p>
+<h3>6.4 逆向识别</h3>
+<p>逆向识别 SM4，最舒服的办法是搜常量。<code>FK = a3b1bac6 56aa3350 677d9197 b27022dc</code> 很醒目，<code>CK</code> 有 32 个 word，S 盒开头也常见 <code>d6 90 e9 fe cc e1 3d b7 ...</code>。如果再看到 32 轮和解密时 reverse round key，基本就不用猜了。</p>
+<h2>7. 更完整的 SM4 细节</h2>
+<h3>7.1 常量表识别</h3>
+<p>SM4 逆向里最容易识别的是三类常量。</p>
+<p>系统参数 FK：</p>
+<pre><code>A3B1BAC6 56AA3350 677D9197 B27022DC
+</code></pre>
+<p>固定参数 CK 一共 32 个 word，开头通常是：</p>
+<pre><code>00070E15 1C232A31 383F464D 545B6269
+70777E85 8C939AA1 A8AFB6BD C4CBD2D9
+</code></pre>
+<p>S 盒开头常见：</p>
+<pre><code>D6 90 E9 FE CC E1 3D B7 16 B6 14 C2 28 FB 2C 05
+</code></pre>
+<p>只要二进制里搜到这些常量，基本可以确认 SM4。</p>
+<h3>7.2 字节序</h3>
+<p>SM4 标准描述通常按大端把 16 字节分成 4 个 32 bit word：</p>
+<pre><code>X0 = bytes[0..3]
+X1 = bytes[4..7]
+X2 = bytes[8..11]
+X3 = bytes[12..15]
+</code></pre>
+<p>也就是：</p>
+<pre><code>int.from_bytes(block[0:4], "big")
+</code></pre>
+<p>但很多 C 实现为了效率会用宏读写，如果宏写错或平台相关，可能出现大小端差异。逆向时要跟着实现走，不要只跟标准文字走。</p>
+<h3>7.3 ECB/CBC 的 padding 差异</h3>
+<p>Python <code>gmssl</code> 的 <code>CryptSM4().crypt_ecb()</code>、<code>crypt_cbc()</code> 通常会处理 PKCS#7 风格 padding。但如果题目用的是 OpenSSL、Java BouncyCastle、前端 sm-crypto，不同库的参数可能写成：</p>
+<pre><code>SM4/ECB/PKCS5Padding
+SM4/CBC/PKCS7Padding
+SM4/CBC/NoPadding
+</code></pre>
+<p>其中 <code>PKCS5Padding</code> 在 16 字节分组算法里很多库实际按 PKCS#7 处理。遇到 NoPadding 时，明文长度必须已经是 16 的倍数。</p>
+<h2>8. 国密题排查清单</h2>
+<ol>
+<li>先看 key/iv 是 ASCII、hex 还是 base64。</li>
+<li>确认模式：ECB/CBC/CTR/GCM。</li>
+<li>确认 padding：PKCS#7、NoPadding、零填充。</li>
+<li>若是 CBC，确认 IV 是否固定、是否和密文拼在一起。</li>
+<li>若是 Web/Java 题，查 <code>SM4Utils</code>、<code>Cipher.getInstance()</code>、<code>Hex.decode()</code>、<code>Base64.decode()</code>。</li>
+<li>若是逆向题，搜 FK/CK/Sbox 常量。</li>
+<li>如果能解出部分明文但末尾错，先调 padding；如果全部乱码，再查 key 编码和大小端。</li>
+</ol>
+<p>安卓或 Java 题里可以优先从调用链下手。比如 <code>Cipher.getInstance("SM4/CBC/PKCS5Padding")</code>、<code>setKey</code>、<code>crypt_cbc</code> 这些位置，往上追参数通常比硬啃 32 轮 SM4 轻松。native so 里如果是自实现，就搜 FK/S 盒常量；如果是调用 GmSSL、OpenSSL、Tongsuo 之类库，就先看导入和字符串。逆向的目标不是证明自己能手推 SM4，而是把它实际用的 key、iv、mode 和 padding 还原出来。</p>
+<h3>8.1 Python/Java/JS 编码坑</h3>
+<p>同一个字符串可能代表三种不同 key：</p>
+<pre><code>"0123456789abcdef"                       # 16 字节 ASCII key
+"30313233343536373839616263646566"       # 32 字符 hex 文本
+bytes.fromhex("303132...")               # 解码后又变回 ASCII key
+</code></pre>
+<p>前端 CryptoJS/sm-crypto 常见：</p>
+<pre><code>key = "0123456789abcdeffedcba9876543210"
+</code></pre>
+<p>这可能是 16 字节 hex key，也可能被当作 32 字节文本，取决于库 API。做题时必须看调用方式。</p>
+<h2>9. 代码实现：本篇离线脚本</h2>
+<p>下面保存为 <code>sm4_tool.py</code>。依赖 <code>gmssl</code>，支持 ECB/CBC，默认使用 gmssl 自带 padding。若需要 NoPadding，可以加 <code>--no-pad</code>，脚本会直接调用底层单块函数较麻烦；比赛中更常见做法是确保输入已经按库预期处理。这里保留 gmssl 高层接口，稳定优先。</p>
+<pre><code>#!/usr/bin/env python3
+import argparse
+from gmssl.sm4 import CryptSM4, SM4_DECRYPT, SM4_ENCRYPT
+
+
+def parse_key(s: str, raw: bool) -> bytes:
+    return s.encode() if raw else bytes.fromhex(s)
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="SM4 ECB/CBC gmssl tool")
+    ap.add_argument("data", help="hex data")
+    ap.add_argument("-k", "--key", required=True, help="hex key by default")
+    ap.add_argument("--key-raw", action="store_true", help="treat key as raw string")
+    ap.add_argument("--iv", help="hex IV for CBC")
+    ap.add_argument("--iv-raw", action="store_true")
+    ap.add_argument("-m", "--mode", choices=["ecb", "cbc"], default="cbc")
+    ap.add_argument("-d", "--decrypt", action="store_true")
+    args = ap.parse_args()
+
+    key = parse_key(args.key, args.key_raw)
+    if len(key) != 16:
+        raise ValueError("SM4 key must be 16 bytes")
+
+    data = bytes.fromhex(args.data)
+    crypt = CryptSM4()
+    crypt.set_key(key, SM4_DECRYPT if args.decrypt else SM4_ENCRYPT)
+
+    if args.mode == "ecb":
+        out = crypt.crypt_ecb(data)
+    else:
+        if args.iv is None:
+            raise ValueError("CBC needs --iv")
+        iv = parse_key(args.iv, args.iv_raw)
+        if len(iv) != 16:
+            raise ValueError("SM4 IV must be 16 bytes")
+        out = crypt.crypt_cbc(iv, data)
+    print(out.hex())
+
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+<p>示例：</p>
+<pre><code>python sm4_tool.py 666c61677b736d347d -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566
+python sm4_tool.py &#x3C;cipher_hex> -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566 -d
+python sm4_tool.py &#x3C;cipher_hex> -k 0123456789abcdef --key-raw --iv 1234567890abcdef --iv-raw -d
+</code></pre>
+<h2>10. 参考资料</h2>
+<ul>
+<li>GM/T 0002 SM4 相关标准信息：<a href="http://www.gmbz.org.cn/">http://www.gmbz.org.cn/</a></li>
+<li>IETF RFC 8998 中的 SM4 套件说明：<a href="https://www.rfc-editor.org/rfc/rfc8998">https://www.rfc-editor.org/rfc/rfc8998</a></li>
+<li>gmssl Python 项目：<a href="https://github.com/knitmesh/gmssl">https://github.com/knitmesh/gmssl</a></li>
+<li>OpenSSL EVP 文档：<a href="https://docs.openssl.org/master/man3/EVP%5C_EncryptInit/">https://docs.openssl.org/master/man3/EVP\_EncryptInit/</a></li>
+<li>GMSSL 文档与项目：<a href="https://github.com/guanzhi/GmSSL">https://github.com/guanzhi/GmSSL</a></li>
+<li>CSDN SM4 原理与代码分析：<a href="https://blog.csdn.net/qq%5C_37638441/article/details/121722493">https://blog.csdn.net/qq\_37638441/article/details/121722493</a></li>
+<li>博客园 SM4 算法介绍：<a href="https://www.cnblogs.com/JulianHuang/p/10151561.html">https://www.cnblogs.com/JulianHuang/p/10151561.html</a></li>
+</ul>
+<p>‍</p>28:["$","div",null,{"id":"article-content","className":"prose prose-slate dark:prose-invert prose-base md:prose-lg max-w-none text-slate-800 dark:text-slate-200 transition-colors duration-700 scroll-smooth","dangerouslySetInnerHTML":{"__html":"$2b"}}]
+29:["$","div",null,{"className":"mt-12 md:mt-16","children":["$","$L2c",null,{}]}]
+2a:["$","aside",null,{"className":"w-full lg:w-[320px] flex flex-col gap-6 flex-shrink-0","children":[["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl text-center","children":[["$","div",null,{"className":"w-20 h-20 mx-auto rounded-full p-1 bg-gradient-to-tr from-indigo-500 to-purple-500 shadow-md mb-4 transition-transform duration-500 hover:rotate-3","children":["$","img",null,{"src":"/img/zipai.png","alt":"avatar","className":"w-full h-full rounded-full object-cover bg-white"}]}],["$","h3",null,{"className":"text-xl font-bold text-slate-900 dark:text-white mb-2","children":"Tooki"}],"",["$","$L2d",null,{}]]}],["$","$L2e",null,{}],["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl","children":[["$","h3",null,{"className":"font-black text-slate-900 dark:text-white mb-4 border-l-4 border-indigo-500 pl-2 text-sm","children":"RECOMMENDED"}],["$","div",null,{"className":"space-y-4","children":[["$","$L2f","aes-des",{"href":"/posts/aes-des","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"AES 与 DES"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:22:10"}]]}],["$","$L2f","rc4",{"href":"/posts/rc4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"RC4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:12"}]]}],["$","$L2f","tea-family",{"href":"/posts/tea-family","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"TEA"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:25:28"}]]}]]}]]}],["$","$L30",null,{"toc":[{"level":1,"text":"SM4 算法整理","id":"sm4-算法整理"},{"level":2,"text":"图解：SM4 加密结构","id":"图解：sm4-加密结构"},{"level":2,"text":"实战识别","id":"实战识别"},{"level":2,"text":"1. 参数速查","id":"1.-参数速查"},{"level":2,"text":"2. 算法详解","id":"2.-算法详解"},{"level":3,"text":"2.1 轮函数","id":"2.1-轮函数"},{"level":3,"text":"2.2 加密线性变换 L","id":"2.2-加密线性变换-l"},{"level":3,"text":"2.3 密钥扩展","id":"2.3-密钥扩展"},{"level":3,"text":"2.4 解密","id":"2.4-解密"},{"level":2,"text":"3. 工作模式与 padding","id":"3.-工作模式与-padding"},{"level":2,"text":"4. 代码实现：Python 调用","id":"4.-代码实现：python-调用"},{"level":3,"text":"4.1 gmssl 调用 SM4","id":"4.1-gmssl-调用-sm4"},{"level":3,"text":"4.2 PyCryptodome 提醒","id":"4.2-pycryptodome-提醒"},{"level":2,"text":"5. 代码实现：C 语言 OpenSSL EVP 调用","id":"5.-代码实现：c-语言-openssl-evp-调用"},{"level":2,"text":"6. 例题里一般怎么用它","id":"6.-例题里一般怎么用它"},{"level":3,"text":"6.1 国密组合","id":"6.1-国密组合"},{"level":3,"text":"6.2 key/iv 编码混淆","id":"6.2-key/iv-编码混淆"},{"level":3,"text":"6.3 CBC bit flipping 和 padding oracle","id":"6.3-cbc-bit-flipping-和-padding-oracle"},{"level":3,"text":"6.4 逆向识别","id":"6.4-逆向识别"},{"level":2,"text":"7. 更完整的 SM4 细节","id":"7.-更完整的-sm4-细节"},{"level":3,"text":"7.1 常量表识别","id":"7.1-常量表识别"},{"level":3,"text":"7.2 字节序","id":"7.2-字节序"},{"level":3,"text":"7.3 ECB/CBC 的 padding 差异","id":"7.3-ecb/cbc-的-padding-差异"},{"level":2,"text":"8. 国密题排查清单","id":"8.-国密题排查清单"},{"level":3,"text":"8.1 Python/Java/JS 编码坑","id":"8.1-python/java/js-编码坑"},{"level":2,"text":"9. 代码实现：本篇离线脚本","id":"9.-代码实现：本篇离线脚本"},{"level":2,"text":"10. 参考资料","id":"10.-参考资料"}]}]]}]
+21:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+31:I[6869,[],"IconMark"]
+1e:null
+23:[["$","title","0",{"children":"Cyber Rain"}],["$","link","1",{"rel":"icon","href":"/img/wangyettubiao.png"}],["$","link","2",{"rel":"apple-touch-icon","href":"/img/wangyettubiao.png"}],["$","$L31","3",{}]]
