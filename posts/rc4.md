@@ -11,21 +11,24 @@ description: ''
 
 > RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。
 
-RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
+## 图解：RC4 整体流程
+
+  
+‍![RC4 KSA 与 PRGA 流程图](/uploads/20260514/renwu/rc4-flow.svg)
+
+这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
 
 ## 实战识别
 
 新手看 RC4 不用先背 KSA、PRGA 这两个名字，先在反编译结果里找“256”。RC4 基本会有一个 256 字节数组，先被填成 `0,1,2,...,255`，然后进入 256 次交换。这个形状在 IDA/Ghidra 里很显眼，通常能看到类似 `for (i = 0; i < 256; i++) s[i] = i;` 的初始化，后面紧跟着 `j = j + s[i] + key[...]` 和交换 `s[i] / s[j]`。
 
-认出来以后再看 key 从哪来。逆向里的 key 可能是硬编码字符串，也可能从用户输入、资源段、配置文件里拿出来；有些程序还会先对 key 做 MD5/SHA1，或者拼一个 salt。这里不要嫌麻烦，程序怎么处理 key，脚本里就要怎么处理。RC4 没有 block size，所以不用去找 padding，也不用纠结 ECB/CBC。真正要对齐的是 key、是否 drop 了前几字节密钥流，以及输入输出到底是 raw bytes、hex 还是 base64。
+认出来以后再看 key 从哪来。CTF 逆向里的 key 可能是硬编码字符串，也可能从用户输入、资源段、配置文件里拿出来；有些程序还会先对 key 做 MD5/SHA1，或者拼一个 salt。这里不要嫌麻烦，程序怎么处理 key，脚本里就要怎么处理。RC4 没有 block size，所以不用去找 padding，也不用纠结 ECB/CBC。真正要对齐的是 key、是否 drop 了前几字节密钥流，以及输入输出到底是 raw bytes、hex 还是 base64。
 
 做题时我一般按这个顺序来：先确认有没有 `S[256]`，再确认有没有 KSA 和 PRGA 两段循环，然后找 key，最后拿密文跑脚本。只要密钥流对上，RC4 的解密不会再有别的花活。
 
 ## 1. 参数速查
 
-项目内容类型对称流密码分组长度无固定分组，按字节产生密钥流常见密钥长度1~256 字节；
-
-PyCryptodome 文档给出的范围是 8~2048 bitIV / nonce原始 RC4 没有内置 IV核心结构256 字节状态数组 `S`，先 KSA 初始化，再 PRGA 输出密钥流安全状态已不推荐用于真实安全场景；CTF 中常见于老协议、弱加密、逆向题
+项目内容类型对称流密码分组长度无固定分组，按字节产生密钥流常见密钥长度1~256 字节；PyCryptodome 文档给出的范围是 8~2048 bitIV / nonce原始 RC4 没有内置 IV核心结构256 字节状态数组 `S`，先 KSA 初始化，再 PRGA 输出密钥流安全状态已不推荐用于真实安全场景；CTF 中常见于老协议、弱加密、逆向题
 
 RC4 胜在短，几十行就能写完，逆向时也很显眼。它不是分组密码，所以别往 ECB、CBC、PKCS#7 那套上硬靠；它干的事就是生成一串和明文等长的密钥流，然后 XOR：
 
@@ -401,3 +404,13 @@ if __name__ == "__main__":
 python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
 python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
 ```
+
+## 9. 参考资料
+
+* PyCryptodome ARC4 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html
+* RC4 原理说明：https://en.wikipedia.org/wiki/RC4
+* CTF Wiki RC4：https://ctf-wiki.org/crypto/streamcipher/rc4/
+* 博客园 RC4 算法学习笔记：https://www.cnblogs.com/goodhacker/p/3353465.html
+
+  
+‍

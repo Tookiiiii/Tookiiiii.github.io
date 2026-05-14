@@ -11,7 +11,12 @@ description: ''
 
 SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 `SM2/SM3/SM4` 这几个字样时，可以先把国密这条线拉出来。
 
-key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
+## 图解：SM4 加密结构
+
+  
+‍![SM4 轮函数与密钥扩展流程图](/uploads/20260514/renwu/sm4-flow.svg)
+
+这张图要同时看两条线。key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
 
 ## 实战识别
 
@@ -418,3 +423,16 @@ python sm4_tool.py 666c61677b736d347d -k 30313233343536373839616263646566 --iv 3
 python sm4_tool.py <cipher_hex> -k 30313233343536373839616263646566 --iv 31323334353637383930616263646566 -d
 python sm4_tool.py <cipher_hex> -k 0123456789abcdef --key-raw --iv 1234567890abcdef --iv-raw -d
 ```
+
+## 10. 参考资料
+
+* GM/T 0002 SM4 相关标准信息：http://www.gmbz.org.cn/
+* IETF RFC 8998 中的 SM4 套件说明：https://www.rfc-editor.org/rfc/rfc8998
+* gmssl Python 项目：https://github.com/knitmesh/gmssl
+* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
+* GMSSL 文档与项目：https://github.com/guanzhi/GmSSL
+* CSDN SM4 原理与代码分析：https://blog.csdn.net/qq\_37638441/article/details/121722493
+* 博客园 SM4 算法介绍：https://www.cnblogs.com/JulianHuang/p/10151561.html
+
+  
+‍

@@ -13,126 +13,125 @@ AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两�
 >
 > AES 则是现代标准里的主力，SPN 结构，128 bit 分组，密钥可以是 128/192/256 bit。把它们放在一起看，不是为了少写一篇，虽然也确实少写了一篇（），而是因为很多 CTF 坑都不在算法核心，而在“分组密码怎么被拿来用”这一层。
 
-## 1. 逆向里先看什么
+‍
 
-遇到 AES/DES 题，第一反应不要是把算法公式背一遍，而是先把程序里的加密链路还原出来。很多题根本不是自己实现 AES，而是调用库；这时重点就是往上追 key、iv、mode、padding 从哪来。
+## 实战识别
 
-比较稳的顺序是：
+如果是普通 Windows/Linux 程序，先看导入表和字符串。看到 `AES_set_encrypt_key`、`EVP_aes_128_cbc`、`CryptEncrypt`、`BCryptEncrypt`、`javax.crypto.Cipher`、`AES/CBC/PKCS5Padding` 这类东西，比去找 S 盒快得多。很多题根本不是自己实现 AES，而是调用库；这时重点就是往上追 key、iv、mode、padding 从哪来。
 
-1. 先看导入表和字符串，判断是不是库调用。
-2. 再找模式字符串和参数，比如 `CBC`、`ECB`、`PKCS5Padding`、`AES_set_encrypt_key`。
-3. 然后追 key、iv、nonce、密文和明文来源。
-4. 最后才考虑算法内部，看它是不是自实现 AES/DES 或者魔改。
-
-如果是普通 Windows/Linux 程序，看到 `AES_set_encrypt_key`、`EVP_aes_128_cbc`、`CryptEncrypt`、`BCryptEncrypt`、`javax.crypto.Cipher`、`AES/CBC/PKCS5Padding` 这类东西，比去找 S 盒快得多。库调用题可以在 `EVP_DecryptUpdate`、`CryptDecrypt`、`BCryptDecrypt`、`Cipher.doFinal` 这类函数附近下断，观察传进去的 key、iv、密文和返回后的明文。
-
-如果没有明显库调用，再考虑搜常量。AES 自实现里可能有 S 盒表，开头常见：
-
-```
-63 7c 77 7b f2 6b 6f c5 ...
-```
-
-DES 自实现会有一堆 IP、E、P、S-box 表，数字表很多，看着像“密密麻麻的置换表”。新手不需要一眼认完所有表，能判断“这里大概率是 AES/DES 自实现”就够了，后面可以先动态调试看输入输出。
+如果没有明显库调用，再考虑搜常量。AES 自实现里可能有 S 盒表，开头常见 `63 7c 77 7b f2 6b 6f c5 ...`；DES 自实现会有一堆 IP、E、P、S-box 表，数字表很多，看着像“密密麻麻的置换表”。新手不需要一眼认完所有表，能判断“这里大概率是 AES/DES 自实现”就够了，后面可以先动态调试看输入输出。
 
 实际做题时最重要的是复现链路。比如程序先 `md5(password)` 得到 16 字节 key，再从文件头取 16 字节 IV，最后 AES-CBC 解密资源，那脚本里也必须一模一样。少一步 hash、hex 解码方向错、IV 少截一字节，结果都会像“算法不对”，但其实只是参数没对齐。
 
-## 2. 总览对照
+所以 AES/DES 逆向题的优先级一般是：先判断是不是库调用，再找模式字符串和 key/iv，再看 padding，最后才考虑算法内部。如果只是普通 CTF crackme，很多时候根本不需要手搓 AES 轮函数，能把参数追出来就已经赢一半了。
 
-| 特性 | DES (Data Encryption Standard) | AES (Advanced Encryption Standard) |
-|------|--------------------------------|-----------------------------------|
-| 网络结构 | Feistel 网络 | SPN (Substitution-Permutation Network) |
-| 分组长度 | 64 bit (8 字节) | 128 bit (16 字节) |
-| 密钥长度 | 64 bit 输入 (实际有效 56 bit) | 128 / 192 / 256 bit |
-| 轮数 | 16 轮 | 10 / 12 / 14 轮 |
-| 非线性来源 | 8 个 S 盒 (6bit -> 4bit) | 字节 S 盒 (8bit -> 8bit) |
-| 扩散方式 | E 扩展、P 置换、多轮左右交换 | ShiftRows、MixColumns |
-| 解密方式 | 与加密相同，仅子密钥倒序使用 | 使用对应的逆变换 |
-| 安全状态 | 单 DES 已不安全 | 正确使用时仍是主流标准 |
+## 1. 总览对照
 
-它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。
+**特性DES (Data Encryption Standard)AES (Advanced Encryption Standard)****网络结构Feistel 网络SPN** (Substitution-Permutation Network)**分组长度**64 bit (8 字节)128 bit (16 字节)**密钥长度**64 bit 输入 (实际有效 **56 bit**)128 / 192 / 256 bit**轮数**16 轮10 / 12 / 14 轮**非线性来源**8 个 S 盒 ($6 bit \to 4 bit$)字节 S 盒 ($8 bit \to 8 bit$)**扩散方式**E 扩展、P 置换、多轮左右交换**ShiftRows** (行移位)、**MixColumns** (列混淆)**解密方式**与加密相同，仅子密钥倒序使用使用对应的**逆变换安全状态**单 DES **已不安全** (易受暴力破解)正确使用时仍是**主流标准**
 
-所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。逆向题也是一样，重点通常不是证明 AES 为什么安全，而是把程序怎么用 AES 这件事看明白。
+它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。
 
-## 3. 工作模式和 Padding
+## 2. 算法详解：分组密码共同框架
 
-核心算法只处理一个 block，遇到很长的内容时，通常会走这样一条路：
+```
+C = E(K, P)
+P = D(K, C)
+```
+
+核心算法都只是处理一个 block，遇到很长的内容时，通常会走这样一条路：
 
 ```
 明文 -> padding -> 切块 -> 工作模式 -> 密文
 ```
 
-AES 和 DES 的很多坑都在这条链上。AES-CBC 和 DES-CBC 的思路也很像，区别主要是分组大小：AES 是 16 字节，DES 是 8 字节。
+所以 DES-CBC 和 AES-CBC 的很多解密思路是相通的。bit flipping 也好，padding oracle 也好，本质都来自 CBC 的结构，不是来自 AES 或 DES 哪个 S 盒更玄学。区别主要是分组大小：DES 8 字节，AES 16 字节。
 
-### 3.1 ECB
+## 3. DES 原理
 
-ECB 是最直接的模式，每块明文独立加密：
+### 3.1 DES 参数
 
-```
-C_i = E_K(P_i)
-```
+项目内容分组长度64 bit输入密钥64 bit有效密钥56 bit轮数16结构Feistel
 
-它的问题也很明显：相同明文块会产生相同密文块，结构藏不住。看到密文里重复块很多，就该怀疑 ECB。后面常见玩法就是块替换、cut-and-paste token，AES 里还经常考 byte-at-a-time。
-
-### 3.2 CBC
-
-CBC 每一块在加密前，先和上一块密文异或：
+DES 总流程：
 
 ```
-C_i = E_K(P_i XOR C_{i-1})
-P_i = D_K(C_i) XOR C_{i-1}
+64 bit 明文
+ -> IP 初始置换
+ -> L0 || R0，各 32 bit
+ -> 16 轮 Feistel
+ -> R16 || L16
+ -> FP / IP^-1
+ -> 64 bit 密文
 ```
 
-第一块没有上一块密文，所以要引入 IV。也正因为这个结构，改 IV 可以影响第一块明文，改 `C_{i-1}` 可以影响 `P_i`。padding oracle 也是从这里来的：服务端把 padding 对错泄露出来，攻击者就能一点点逼出明文。
+### 3.2 Feistel 结构
 
-### 3.3 CTR
-
-CTR 不直接加密明文，而是加密 `nonce || counter`，生成密钥流后再和明文异或：
+第 i 轮：
 
 ```
-keystream_i = E_K(nonce || counter_i)
-C_i = P_i XOR keystream_i
+Li = R(i-1)
+Ri = L(i-1) XOR F(R(i-1), Ki)
 ```
 
-CTR 不需要 padding，但 nonce/counter 不能复用。复用后密钥流相同，两个密文一异或就会把密钥流抵消掉：
+Feistel 的关键是：`F` 函数不需要可逆，整体仍然能解密。解密时只要把子密钥倒序使用：
 
 ```
-C1 XOR C2 = P1 XOR P2
+K16, K15, ..., K1
 ```
 
-### 3.4 GCM
-
-GCM 常用于 AES，可以先理解成：
+### 3.3 DES 轮函数 F
 
 ```
-GCM = CTR 加密 + GHASH 认证
+R(32)
+ -> E 扩展置换，32 -> 48
+ -> XOR 子密钥 Ki，48 bit
+ -> S 盒替代，8 * (6 -> 4)
+ -> P 置换，32 bit
 ```
 
-它不只保护明文不被看见，也能发现密文有没有被改过。逆向里遇到 GCM 时，除了 key 和 nonce，还要注意 tag 和 AAD。GCM 也很怕 nonce 复用，严重时不只是泄露明文，还可能影响认证。
-
-### 3.5 Padding
-
-ECB/CBC 要求明文长度是分组长度倍数，所以需要 padding。简单说，padding 就是“凑数”。AES 的 block 是 16 字节，DES 的 block 是 8 字节；如果明文装不满最后一块，就要补到刚好对齐。
-
-PKCS#7 的规则最常见：
+S 盒输入 6 bit：
 
 ```
-缺 n 字节就补 n 个值为 n 的字节
+b1 b2 b3 b4 b5 b6
+row = b1b6
+col = b2b3b4b5
 ```
 
-比如 AES-CBC 还差 5 字节，就补 5 个 `0x05`。如果明文本来正好对齐，也要再补一整块。零填充、ISO/IEC 7816-4、NoPadding 也会遇到，但多数时候是解密后末尾不对劲，才回头检查具体是哪一种。
+S 盒是 DES 的主要非线性来源。
 
-| padding | 特点 |
-|---------|------|
-| PKCS#7 | 最常见，缺几字节就补几个对应值 |
-| Zero padding | 补 `\x00` |
-| ISO/IEC 7816-4 | 先补 `0x80`，再补 `0x00` |
-| NoPadding | 输入必须已经对齐 |
+### 3.4 DES 密钥调度
 
-## 4. AES 逆向识别
+1. 输入 64 bit key。
+2. PC-1 去掉奇偶校验位，得到 56 bit。
+3. 拆成 `C0`、`D0`，各 28 bit。
+4. 每轮循环左移 1 或 2 位。
+5. PC-2 选出 48 bit 轮密钥。
 
-AES 的 block 固定是 16 字节，key 可以是 16、24、32 字节，对应 AES-128、AES-192、AES-256。轮数分别是 10、12、14。逆向里最常见的是 AES-128，也就是 16 字节 key、10 轮。
+DES key 看似 8 字节，实际上每个字节里有 1 bit 是校验位，有效安全强度只有 56 bit。这也是 DES 今天不能再当正常安全算法用的根本原因之一。
 
-AES-128 加密流程大概是：
+### 3.5 3DES
+
+3DES / DES-EDE：
+
+```
+C = E_K3(D_K2(E_K1(P)))
+```
+
+3DES 的 key 常见两种长度：16 字节时一般是两密钥形式，实际按 `K1,K2,K1` 跑；24 字节时是三密钥形式，也就是 `K1,K2,K3`。
+
+3DES 比 DES 强，但 block 仍然只有 64 bit，新系统也不建议继续使用。
+
+## 4. AES 原理
+
+### 4.1 AES 参数
+
+项目AES-128AES-192AES-256分组长度128 bit128 bit128 bit密钥长度128 bit192 bit256 bitNk468Nr101214
+
+AES 状态是 4x4 字节矩阵。
+
+### 4.2 AES 加密流程
+
+AES-128：
 
 ```
 明文 state
@@ -149,92 +148,121 @@ AES-128 加密流程大概是：
  -> 密文
 ```
 
-最后一轮没有 `MixColumns`。这个点在看自实现 AES 时很有用，因为很多伪代码会表现出“前面循环 9 次，最后单独处理 1 次”的结构。
+最后一轮没有 `MixColumns`。
 
-几个常见识别点：
+### 4.3 SubBytes
 
-1. AES S 盒开头常见 `63 7c 77 7b f2 6b 6f c5`。
-2. 密钥扩展里会出现 `RotWord`、`SubWord`、`Rcon`，常见轮常量有 `01 02 04 08 10 20 40 80 1b 36`。
-3. `MixColumns` 经常会出现 `0x02`、`0x03`、`0x1b` 这些有限域乘法相关操作。
-4. AES-128 常见 10 轮结构，AES-192 是 12 轮，AES-256 是 14 轮。
-5. 如果每次处理 16 字节，并且前面有一大张 256 字节表，就很值得怀疑 AES。
+每个字节通过 AES S 盒替换。作用是引入非线性。逆变换是 `InvSubBytes`。
 
-需要注意的是，很多题不会把函数名留成 `aes_encrypt`。更常见的是一个普通函数里有循环、表查找、异或、16 字节状态变化。这个时候不要急着手算，先找输入输出：哪个 buffer 是明文，哪个 buffer 是密文，key 从哪来，最后比较的是哪一段。
+### 4.4 ShiftRows
 
-## 5. DES / 3DES 逆向识别
-
-DES 的 block 是 8 字节，key 输入看起来也是 8 字节，但每个字节里有 1 bit 是奇偶校验位，所以有效密钥只有 56 bit。它跑 16 轮 Feistel，解密时只要把子密钥倒序使用。
-
-DES 总流程可以粗略记成：
+状态矩阵按行循环左移：
 
 ```
-64 bit 明文
- -> IP 初始置换
- -> L0 || R0，各 32 bit
- -> 16 轮 Feistel
- -> R16 || L16
- -> FP / IP^-1
- -> 64 bit 密文
+row0: 左移 0
+row1: 左移 1
+row2: 左移 2
+row3: 左移 3
 ```
 
-轮函数里会有 E 扩展、S 盒、P 置换：
+它把字节打散到不同列，为 MixColumns 扩散做准备。
+
+### 4.5 MixColumns
+
+每一列会按固定矩阵混合。资料里经常说这是在 `GF(2^8)` 上做乘法，新手第一次看不用急着深究有限域，先把它理解成“把一列 4 个字节搅在一起”的扩散步骤就行：
 
 ```
-R(32)
- -> E 扩展置换，32 -> 48
- -> XOR 子密钥 Ki，48 bit
- -> S 盒替代，8 * (6 -> 4)
- -> P 置换，32 bit
+[02 03 01 01]
+[01 02 03 01]
+[01 01 02 03]
+[03 01 01 02]
 ```
 
-逆向里不需要一开始就背完 IP、E、P、PC-1、PC-2 每张表的内容。比较实用的判断方式是：看它是不是 8 字节一组、有没有 16 轮、有没有大量固定置换表和 8 个 S-box。只要判断出“这东西像 DES”，后面就可以围绕 key、mode、padding 去复现。
+作用是列内扩散。
 
-3DES / DES-EDE 可以简单记成：
+### 4.6 AddRoundKey
 
-```
-C = E_K3(D_K2(E_K1(P)))
-```
-
-3DES 的 key 常见两种长度：16 字节时一般是两密钥形式，实际按 `K1,K2,K1` 跑；24 字节时是三密钥形式，也就是 `K1,K2,K3`。3DES 比 DES 强，但 block 仍然只有 64 bit，新系统已经不建议继续使用。
-
-## 6. 复现时最容易错的地方
-
-做题时经常不是算法错，而是参数错。下面这些地方尤其容易踩坑：
-
-1. key 是原始字节，还是 hex 字符串。
-2. IV 是固定常量，还是从文件头、网络包、输入里截出来的。
-3. 模式到底是 ECB、CBC、CTR 还是 GCM。
-4. padding 是 PKCS#7、Zero padding，还是根本没有 padding。
-5. 明文或密文是不是又套了一层 base64、hex、URL encode。
-6. key 是不是经过 MD5、SHA1、SHA256、PBKDF 之类的派生。
-7. 程序初始化阶段有没有改全局变量，比如 TLS callback、init_array、JNI_OnLoad。
-8. 最终比较前是不是又做了异或、换表、压缩或反序。
-
-这里最典型的坑就是 hex：
+轮密钥和状态 XOR：
 
 ```
-key = b"00112233445566778899aabbccddeeff"              # 32 字节 ASCII，AES-256
-key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
+state = state XOR round_key
 ```
 
-看起来都是一串 key，但长度完全不一样。DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查编码和派生过程，不要马上怀疑算法。
+### 4.7 AES 密钥扩展
 
-逆向里最稳的路线是先把“调用点”找出来。库调用题在加解密函数附近下断，自实现题在最终比较前下断，看程序拿什么东西和你的输入结果比较。这样做不丢人，逆向本来就是能动态拿就别硬熬静态。
+AES 不直接重复使用原始 key，而是生成轮密钥。以 AES-128 为例，原始 key 是 16 字节，也就是 4 个 word；扩展后会得到 44 个 word，刚好够 11 组轮密钥使用。扩展时主要围着 `RotWord`、`SubWord` 和 `Rcon` 转，前者负责字节循环，后者负责过 S 盒和引入轮常量。
 
-## 7. 做题时怎么接下去
+## 5. DES 与 AES 的结构关联
 
-如果后面要继续写，不建议再往 AES 的数学细节里钻。更适合接一个完整的小例题，按下面这个顺序展开：
+### 5.1 Feistel vs SPN
 
-1. 先贴关键伪代码，说明为什么怀疑 AES/DES。
-2. 标出识别点，比如 S 盒、Rcon、16 字节循环、`EVP_aes_128_cbc()`。
-3. 追 key、iv、ciphertext 从哪里来。
-4. 检查有没有初始化函数、TLS callback、反调试或全局变量修改。
-5. 写 Python 脚本复现解密。
-6. 如果第一次解不出来，说明怎么排查 mode、padding、hex/base64、大小端这些问题。
+对照DESAES结构FeistelSPN状态L/R 两半4x4 字节矩阵轮函数是否必须可逆不需要需要可逆变换解密子密钥倒序逆变换非线性S 盒S 盒扩散E/P 置换和多轮交换ShiftRows/MixColumns
 
-也就是说，这篇文章到这里就够了：它负责讲“怎么认、怎么追、怎么复现”。真正让逆向能力涨起来的是后面的例题，而不是继续把有限域乘法推到更细。
+二者虽然结构不同，但都绕不开 Shannon 说的混淆和扩散。混淆主要靠 S 盒，让 key 和 ciphertext 的关系别那么线性；扩散则靠置换、行移位、列混合、多轮迭代，让明文里一点变化慢慢扩到很多位置。
 
-## 8. 代码实现：Python 调用留档
+### 5.2 AES 为什么替代 DES
+
+DES 被 AES 替代，不是因为 Feistel 这个想法突然不行了，而是参数撑不住了：56 bit 密钥太短，64 bit 分组也太小，暴力破解成本随着硬件发展越来越低。AES 把分组拉到 128 bit，密钥也给到 128/192/256 bit，同时软件和硬件实现都比较舒服，所以成了后来的主流。
+
+## 6. 工作模式
+
+### 6.1 ECB
+
+```
+C_i = E_K(P_i)
+```
+
+ECB 的问题一句话就够：相同明文块会产生相同密文块，结构藏不住。看到密文里重复块很多，就该怀疑 ECB。后面常见玩法就是块替换、cut-and-paste token，AES 里还经常考 byte-at-a-time。
+
+### 6.2 CBC
+
+```
+C_i = E_K(P_i XOR C_{i-1})
+P_i = D_K(C_i) XOR C_{i-1}
+```
+
+CBC 第一块用 IV，后面的每一块都会和上一块密文发生关系。也正因为这个结构，改 IV 可以影响第一块明文，改 `C_{i-1}` 可以影响 `P_i`。padding oracle 也是从这里长出来的：服务端把 padding 对错泄露出来，攻击者就能一点点逼出明文。
+
+### 6.3 CTR
+
+```
+keystream_i = E_K(nonce || counter_i)
+C_i = P_i XOR keystream_i
+```
+
+CTR 不需要 padding，但 nonce/counter 不能复用。复用后：
+
+```
+C1 XOR C2 = P1 XOR P2
+```
+
+### 6.4 GCM
+
+GCM 常用于 AES：
+
+```
+GCM = CTR 加密 + GHASH 认证
+```
+
+GCM 可以先理解成“加密的同时还带校验”。正常用的时候，它不只保护明文不被看见，也能发现密文有没有被改过；但它对 nonce 复用非常敏感，同一个 key 下 nonce 撞了，问题会比普通 CTR 复用还大。
+
+## 7. Padding
+
+ECB/CBC 要求明文长度是分组长度倍数。
+
+PKCS#7：
+
+```
+缺 n 字节就补 n 个值为 n 的字节
+```
+
+AES block size 是 16，DES block size 是 8。padding 这里不用背太多花样，先把 PKCS#7 认准。零填充、ISO/IEC 7816-4、NoPadding 也会遇到，但多数时候是解密后末尾不对劲，才回头检查具体是哪一种。
+
+padding特点PKCS#7最常见Zero padding补 `\x00`ISO/IEC 7816-4先补 `0x80` 再补 `0x00`NoPadding输入必须已对齐
+
+逆向里最稳的路线是先把“调用点”找出来。库调用题可以在 `EVP_DecryptUpdate`、`CryptDecrypt`、`BCryptDecrypt`、`Cipher.doFinal` 这类函数附近下断，观察传进去的 key、iv、密文和返回后的明文。自实现题可以在最终比较前下断，看程序拿什么东西和你的输入结果比较。这样做不丢人，逆向本来就是能动态拿就别硬熬静态。
+
+## 8. 代码实现：Python 调用
 
 安装：
 
@@ -293,7 +321,7 @@ assert dec.decrypt_and_verify(ct, tag) == pt
 
 GCM 解密必须验证 tag。只 `decrypt()` 不 `verify()` 等于丢掉认证。
 
-## 9. 代码实现：C 语言 OpenSSL EVP 调用留档
+## 9. 代码实现：C 语言 OpenSSL EVP 调用
 
 EVP 接口统一，AES/DES 只需要换 `EVP_aes_128_cbc()` 或 `EVP_des_cbc()`。
 
@@ -349,7 +377,7 @@ gcc aes_des_evp_demo.c -o aes_des_evp_demo -lcrypto
 
 OpenSSL 3.x 中 DES 可能受 legacy provider 影响。如果报 `unsupported`，先检查 provider 配置。
 
-## 10. 代码实现：AES/DES 离线工具脚本留档
+## 10. 代码实现：AES/DES 离线工具脚本
 
 保存为 `aes_des_tool.py`。依赖 `pycryptodome`，支持 AES、DES、3DES 的 ECB/CBC/CTR，以及 AES-GCM。
 
@@ -446,10 +474,59 @@ python aes_des_tool.py 666c61677b6465737d -a des -k 38627974656b6579 --iv 313233
 python aes_des_tool.py <cipher_hex> -a des -k 38627974656b6579 --iv 3132333435363738 -d
 ```
 
-## 11. 参考资料
+## 11. 魔改与做题时怎么想
+
+### 11.1 ECB 识别
+
+AES 按 16 字节切块，DES 按 8 字节切块：
+
+```
+blocks = [ct[i:i+16] for i in range(0, len(ct), 16)]
+print(len(blocks), len(set(blocks)))
+```
+
+重复块多就怀疑 ECB。AES 题按 16 字节切，DES 题按 8 字节切，切错了就会误判。
+
+### 11.2 CBC bit flipping
+
+```
+P_i = D_K(C_i) XOR C_{i-1}
+```
+
+修改 `C_{i-1}` 可以定点翻转 `P_i`。如果目标字段在第一块，就不要去动密文块，直接改 IV。很多权限伪造题就是把 `admin=0` 一类字段翻成 `admin=1`。
+
+### 11.3 Padding oracle
+
+padding oracle 这个词听起来吓人，其实先记住一句话就行：程序如果把“padding 对”和“padding 错”表现得不一样，攻击者就可能拿这个差异反推 CBC 明文。HTTP 状态码、错误信息、响应长度、响应时间、连接是否断开，都可能成为这种差异。新手阶段不一定要马上手搓完整攻击，但看到 CBC + padding 报错不同，要知道这是危险信号。
+
+### 11.4 CTR/GCM nonce 复用
+
+CTR 复用 nonce：
+
+```
+C1 XOR C2 = P1 XOR P2
+```
+
+CTR 复用 nonce 会复用密钥流，两个密文一 XOR 就会露出两个明文的 XOR。GCM 底层也用了 CTR 思路，所以 nonce 复用同样很危险；至于更深入的 tag 伪造，先知道“会比 CTR 更严重”就够了，后面遇到专题题再展开。
+
+### 11.5 key/iv 编码坑
+
+```
+key = b"00112233445566778899aabbccddeeff"              # 32 字节 ASCII，AES-256
+key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
+```
+
+DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查 MD5/SHA256/base64/hex。
+
+## 12. 参考资料
 
 * 参考博客 AES/DES 结构写法：https://goodapple.top/archives/162
 * NIST FIPS 197 AES：https://csrc.nist.gov/pubs/fips/197/final
 * NIST FIPS 46-3 DES：https://csrc.nist.gov/pubs/fips/46-3/final
 * PyCryptodome AES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/aes.html
 * PyCryptodome DES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/des.html
+* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
+* CTF Wiki 分组密码模式：https://ctf-wiki.org/crypto/blockcipher/mode/
+* The Cryptopals Crypto Challenges：https://cryptopals.com/
+
+‍
