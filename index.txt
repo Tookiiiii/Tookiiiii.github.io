@@ -11,7 +11,7 @@
 :HL["/_next/static/css/aafac1a61ecc7fcc.css","style"]
 :HL["/_next/static/css/46493229dd9d4e67.css","style"]
 :HL["/_next/static/css/6dd657f1797c2b17.css","style"]
-0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aafac1a61ecc7fcc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/46493229dd9d4e67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_246ccd __variable_4c40f6 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{},null,false,null]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"12dZLfSeH10zbBMF99ybZ"}
+0:{"P":null,"c":["",""],"q":"","i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",16],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aafac1a61ecc7fcc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/46493229dd9d4e67.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/css/6dd657f1797c2b17.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"__variable_246ccd __variable_4c40f6 __variable_5e8a36 h-full antialiased","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              #app-mount-root { opacity: 0; visibility: hidden; pointer-events: none; }\n              html.splash-seen #app-mount-root { opacity: 1 !important; visibility: visible !important; pointer-events: auto !important; }\n            "}}],["$","script",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              try {\n                if (sessionStorage.getItem('hasSeenSplash') === 'true') {\n                  document.documentElement.classList.add('splash-seen');\n                }\n              } catch (e) {}\n            "}}]]}],["$","body",null,{"className":"w-screen overflow-x-hidden min-h-full flex flex-col relative transition-colors duration-1000 bg-slate-50 dark:bg-slate-950 font-serif","children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{"children":[["$","div",null,{"id":"app-mount-root","className":"flex-1 flex flex-col transition-opacity duration-1000","children":[["$","div",null,{"className":"fixed inset-0 z-[-1] pointer-events-none overflow-hidden","children":[["$","$L5",null,{}],["$","div",null,{"className":"absolute inset-0 z-[-9] bg-white/30 dark:bg-slate-900/40 backdrop-blur-md transition-colors duration-1000"}],["$","div",null,{"className":"absolute inset-0 z-[-8] opacity-60 dark:opacity-20 mix-blend-color transition-opacity duration-1000 transform-gpu","style":{"background":"linear-gradient(-45deg, #38bdf8, #5eead4, #f472b6, #facc15)","backgroundSize":"400% 400%","animation":"gradientMove 15s ease infinite"}}],["$","div",null,{"className":"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-white/40 dark:bg-indigo-900/20 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-indigo-400/30 dark:bg-purple-900/30 blur-[100px] rounded-full z-[-7] md:mix-blend-overlay"}],["$","div",null,{"className":"hidden md:block absolute inset-0 w-full h-full","children":["$","$L6",null,{}]}]]}],["$","div",null,{"className":"hidden md:block","children":["$","$L7",null,{}]}],["$","div",null,{"className":"relative z-10 flex-1 flex flex-col","children":["$","$L8",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L9",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],"$La","$Lb","$Lc","$Ld"]}],"$Le"]}],"$Lf"]}]}]]}]]}],{"children":["$L10",{},null,false,null]},null,false,null],"$L11",false]],"m":"$undefined","G":["$12",[]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"QvZUHdRQvm5Sef6ic47zM"}
 13:I[3976,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
 14:I[1481,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
 15:I[9126,["17","static/chunks/17-85474a462148c328.js","177","static/chunks/app/layout-1beacdf1cc0ec502.js"],"default"]
@@ -30,17 +30,14 @@ c:["$","div",null,{"className":"md:hidden block","children":["$","$L15",null,{}]
 d:["$","div",null,{"className":"hidden md:block","children":["$","$L16",null,{}]}]
 e:["$","style",null,{"suppressHydrationWarning":true,"dangerouslySetInnerHTML":{"__html":"\n              @keyframes gradientMove { \n                0% { background-position: 0% 50%; } \n                50% { background-position: 100% 50%; } \n                100% { background-position: 0% 50%; } \n              }\n            "}}]
 f:["$","div",null,{"className":"hidden md:block","children":["$","$L17",null,{}]}]
-1c:T494c,
+1c:T4448,
 # TEA 家族：TEA、XTEA、XXTEA 原理与逆向识别
 
 > TEA 这一家子很适合放在一起看。最早的 TEA 追求的就是“小”，核心操作只有加法、异或和移位；XTEA 在它的基础上改了 key 的使用方式；XXTEA 又把两个 32 位 word 的处理扩展到一整串 word。逆向题喜欢它们也不奇怪，常量醒目，代码不长，稍微改几个参数就能变成一道新题。
 
-## 图解：TEA 家族演进
+‍
 
-  
-‍![TEA、XTEA、XXTEA 家族关系图](/uploads/20260514/renwu/tea-family-flow.svg)
-
-这张图可以先当作“第一眼判断表”。TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
+TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
 
 ## 实战识别
 
@@ -575,29 +572,15 @@ void xxtea_encrypt(uint32_t *v, int n, const uint32_t key[4]) {
 
 真正卡人的通常不是公式本身，而是实现细节。Python 忘记 `& 0xffffffff`、大小端用错、把 hex 文本当 ASCII、TEA/XTEA 轮数口径没对上、XXTEA 忘记长度 word，这些都很常见。还有一个坑是把 XXTEA 当成 8 字节 ECB 去切，结果当然越解越怪，因为它本来处理的是整个 word 数组。
 
-## 10. 参考资料
-
-* TEA 原始说明页：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/djw-rmn-tea.html
-* TEA/XTEA 相关论文索引：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/
-* CTF Wiki TEA/XTEA/XXTEA：https://ctf-wiki.org/crypto/blockcipher/tea/
-* XXTEA 说明：https://www.movable-type.co.uk/scripts/tea-block.html
-* Python xxtea 包：https://pypi.org/project/xxtea/
-* CSDN TEA/XTEA/XXTEA 系列笔记：https://blog.csdn.net/qq\_43390703/article/details/105541782
-* 博客园 TEA 算法分析：https://www.cnblogs.com/shangdawei/p/4600697.html
-
   
-‍
-1d:T3afe,
+‍1d:T36a7,
 # SM4 算法整理
 
 SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 `SM2/SM3/SM4` 这几个字样时，可以先把国密这条线拉出来。
 
-## 图解：SM4 加密结构
+‍
 
-  
-‍![SM4 轮函数与密钥扩展流程图](/uploads/20260514/renwu/sm4-flow.svg)
-
-这张图要同时看两条线。key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
+key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
 
 ## 实战识别
 
@@ -1005,29 +988,16 @@ python sm4_tool.py <cipher_hex> -k 30313233343536373839616263646566 --iv 3132333
 python sm4_tool.py <cipher_hex> -k 0123456789abcdef --key-raw --iv 1234567890abcdef --iv-raw -d
 ```
 
-## 10. 参考资料
+## 
 
-* GM/T 0002 SM4 相关标准信息：http://www.gmbz.org.cn/
-* IETF RFC 8998 中的 SM4 套件说明：https://www.rfc-editor.org/rfc/rfc8998
-* gmssl Python 项目：https://github.com/knitmesh/gmssl
-* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
-* GMSSL 文档与项目：https://github.com/guanzhi/GmSSL
-* CSDN SM4 原理与代码分析：https://blog.csdn.net/qq\_37638441/article/details/121722493
-* 博客园 SM4 算法介绍：https://www.cnblogs.com/JulianHuang/p/10151561.html
-
-  
-‍
-1e:T3862,
+‍1e:T34f8,
 # RC4 / ARC4 算法整理
 
 > RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。
 
-## 图解：RC4 整体流程
+‍
 
-  
-‍![RC4 KSA 与 PRGA 流程图](/uploads/20260514/renwu/rc4-flow.svg)
-
-这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
+RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
 
 ## 实战识别
 
@@ -1416,16 +1386,9 @@ python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
 python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
 ```
 
-## 9. 参考资料
+## 
 
-* PyCryptodome ARC4 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html
-* RC4 原理说明：https://en.wikipedia.org/wiki/RC4
-* CTF Wiki RC4：https://ctf-wiki.org/crypto/streamcipher/rc4/
-* 博客园 RC4 算法学习笔记：https://www.cnblogs.com/goodhacker/p/3353465.html
-
-  
-‍
-1f:T469c,
+‍1f:T469c,
 AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两个时代的标准。DES 是 1970s 的产物，AES 是 2000s 后真正大量使用的主力。把它们放在一起讲，是因为逆向里很多工作不是“手推 AES”，而是识别程序用了什么库、什么模式、key/iv 从哪来，然后把同样的流程搬到 Python 里复现。
 
 > DES 现在更像一个经典教材例子，有点像学汇编时绕不开 16 位实模式：不一定天天用，但很适合拿来理解结构。它是 Feistel 网络，64 bit 分组，16 轮，有效密钥 56 bit。

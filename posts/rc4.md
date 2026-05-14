@@ -11,12 +11,9 @@ description: ''
 
 > RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。
 
-## 图解：RC4 整体流程
+‍
 
-  
-‍![RC4 KSA 与 PRGA 流程图](/uploads/20260514/renwu/rc4-flow.svg)
-
-这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
+RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
 
 ## 实战识别
 
@@ -405,12 +402,6 @@ python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
 python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
 ```
 
-## 9. 参考资料
+## 
 
-* PyCryptodome ARC4 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html
-* RC4 原理说明：https://en.wikipedia.org/wiki/RC4
-* CTF Wiki RC4：https://ctf-wiki.org/crypto/streamcipher/rc4/
-* 博客园 RC4 算法学习笔记：https://www.cnblogs.com/goodhacker/p/3353465.html
-
-  
 ‍

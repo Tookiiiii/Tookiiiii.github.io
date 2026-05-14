@@ -11,12 +11,9 @@ description: ''
 
 > TEA 这一家子很适合放在一起看。最早的 TEA 追求的就是“小”，核心操作只有加法、异或和移位；XTEA 在它的基础上改了 key 的使用方式；XXTEA 又把两个 32 位 word 的处理扩展到一整串 word。逆向题喜欢它们也不奇怪，常量醒目，代码不长，稍微改几个参数就能变成一道新题。
 
-## 图解：TEA 家族演进
+‍
 
-  
-‍![TEA、XTEA、XXTEA 家族关系图](/uploads/20260514/renwu/tea-family-flow.svg)
-
-这张图可以先当作“第一眼判断表”。TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
+TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
 
 ## 实战识别
 
@@ -550,16 +547,6 @@ void xxtea_encrypt(uint32_t *v, int n, const uint32_t key[4]) {
 ```
 
 真正卡人的通常不是公式本身，而是实现细节。Python 忘记 `& 0xffffffff`、大小端用错、把 hex 文本当 ASCII、TEA/XTEA 轮数口径没对上、XXTEA 忘记长度 word，这些都很常见。还有一个坑是把 XXTEA 当成 8 字节 ECB 去切，结果当然越解越怪，因为它本来处理的是整个 word 数组。
-
-## 10. 参考资料
-
-* TEA 原始说明页：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/djw-rmn-tea.html
-* TEA/XTEA 相关论文索引：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/
-* CTF Wiki TEA/XTEA/XXTEA：https://ctf-wiki.org/crypto/blockcipher/tea/
-* XXTEA 说明：https://www.movable-type.co.uk/scripts/tea-block.html
-* Python xxtea 包：https://pypi.org/project/xxtea/
-* CSDN TEA/XTEA/XXTEA 系列笔记：https://blog.csdn.net/qq\_43390703/article/details/105541782
-* 博客园 TEA 算法分析：https://www.cnblogs.com/shangdawei/p/4600697.html
 
   
 ‍

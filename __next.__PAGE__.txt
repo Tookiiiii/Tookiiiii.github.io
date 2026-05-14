@@ -14,17 +14,14 @@ f:I[4267,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3
 14:I[484,[],"OutletBoundary"]
 15:"$Sreact.suspense"
 :HL["/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","image"]
-6:T494c,
+6:T4448,
 # TEA 家族：TEA、XTEA、XXTEA 原理与逆向识别
 
 > TEA 这一家子很适合放在一起看。最早的 TEA 追求的就是“小”，核心操作只有加法、异或和移位；XTEA 在它的基础上改了 key 的使用方式；XXTEA 又把两个 32 位 word 的处理扩展到一整串 word。逆向题喜欢它们也不奇怪，常量醒目，代码不长，稍微改几个参数就能变成一道新题。
 
-## 图解：TEA 家族演进
+‍
 
-  
-‍![TEA、XTEA、XXTEA 家族关系图](/uploads/20260514/renwu/tea-family-flow.svg)
-
-这张图可以先当作“第一眼判断表”。TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
+TEA 和 XTEA 都是 64 bit block，差别主要在 key 下标怎么取；XXTEA 则不再是两个 word 对着转，而是把整个 `uint32_t` 数组作为一个大块来搅。
 
 ## 实战识别
 
@@ -559,29 +556,15 @@ void xxtea_encrypt(uint32_t *v, int n, const uint32_t key[4]) {
 
 真正卡人的通常不是公式本身，而是实现细节。Python 忘记 `& 0xffffffff`、大小端用错、把 hex 文本当 ASCII、TEA/XTEA 轮数口径没对上、XXTEA 忘记长度 word，这些都很常见。还有一个坑是把 XXTEA 当成 8 字节 ECB 去切，结果当然越解越怪，因为它本来处理的是整个 word 数组。
 
-## 10. 参考资料
-
-* TEA 原始说明页：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/djw-rmn-tea.html
-* TEA/XTEA 相关论文索引：https://www.cl.cam.ac.uk/ftp/papers/djw-rmn/
-* CTF Wiki TEA/XTEA/XXTEA：https://ctf-wiki.org/crypto/blockcipher/tea/
-* XXTEA 说明：https://www.movable-type.co.uk/scripts/tea-block.html
-* Python xxtea 包：https://pypi.org/project/xxtea/
-* CSDN TEA/XTEA/XXTEA 系列笔记：https://blog.csdn.net/qq\_43390703/article/details/105541782
-* 博客园 TEA 算法分析：https://www.cnblogs.com/shangdawei/p/4600697.html
-
   
-‍
-7:T3afe,
+‍7:T36a7,
 # SM4 算法整理
 
 SM4 是国密体系里的对称分组算法，分组长度和密钥长度都是 128 bit。CTF 里它经常和 SM2、SM3 一起出现，场景也比较杂，可能是流量包，也可能是 Java/Python 业务代码、安卓逆向、接口加密。看到 `SM2/SM3/SM4` 这几个字样时，可以先把国密这条线拉出来。
 
-## 图解：SM4 加密结构
+‍
 
-  
-‍![SM4 轮函数与密钥扩展流程图](/uploads/20260514/renwu/sm4-flow.svg)
-
-这张图要同时看两条线。key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
+key 那边会扩展出 32 个轮密钥；数据那边把 16 字节明文拆成 `X0..X3`，做 32 轮迭代，最后按 `X35 X34 X33 X32` 反序输出。解密不用另写一套结构，只要把轮密钥倒过来用。
 
 ## 实战识别
 
@@ -989,29 +972,16 @@ python sm4_tool.py <cipher_hex> -k 30313233343536373839616263646566 --iv 3132333
 python sm4_tool.py <cipher_hex> -k 0123456789abcdef --key-raw --iv 1234567890abcdef --iv-raw -d
 ```
 
-## 10. 参考资料
+## 
 
-* GM/T 0002 SM4 相关标准信息：http://www.gmbz.org.cn/
-* IETF RFC 8998 中的 SM4 套件说明：https://www.rfc-editor.org/rfc/rfc8998
-* gmssl Python 项目：https://github.com/knitmesh/gmssl
-* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
-* GMSSL 文档与项目：https://github.com/guanzhi/GmSSL
-* CSDN SM4 原理与代码分析：https://blog.csdn.net/qq\_37638441/article/details/121722493
-* 博客园 SM4 算法介绍：https://www.cnblogs.com/JulianHuang/p/10151561.html
-
-  
-‍
-8:T3862,
+‍8:T34f8,
 # RC4 / ARC4 算法整理
 
 > RC4 在题里经常也会写成 ARC4，名字不一样，做题时基本按同一个东西看就行。它属于那种“原理不长，但很适合出逆向题”的算法：一个 256 字节的状态数组，被 key 打乱以后不断生成密钥流，最后和数据异或得到密文。
 
-## 图解：RC4 整体流程
+‍
 
-  
-‍![RC4 KSA 与 PRGA 流程图](/uploads/20260514/renwu/rc4-flow.svg)
-
-这张图主要是帮忙建立第一印象。RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
+RC4 不是直接拿 key 去异或明文，而是先用 key 把 `S[256]` 这张表洗一遍，后面再从这张表里持续生成密钥流。最后一步才是异或。因为异或本身可逆，所以同一套流程既能加密也能解密。
 
 ## 实战识别
 
@@ -1400,16 +1370,9 @@ python rc4_tool.py 00112233 -k secret --in-fmt hex --out-fmt hex
 python rc4_tool.py 2bbf... -k 736563726574 --key-hex --drop 3072
 ```
 
-## 9. 参考资料
+## 
 
-* PyCryptodome ARC4 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/arc4.html
-* RC4 原理说明：https://en.wikipedia.org/wiki/RC4
-* CTF Wiki RC4：https://ctf-wiki.org/crypto/streamcipher/rc4/
-* 博客园 RC4 算法学习笔记：https://www.cnblogs.com/goodhacker/p/3353465.html
-
-  
-‍
-9:T469c,
+‍9:T469c,
 AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两个时代的标准。DES 是 1970s 的产物，AES 是 2000s 后真正大量使用的主力。把它们放在一起讲，是因为逆向里很多工作不是“手推 AES”，而是识别程序用了什么库、什么模式、key/iv 从哪来，然后把同样的流程搬到 Python 里复现。
 
 > DES 现在更像一个经典教材例子，有点像学汇编时绕不开 16 位实模式：不一定天天用，但很适合拿来理解结构。它是 Feistel 网络，64 bit 分组，16 轮，有效密钥 56 bit。
@@ -1921,7 +1884,7 @@ key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
 
 DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查 MD5/SHA256/base64/hex。
 
-‍0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L3",null,{}],["$","$L4",null,{"children":["$","div",null,{"className":"w-full max-w-6xl mx-auto mt-24 sm:mt-28 px-4 sm:px-6 lg:px-10 relative z-10","children":[["$","$L5",null,{"posts":[{"slug":"tea-family","title":"TEA","date":"2026-05-13 00:25:28","tags":[],"mood":"","cover":"/uploads/20260514/1317e7b691244dd9b6f7fe84ae72b314.jpg","description":"","content":"$6","formattedDate":"2026.05.13 00:25"},{"slug":"sm4","title":"SM4","date":"2026-05-13 00:24:56","tags":[],"mood":"","cover":"/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","description":"","content":"$7","formattedDate":"2026.05.13 00:24"},{"slug":"rc4","title":"RC4","date":"2026-05-13 00:24:12","tags":[],"mood":"","cover":"/uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png","description":"","content":"$8","formattedDate":"2026.05.13 00:24"},{"slug":"aes-des","title":"AES 与 DES","date":"2026-05-13 00:22:10","tags":[],"mood":"","cover":"/uploads/20260514/a0888eef7ba44e5196744dafb424ac06.png","description":"","content":"$9","formattedDate":"2026.05.13 00:22"},{"slug":"welcome","title":"博客迁移到新框架","date":"2026-05-11 23:00:00","tags":["Blog","Next.js","Migration"],"mood":"","cover":"/uploads/20260512/d6717369cfe04050a3f2056accec7094.jpeg","description":"Tooki 的博客已切换到新的 Next.js 框架","content":"\r\n这是一篇迁移占位文章。\r\n\r\n‍","formattedDate":"2026.05.11 23:00"}]}],"$La"]}]}]]}]}],null,"$Lb"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"12dZLfSeH10zbBMF99ybZ"}
+‍0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","div",null,{"className":"min-h-screen relative pb-10","children":[["$","$L3",null,{}],["$","$L4",null,{"children":["$","div",null,{"className":"w-full max-w-6xl mx-auto mt-24 sm:mt-28 px-4 sm:px-6 lg:px-10 relative z-10","children":[["$","$L5",null,{"posts":[{"slug":"tea-family","title":"TEA","date":"2026-05-13 00:25:28","tags":[],"mood":"","cover":"/uploads/20260514/1317e7b691244dd9b6f7fe84ae72b314.jpg","description":"","content":"$6","formattedDate":"2026.05.13 00:25"},{"slug":"sm4","title":"SM4","date":"2026-05-13 00:24:56","tags":[],"mood":"","cover":"/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","description":"","content":"$7","formattedDate":"2026.05.13 00:24"},{"slug":"rc4","title":"RC4","date":"2026-05-13 00:24:12","tags":[],"mood":"","cover":"/uploads/20260514/0763fc96b2d941b791efbb02df0cfeae.png","description":"","content":"$8","formattedDate":"2026.05.13 00:24"},{"slug":"aes-des","title":"AES 与 DES","date":"2026-05-13 00:22:10","tags":[],"mood":"","cover":"/uploads/20260514/a0888eef7ba44e5196744dafb424ac06.png","description":"","content":"$9","formattedDate":"2026.05.13 00:22"},{"slug":"welcome","title":"博客迁移到新框架","date":"2026-05-11 23:00:00","tags":["Blog","Next.js","Migration"],"mood":"","cover":"/uploads/20260512/d6717369cfe04050a3f2056accec7094.jpeg","description":"Tooki 的博客已切换到新的 Next.js 框架","content":"\r\n这是一篇迁移占位文章。\r\n\r\n‍","formattedDate":"2026.05.11 23:00"}]}],"$La"]}]}]]}]}],null,"$Lb"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"QvZUHdRQvm5Sef6ic47zM"}
 a:["$","main",null,{"className":"flex flex-col gap-6 w-full mt-6","children":[["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-7 flex flex-col","children":["$","$Lc",null,{"postCount":5,"chatterCount":1,"photoCount":3}]}],["$","div",null,{"className":"col-span-1 lg:col-span-5 flex flex-col","children":["$","$Ld",null,{}]}]]}],["$","div",null,{"className":"w-full mt-[-10px]","children":["$","$Le",null,{}]}],["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-12 gap-6 w-full","children":[["$","div",null,{"className":"col-span-1 lg:col-span-4 flex flex-col min-h-[300px]","children":["$","$Lf",null,{"posts":["$0:rsc:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:0","$0:rsc:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:1","$0:rsc:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:2","$0:rsc:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:3","$0:rsc:props:children:0:props:children:props:children:1:props:children:props:children:0:props:posts:4"]}]}],["$","div",null,{"className":"col-span-1 lg:col-span-8 flex flex-col gap-6","children":[["$","$L10",null,{"href":"/photowall","className":"w-full rounded-3xl bg-white/40 dark:bg-slate-800/50 backdrop-blur-md border border-white/40 dark:border-white/10 shadow-xl overflow-hidden transition-all duration-700 hover:scale-[1.02] relative group min-h-[200px] sm:min-h-[220px] flex-shrink-0","children":[["$","img",null,{"src":"/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg","className":"w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-105 opacity-90"}],["$","div",null,{"className":"absolute inset-0 bg-black/30 dark:bg-black/50 group-hover:bg-black/10 transition-colors duration-500"}],["$","div",null,{"className":"absolute bottom-4 left-4 sm:bottom-6 sm:left-6 right-6","children":[["$","h3",null,{"className":"text-2xl sm:text-3xl font-bold text-white mb-1 sm:mb-2 underline decoration-pink-400","children":"嗯 ? 嗯~"}],["$","p",null,{"className":"text-white/90 text-sm sm:text-lg line-clamp-1","children":" 如 数 家 珍"}]]}]]}],["$","div",null,{"className":"grid grid-cols-1 sm:grid-cols-3 gap-6 w-full flex-1","children":[["$","div",null,{"className":"sm:col-span-2 flex flex-col min-h-[200px]","children":["$","$L11",null,{"chatters":[{"slug":"2026-05-11-blog-refresh","title":"新博客框架替换记录","description":"从旧静态博客切到新的 Next.js 博客框架。","cover":"/uploads/20260512/d2ab38c8744b4bac944f7904133fbad9.png","date":"2026-05-11 23:05:00","formattedDate":"2026.05.11 23:05"}]}]}],["$","div",null,{"className":"sm:col-span-1 flex flex-col min-h-[120px]","children":["$","$L12",null,{}]}]]}]]}]]}],["$","div",null,{"className":"w-full mt-4","children":["$","$L13",null,{}]}]]}]
 b:["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]
 16:null
