@@ -27,7 +27,7 @@ AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两�
 
 ## 1. 总览对照
 
-**特性DES (Data Encryption Standard)AES (Advanced Encryption Standard)****网络结构Feistel 网络SPN** (Substitution-Permutation Network)**分组长度**64 bit (8 字节)128 bit (16 字节)**密钥长度**64 bit 输入 (实际有效 **56 bit**)128 / 192 / 256 bit**轮数**16 轮10 / 12 / 14 轮**非线性来源**8 个 S 盒 ($6 bit \to 4 bit$)字节 S 盒 ($8 bit \to 8 bit$)**扩散方式**E 扩展、P 置换、多轮左右交换**ShiftRows** (行移位)、**MixColumns** (列混淆)**解密方式**与加密相同，仅子密钥倒序使用使用对应的**逆变换安全状态**单 DES **已不安全** (易受暴力破解)正确使用时仍是**主流标准**
+**特性DES (Data Encryption Standard)AES (Advanced Encryption Standard)网络结构Feistel 网络SPN** (Substitution-Permutation Network)**分组长度**64 bit (8 字节)128 bit (16 字节)**密钥长度**64 bit 输入 (实际有效 **56 bit**)128 / 192 / 256 bit**轮数**16 轮10 / 12 / 14 轮**非线性来源**8 个 S 盒 ($6 bit \to 4 bit$)字节 S 盒 ($8 bit \to 8 bit$)**扩散方式**E 扩展、P 置换、多轮左右交换**ShiftRows** (行移位)、**MixColumns** (列混淆)**解密方式**与加密相同，仅子密钥倒序使用使用对应的**逆变换安全状态**单 DES **已不安全** (易受暴力破解)正确使用时仍是**主流标准**
 
 它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。
 
@@ -517,16 +517,5 @@ key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
 ```
 
 DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查 MD5/SHA256/base64/hex。
-
-## 12. 参考资料
-
-* 参考博客 AES/DES 结构写法：https://goodapple.top/archives/162
-* NIST FIPS 197 AES：https://csrc.nist.gov/pubs/fips/197/final
-* NIST FIPS 46-3 DES：https://csrc.nist.gov/pubs/fips/46-3/final
-* PyCryptodome AES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/aes.html
-* PyCryptodome DES 文档：https://pycryptodome.readthedocs.io/en/stable/src/cipher/des.html
-* OpenSSL EVP 文档：https://docs.openssl.org/master/man3/EVP\_EncryptInit/
-* CTF Wiki 分组密码模式：https://ctf-wiki.org/crypto/blockcipher/mode/
-* The Cryptopals Crypto Challenges：https://cryptopals.com/
 
 ‍
