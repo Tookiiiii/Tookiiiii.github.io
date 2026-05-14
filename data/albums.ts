@@ -7,7 +7,7 @@ export const albums: Album[] = [
     "id": "blog-assets",
     "title": "嗯 ? 嗯~",
     "description": " 如 数 家 珍",
-    "cover": "/uploads/20260512/eae48c20068f4da6b2d984bf9ad64a90.jpeg",
+    "cover": "/uploads/20260514/ec1a572d9d9a4a88bed46b767557e737.jpeg",
     "date": "2026.05",
     "photos": [
       {
