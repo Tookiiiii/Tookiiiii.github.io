@@ -65,6 +65,8 @@ export const siteConfig = {
 
   // 👇 【新增】：全局背景弹幕配置
   danmakuList: [
+  "三巡千里目 , 一步半鬼神 ! ! !",
+  "无敌仓库大王 ! !",
   "reerreerreerreer",
   "缭乱！虹ヶ咲！！！",
   "popipapapipopa",
