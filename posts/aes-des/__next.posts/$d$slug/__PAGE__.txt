@@ -45,19 +45,28 @@ f:I[8500,["17","static/chunks/17-85474a462148c328.js","287","static/chunks/287-3
                     .prose p code, .prose li code { padding: 0.2rem 0.4rem !important; font-size: 0.9em !important; border-radius: 0.375rem !important;}
                     .prose img { margin: 2rem auto !important; border-radius: 2rem !important; box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important; }
                   }
-                0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen relative pb-20","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","main",null,{"className":"w-[95%] md:w-[90%] max-w-6xl mx-auto mt-24 md:mt-28 flex flex-col lg:flex-row gap-6 md:gap-8 relative z-10","children":[["$","article",null,{"className":"flex-1 bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/40 dark:border-white/10 overflow-hidden transition-colors duration-700","children":[["$","div",null,{"className":"w-full aspect-video bg-slate-200 dark:bg-slate-700 relative group","children":["$","img",null,{"src":"/uploads/20260514/a0888eef7ba44e5196744dafb424ac06.png","alt":"封面","className":"w-full h-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"}]}],["$","div",null,{"className":"p-5 md:p-12 relative","children":[["$","$L4",null,{}],["$","header",null,{"className":"mb-6 md:mb-8 border-b border-slate-300/50 dark:border-slate-700 pb-5 md:pb-6 relative","children":[["$","h1",null,{"className":"text-2xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight transition-colors duration-700 pr-16 md:pr-24 leading-snug","children":"AES 与 DES"}],["$","div",null,{"className":"flex flex-wrap items-center gap-2 md:gap-3","children":[["$","div",null,{"className":"flex items-center gap-1.5 md:gap-2 text-indigo-700 dark:text-indigo-400 font-bold bg-white/30 dark:bg-slate-900/50 px-3 md:px-4 py-1.5 md:py-2 rounded-full w-max text-xs md:text-sm transition-colors duration-700 shadow-sm border border-white/20 dark:border-white/5","children":[["$","svg",null,{"className":"w-3 h-3 md:w-4 md:h-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"}]}],"2026-05-13 00:22:10"]}],[]]}]]}],["$","div",null,{"className":"relative","children":[["$","style",null,{"children":"$5"}],"$L6"]}],"$L7"]}]]}],"$L8"]}]}]]}],["$L9"],"$La"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"fla591DxhhTEOt2U_bg4P"}
-b:T54cd,<p>AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两个时代的标准。DES 是 1970s 的产物，AES 是 2000s 后真正大量使用的主力。把它们放在一起讲，是因为逆向里很多工作不是“手推 AES”，而是识别程序用了什么库、什么模式、key/iv 从哪来，然后把同样的流程搬到 Python 里复现。</p>
+                0:{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen relative pb-20","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","main",null,{"className":"w-[95%] md:w-[90%] max-w-6xl mx-auto mt-24 md:mt-28 flex flex-col lg:flex-row gap-6 md:gap-8 relative z-10","children":[["$","article",null,{"className":"flex-1 bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl shadow-2xl border border-white/40 dark:border-white/10 overflow-hidden transition-colors duration-700","children":[["$","div",null,{"className":"w-full aspect-video bg-slate-200 dark:bg-slate-700 relative group","children":["$","img",null,{"src":"/uploads/20260514/a0888eef7ba44e5196744dafb424ac06.png","alt":"封面","className":"w-full h-full object-cover opacity-90 transition-transform duration-1000 group-hover:scale-105"}]}],["$","div",null,{"className":"p-5 md:p-12 relative","children":[["$","$L4",null,{}],["$","header",null,{"className":"mb-6 md:mb-8 border-b border-slate-300/50 dark:border-slate-700 pb-5 md:pb-6 relative","children":[["$","h1",null,{"className":"text-2xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4 tracking-tight transition-colors duration-700 pr-16 md:pr-24 leading-snug","children":"AES 与 DES"}],["$","div",null,{"className":"flex flex-wrap items-center gap-2 md:gap-3","children":[["$","div",null,{"className":"flex items-center gap-1.5 md:gap-2 text-indigo-700 dark:text-indigo-400 font-bold bg-white/30 dark:bg-slate-900/50 px-3 md:px-4 py-1.5 md:py-2 rounded-full w-max text-xs md:text-sm transition-colors duration-700 shadow-sm border border-white/20 dark:border-white/5","children":[["$","svg",null,{"className":"w-3 h-3 md:w-4 md:h-4","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"}]}],"2026-05-13 00:22:10"]}],[]]}]]}],["$","div",null,{"className":"relative","children":[["$","style",null,{"children":"$5"}],"$L6"]}],"$L7"]}]]}],"$L8"]}]}]]}],["$L9"],"$La"]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"4YNxbziWVTodHAof_Q306"}
+b:T5058,<p>AES 和 DES 都是分组密码，但它们不是母子关系，更像前后两个时代的标准。DES 是 1970s 的产物，AES 是 2000s 后真正大量使用的主力。把它们放在一起讲，是因为逆向里很多工作不是“手推 AES”，而是识别程序用了什么库、什么模式、key/iv 从哪来，然后把同样的流程搬到 Python 里复现。</p>
 <blockquote>
 <p>DES 现在更像一个经典教材例子，有点像学汇编时绕不开 16 位实模式：不一定天天用，但很适合拿来理解结构。它是 Feistel 网络，64 bit 分组，16 轮，有效密钥 56 bit。</p>
 <p>AES 则是现代标准里的主力，SPN 结构，128 bit 分组，密钥可以是 128/192/256 bit。把它们放在一起看，不是为了少写一篇，虽然也确实少写了一篇（），而是因为很多 CTF 坑都不在算法核心，而在“分组密码怎么被拿来用”这一层。</p>
 </blockquote>
-<p>‍</p>
-<h2>实战识别</h2>
-<p>如果是普通 Windows/Linux 程序，先看导入表和字符串。看到 <code>AES_set_encrypt_key</code>、<code>EVP_aes_128_cbc</code>、<code>CryptEncrypt</code>、<code>BCryptEncrypt</code>、<code>javax.crypto.Cipher</code>、<code>AES/CBC/PKCS5Padding</code> 这类东西，比去找 S 盒快得多。很多题根本不是自己实现 AES，而是调用库；这时重点就是往上追 key、iv、mode、padding 从哪来。</p>
-<p>如果没有明显库调用，再考虑搜常量。AES 自实现里可能有 S 盒表，开头常见 <code>63 7c 77 7b f2 6b 6f c5 ...</code>；DES 自实现会有一堆 IP、E、P、S-box 表，数字表很多，看着像“密密麻麻的置换表”。新手不需要一眼认完所有表，能判断“这里大概率是 AES/DES 自实现”就够了，后面可以先动态调试看输入输出。</p>
+<h2>1. 逆向里先看什么</h2>
+<p>遇到 AES/DES 题，第一反应不要是把算法公式背一遍，而是先把程序里的加密链路还原出来。很多题根本不是自己实现 AES，而是调用库；这时重点就是往上追 key、iv、mode、padding 从哪来。</p>
+<p>比较稳的顺序是：</p>
+<ol>
+<li>先看导入表和字符串，判断是不是库调用。</li>
+<li>再找模式字符串和参数，比如 <code>CBC</code>、<code>ECB</code>、<code>PKCS5Padding</code>、<code>AES_set_encrypt_key</code>。</li>
+<li>然后追 key、iv、nonce、密文和明文来源。</li>
+<li>最后才考虑算法内部，看它是不是自实现 AES/DES 或者魔改。</li>
+</ol>
+<p>如果是普通 Windows/Linux 程序，看到 <code>AES_set_encrypt_key</code>、<code>EVP_aes_128_cbc</code>、<code>CryptEncrypt</code>、<code>BCryptEncrypt</code>、<code>javax.crypto.Cipher</code>、<code>AES/CBC/PKCS5Padding</code> 这类东西，比去找 S 盒快得多。库调用题可以在 <code>EVP_DecryptUpdate</code>、<code>CryptDecrypt</code>、<code>BCryptDecrypt</code>、<code>Cipher.doFinal</code> 这类函数附近下断，观察传进去的 key、iv、密文和返回后的明文。</p>
+<p>如果没有明显库调用，再考虑搜常量。AES 自实现里可能有 S 盒表，开头常见：</p>
+<pre><code>63 7c 77 7b f2 6b 6f c5 ...
+</code></pre>
+<p>DES 自实现会有一堆 IP、E、P、S-box 表，数字表很多，看着像“密密麻麻的置换表”。新手不需要一眼认完所有表，能判断“这里大概率是 AES/DES 自实现”就够了，后面可以先动态调试看输入输出。</p>
 <p>实际做题时最重要的是复现链路。比如程序先 <code>md5(password)</code> 得到 16 字节 key，再从文件头取 16 字节 IV，最后 AES-CBC 解密资源，那脚本里也必须一模一样。少一步 hash、hex 解码方向错、IV 少截一字节，结果都会像“算法不对”，但其实只是参数没对齐。</p>
-<p>所以 AES/DES 逆向题的优先级一般是：先判断是不是库调用，再找模式字符串和 key/iv，再看 padding，最后才考虑算法内部。如果只是普通 CTF crackme，很多时候根本不需要手搓 AES 轮函数，能把参数追出来就已经赢一半了。</p>
-<h2>1. 总览对照</h2>
+<h2>2. 总览对照</h2>
 <table>
 <thead>
 <tr>
@@ -89,13 +98,13 @@ b:T54cd,<p>AES 和 DES 都是分组密码，但它们不是母子关系，更像
 </tr>
 <tr>
 <td>非线性来源</td>
-<td>8 个 S 盒 (6bit→4bit)</td>
-<td>字节 S 盒 (8bit→8bit)</td>
+<td>8 个 S 盒 (6bit -> 4bit)</td>
+<td>字节 S 盒 (8bit -> 8bit)</td>
 </tr>
 <tr>
 <td>扩散方式</td>
 <td>E 扩展、P 置换、多轮左右交换</td>
-<td>ShiftRows (行移位)、MixColumns (列混淆)</td>
+<td>ShiftRows、MixColumns</td>
 </tr>
 <tr>
 <td>解密方式</td>
@@ -104,138 +113,77 @@ b:T54cd,<p>AES 和 DES 都是分组密码，但它们不是母子关系，更像
 </tr>
 <tr>
 <td>安全状态</td>
-<td>单 DES 已不安全 (易受暴力破解)</td>
+<td>单 DES 已不安全</td>
 <td>正确使用时仍是主流标准</td>
 </tr>
 </tbody>
 </table>
-<p>它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。</p>
-<h2>2. 算法详解：分组密码共同框架</h2>
-<pre><code>C = E(K, P)
-P = D(K, C)
-</code></pre>
-<p>核心算法都只是处理一个 block，遇到很长的内容时，通常会走这样一条路：</p>
+<p>它们的共同点其实很朴素：算法核心只管一个固定长度分组，DES 是 8 字节，AES 是 16 字节。真实消息一长，就必须靠工作模式把一块块串起来；ECB/CBC 这类模式还要处理 padding；只加密不认证时，密文被人改了也未必能发现。</p>
+<p>所以 CTF 里很少让你正面“打穿 AES”，更多是在模式、padding、nonce、IV、编码这些地方动手脚。逆向题也是一样，重点通常不是证明 AES 为什么安全，而是把程序怎么用 AES 这件事看明白。</p>
+<h2>3. 工作模式和 Padding</h2>
+<p>核心算法只处理一个 block，遇到很长的内容时，通常会走这样一条路：</p>
 <pre><code>明文 -> padding -> 切块 -> 工作模式 -> 密文
 </code></pre>
-<p>所以 DES-CBC 和 AES-CBC 的很多解密思路是相通的。bit flipping 也好，padding oracle 也好，本质都来自 CBC 的结构，不是来自 AES 或 DES 哪个 S 盒更玄学。区别主要是分组大小：DES 8 字节，AES 16 字节。</p>
-<h2>3. DES 原理</h2>
-<h3>3.1 DES 参数</h3>
+<p>AES 和 DES 的很多坑都在这条链上。AES-CBC 和 DES-CBC 的思路也很像，区别主要是分组大小：AES 是 16 字节，DES 是 8 字节。</p>
+<h3>3.1 ECB</h3>
+<p>ECB 是最直接的模式，每块明文独立加密：</p>
+<pre><code>C_i = E_K(P_i)
+</code></pre>
+<p>它的问题也很明显：相同明文块会产生相同密文块，结构藏不住。看到密文里重复块很多，就该怀疑 ECB。后面常见玩法就是块替换、cut-and-paste token，AES 里还经常考 byte-at-a-time。</p>
+<h3>3.2 CBC</h3>
+<p>CBC 每一块在加密前，先和上一块密文异或：</p>
+<pre><code>C_i = E_K(P_i XOR C_{i-1})
+P_i = D_K(C_i) XOR C_{i-1}
+</code></pre>
+<p>第一块没有上一块密文，所以要引入 IV。也正因为这个结构，改 IV 可以影响第一块明文，改 <code>C_{i-1}</code> 可以影响 <code>P_i</code>。padding oracle 也是从这里来的：服务端把 padding 对错泄露出来，攻击者就能一点点逼出明文。</p>
+<h3>3.3 CTR</h3>
+<p>CTR 不直接加密明文，而是加密 <code>nonce || counter</code>，生成密钥流后再和明文异或：</p>
+<pre><code>keystream_i = E_K(nonce || counter_i)
+C_i = P_i XOR keystream_i
+</code></pre>
+<p>CTR 不需要 padding，但 nonce/counter 不能复用。复用后密钥流相同，两个密文一异或就会把密钥流抵消掉：</p>
+<pre><code>C1 XOR C2 = P1 XOR P2
+</code></pre>
+<h3>3.4 GCM</h3>
+<p>GCM 常用于 AES，可以先理解成：</p>
+<pre><code>GCM = CTR 加密 + GHASH 认证
+</code></pre>
+<p>它不只保护明文不被看见，也能发现密文有没有被改过。逆向里遇到 GCM 时，除了 key 和 nonce，还要注意 tag 和 AAD。GCM 也很怕 nonce 复用，严重时不只是泄露明文，还可能影响认证。</p>
+<h3>3.5 Padding</h3>
+<p>ECB/CBC 要求明文长度是分组长度倍数，所以需要 padding。简单说，padding 就是“凑数”。AES 的 block 是 16 字节，DES 的 block 是 8 字节；如果明文装不满最后一块，就要补到刚好对齐。</p>
+<p>PKCS#7 的规则最常见：</p>
+<pre><code>缺 n 字节就补 n 个值为 n 的字节
+</code></pre>
+<p>比如 AES-CBC 还差 5 字节，就补 5 个 <code>0x05</code>。如果明文本来正好对齐，也要再补一整块。零填充、ISO/IEC 7816-4、NoPadding 也会遇到，但多数时候是解密后末尾不对劲，才回头检查具体是哪一种。</p>
 <table>
 <thead>
 <tr>
-<th>项目</th>
-<th>内容</th>
+<th>padding</th>
+<th>特点</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>分组长度</td>
-<td>64 bit</td>
+<td>PKCS#7</td>
+<td>最常见，缺几字节就补几个对应值</td>
 </tr>
 <tr>
-<td>输入密钥</td>
-<td>64 bit</td>
+<td>Zero padding</td>
+<td>补 <code>\x00</code></td>
 </tr>
 <tr>
-<td>有效密钥</td>
-<td>56 bit</td>
+<td>ISO/IEC 7816-4</td>
+<td>先补 <code>0x80</code>，再补 <code>0x00</code></td>
 </tr>
 <tr>
-<td>轮数</td>
-<td>16</td>
-</tr>
-<tr>
-<td>结构</td>
-<td>Feistel</td>
+<td>NoPadding</td>
+<td>输入必须已经对齐</td>
 </tr>
 </tbody>
 </table>
-<p>DES 总流程：</p>
-<pre><code>64 bit 明文
- -> IP 初始置换
- -> L0 || R0，各 32 bit
- -> 16 轮 Feistel
- -> R16 || L16
- -> FP / IP^-1
- -> 64 bit 密文
-</code></pre>
-<h3>3.2 Feistel 结构</h3>
-<p>第 i 轮：</p>
-<pre><code>Li = R(i-1)
-Ri = L(i-1) XOR F(R(i-1), Ki)
-</code></pre>
-<p>Feistel 的关键是：<code>F</code> 函数不需要可逆，整体仍然能解密。解密时只要把子密钥倒序使用：</p>
-<pre><code>K16, K15, ..., K1
-</code></pre>
-<h3>3.3 DES 轮函数 F</h3>
-<pre><code>R(32)
- -> E 扩展置换，32 -> 48
- -> XOR 子密钥 Ki，48 bit
- -> S 盒替代，8 * (6 -> 4)
- -> P 置换，32 bit
-</code></pre>
-<p>S 盒输入 6 bit：</p>
-<pre><code>b1 b2 b3 b4 b5 b6
-row = b1b6
-col = b2b3b4b5
-</code></pre>
-<p>S 盒是 DES 的主要非线性来源。</p>
-<h3>3.4 DES 密钥调度</h3>
-<ol>
-<li>输入 64 bit key。</li>
-<li>PC-1 去掉奇偶校验位，得到 56 bit。</li>
-<li>拆成 <code>C0</code>、<code>D0</code>，各 28 bit。</li>
-<li>每轮循环左移 1 或 2 位。</li>
-<li>PC-2 选出 48 bit 轮密钥。</li>
-</ol>
-<p>DES key 看似 8 字节，实际上每个字节里有 1 bit 是校验位，有效安全强度只有 56 bit。这也是 DES 今天不能再当正常安全算法用的根本原因之一。</p>
-<h3>3.5 3DES</h3>
-<p>3DES / DES-EDE：</p>
-<pre><code>C = E_K3(D_K2(E_K1(P)))
-</code></pre>
-<p>3DES 的 key 常见两种长度：16 字节时一般是两密钥形式，实际按 <code>K1,K2,K1</code> 跑；24 字节时是三密钥形式，也就是 <code>K1,K2,K3</code>。</p>
-<p>3DES 比 DES 强，但 block 仍然只有 64 bit，新系统也不建议继续使用。</p>
-<h2>4. AES 原理</h2>
-<h3>4.1 AES 参数</h3>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th>AES-128</th>
-<th>AES-192</th>
-<th>AES-256</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>分组长度</td>
-<td>128 bit</td>
-<td>128 bit</td>
-<td>128 bit</td>
-</tr>
-<tr>
-<td>密钥长度</td>
-<td>128 bit</td>
-<td>192 bit</td>
-<td>256 bit</td>
-</tr>
-<tr>
-<td>Nk</td>
-<td>4</td>
-<td>6</td>
-<td>8</td>
-</tr>
-<tr>
-<td>Nr</td>
-<td>10</td>
-<td>12</td>
-<td>14</td>
-</tr>
-</tbody>
-</table>
-<p>AES 状态是 4x4 字节矩阵。</p>
-<h3>4.2 AES 加密流程</h3>
-<p>AES-128：</p>
+<h2>4. AES 逆向识别</h2>
+<p>AES 的 block 固定是 16 字节，key 可以是 16、24、32 字节，对应 AES-128、AES-192、AES-256。轮数分别是 10、12、14。逆向里最常见的是 AES-128，也就是 16 字节 key、10 轮。</p>
+<p>AES-128 加密流程大概是：</p>
 <pre><code>明文 state
  -> AddRoundKey(K0)
  -> 9 轮:
@@ -249,68 +197,69 @@ col = b2b3b4b5
       AddRoundKey
  -> 密文
 </code></pre>
-<p>最后一轮没有 <code>MixColumns</code>。</p>
-<h3>4.3 SubBytes</h3>
-<p>每个字节通过 AES S 盒替换。作用是引入非线性。逆变换是 <code>InvSubBytes</code>。</p>
-<h3>4.4 ShiftRows</h3>
-<p>状态矩阵按行循环左移：</p>
-<pre><code>row0: 左移 0
-row1: 左移 1
-row2: 左移 2
-row3: 左移 3
+<p>最后一轮没有 <code>MixColumns</code>。这个点在看自实现 AES 时很有用，因为很多伪代码会表现出“前面循环 9 次，最后单独处理 1 次”的结构。</p>
+<p>几个常见识别点：</p>
+<ol>
+<li>AES S 盒开头常见 <code>63 7c 77 7b f2 6b 6f c5</code>。</li>
+<li>密钥扩展里会出现 <code>RotWord</code>、<code>SubWord</code>、<code>Rcon</code>，常见轮常量有 <code>01 02 04 08 10 20 40 80 1b 36</code>。</li>
+<li><code>MixColumns</code> 经常会出现 <code>0x02</code>、<code>0x03</code>、<code>0x1b</code> 这些有限域乘法相关操作。</li>
+<li>AES-128 常见 10 轮结构，AES-192 是 12 轮，AES-256 是 14 轮。</li>
+<li>如果每次处理 16 字节，并且前面有一大张 256 字节表，就很值得怀疑 AES。</li>
+</ol>
+<p>需要注意的是，很多题不会把函数名留成 <code>aes_encrypt</code>。更常见的是一个普通函数里有循环、表查找、异或、16 字节状态变化。这个时候不要急着手算，先找输入输出：哪个 buffer 是明文，哪个 buffer 是密文，key 从哪来，最后比较的是哪一段。</p>
+<h2>5. DES / 3DES 逆向识别</h2>
+<p>DES 的 block 是 8 字节，key 输入看起来也是 8 字节，但每个字节里有 1 bit 是奇偶校验位，所以有效密钥只有 56 bit。它跑 16 轮 Feistel，解密时只要把子密钥倒序使用。</p>
+<p>DES 总流程可以粗略记成：</p>
+<pre><code>64 bit 明文
+ -> IP 初始置换
+ -> L0 || R0，各 32 bit
+ -> 16 轮 Feistel
+ -> R16 || L16
+ -> FP / IP^-1
+ -> 64 bit 密文
 </code></pre>
-<p>它把字节打散到不同列，为 MixColumns 扩散做准备。</p>
-<h3>4.5 MixColumns</h3>
-<p>每一列会按固定矩阵混合。资料里经常说这是在 <code>GF(2^8)</code> 上做乘法，我们第一次看不用急着深究有限域，先把它理解成“把一列 4 个字节搅在一起”的扩散步骤就行：</p>
-<pre><code>[02 03 01 01]
-[01 02 03 01]
-[01 01 02 03]
-[03 01 01 02]
+<p>轮函数里会有 E 扩展、S 盒、P 置换：</p>
+<pre><code>R(32)
+ -> E 扩展置换，32 -> 48
+ -> XOR 子密钥 Ki，48 bit
+ -> S 盒替代，8 * (6 -> 4)
+ -> P 置换，32 bit
 </code></pre>
-<p>作用是列内扩散。</p>
-<h3>4.6 AddRoundKey</h3>
-<p>轮密钥和状态 XOR：</p>
-<pre><code>state = state XOR round_key
+<p>逆向里不需要一开始就背完 IP、E、P、PC-1、PC-2 每张表的内容。比较实用的判断方式是：看它是不是 8 字节一组、有没有 16 轮、有没有大量固定置换表和 8 个 S-box。只要判断出“这东西像 DES”，后面就可以围绕 key、mode、padding 去复现。</p>
+<p>3DES / DES-EDE 可以简单记成：</p>
+<pre><code>C = E_K3(D_K2(E_K1(P)))
 </code></pre>
-<h3>4.7 AES 密钥扩展</h3>
-<p>AES 不直接重复使用原始 key，而是生成轮密钥。以 AES-128 为例，原始 key 是 16 字节，也就是 4 个 word；扩展后会得到 44 个 word，刚好够 11 组轮密钥使用。扩展时主要围着 <code>RotWord</code>、<code>SubWord</code> 和 <code>Rcon</code> 转，前者负责字节循环，后者负责过 S 盒和引入轮常量。</p>
-<h2>5. DES 与 AES 的结构关联</h2>
-<h3>5.1 Feistel vs SPN</h3>
-<p>对照DESAES结构FeistelSPN状态L/R 两半4x4 字节矩阵轮函数是否必须可逆不需要需要可逆变换解密子密钥倒序逆变换非线性S 盒S 盒扩散E/P 置换和多轮交换ShiftRows/MixColumns</p>
-<p>二者虽然结构不同，但都绕不开 Shannon 说的混淆和扩散。混淆主要靠 S 盒，让 key 和 ciphertext 的关系别那么线性；扩散则靠置换、行移位、列混合、多轮迭代，让明文里一点变化慢慢扩到很多位置。</p>
-<h3>5.2 AES 为什么替代 DES</h3>
-<p>DES 被 AES 替代，不是因为 Feistel 这个想法突然不行了，而是参数撑不住了：56 bit 密钥太短，64 bit 分组也太小，暴力破解成本随着硬件发展越来越低。AES 把分组拉到 128 bit，密钥也给到 128/192/256 bit，同时软件和硬件实现都比较舒服，所以成了后来的主流。</p>
-<h2>6. 工作模式</h2>
-<h3>6.1 ECB</h3>
-<pre><code>C_i = E_K(P_i)
+<p>3DES 的 key 常见两种长度：16 字节时一般是两密钥形式，实际按 <code>K1,K2,K1</code> 跑；24 字节时是三密钥形式，也就是 <code>K1,K2,K3</code>。3DES 比 DES 强，但 block 仍然只有 64 bit，新系统已经不建议继续使用。</p>
+<h2>6. 复现时最容易错的地方</h2>
+<p>做题时经常不是算法错，而是参数错。下面这些地方尤其容易踩坑：</p>
+<ol>
+<li>key 是原始字节，还是 hex 字符串。</li>
+<li>IV 是固定常量，还是从文件头、网络包、输入里截出来的。</li>
+<li>模式到底是 ECB、CBC、CTR 还是 GCM。</li>
+<li>padding 是 PKCS#7、Zero padding，还是根本没有 padding。</li>
+<li>明文或密文是不是又套了一层 base64、hex、URL encode。</li>
+<li>key 是不是经过 MD5、SHA1、SHA256、PBKDF 之类的派生。</li>
+<li>程序初始化阶段有没有改全局变量，比如 TLS callback、init_array、JNI_OnLoad。</li>
+<li>最终比较前是不是又做了异或、换表、压缩或反序。</li>
+</ol>
+<p>这里最典型的坑就是 hex：</p>
+<pre><code>key = b"00112233445566778899aabbccddeeff"              # 32 字节 ASCII，AES-256
+key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
 </code></pre>
-<p>ECB 的问题一句话就够：相同明文块会产生相同密文块，结构藏不住。看到密文里重复块很多，就该怀疑 ECB。后面常见玩法就是块替换、cut-and-paste token，AES 里还经常考 byte-at-a-time。</p>
-<h3>6.2 CBC</h3>
-<pre><code>C_i = E_K(P_i XOR C_{i-1})
-P_i = D_K(C_i) XOR C_{i-1}
-</code></pre>
-<p>CBC 第一块用 IV，后面的每一块都会和上一块密文发生关系。也正因为这个结构，改 IV 可以影响第一块明文，改 <code>C_{i-1}</code> 可以影响 <code>P_i</code>。padding oracle 也是从这里长出来的：服务端把 padding 对错泄露出来，攻击者就能一点点逼出明文。</p>
-<h3>6.3 CTR</h3>
-<pre><code>keystream_i = E_K(nonce || counter_i)
-C_i = P_i XOR keystream_i
-</code></pre>
-<p>CTR 不需要 padding，但 nonce/counter 不能复用。复用后：</p>
-<pre><code>C1 XOR C2 = P1 XOR P2
-</code></pre>
-<h3>6.4 GCM</h3>
-<p>GCM 常用于 AES：</p>
-<pre><code>GCM = CTR 加密 + GHASH 认证
-</code></pre>
-<p>GCM 可以先理解成“加密的同时还带校验”。正常用的时候，它不只保护明文不被看见，也能发现密文有没有被改过；但它对 nonce 复用非常敏感，同一个 key 下 nonce 撞了，问题会比普通 CTR 复用还大。</p>
-<h2>7. Padding</h2>
-<p>ECB/CBC 要求明文长度是分组长度倍数。</p>
-<p>PKCS#7：</p>
-<pre><code>缺 n 字节就补 n 个值为 n 的字节
-</code></pre>
-<p>AES block size 是 16，DES block size 是 8。padding 这里不用背太多花样，先把 PKCS#7 认准。零填充、ISO/IEC 7816-4、NoPadding 也会遇到，但多数时候是解密后末尾不对劲，才回头检查具体是哪一种。</p>
-<p>padding特点PKCS#7最常见Zero padding补 <code>\x00</code>ISO/IEC 7816-4先补 <code>0x80</code> 再补 <code>0x00</code>NoPadding输入必须已对齐</p>
-<p>逆向里最稳的路线是先把“调用点”找出来。库调用题可以在 <code>EVP_DecryptUpdate</code>、<code>CryptDecrypt</code>、<code>BCryptDecrypt</code>、<code>Cipher.doFinal</code> 这类函数附近下断，观察传进去的 key、iv、密文和返回后的明文。自实现题可以在最终比较前下断，看程序拿什么东西和你的输入结果比较。这样做不丢人，逆向本来就是能动态拿就别硬熬静态。</p>
-<h2>8. 代码实现：Python 调用</h2>
+<p>看起来都是一串 key，但长度完全不一样。DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查编码和派生过程，不要马上怀疑算法。</p>
+<p>逆向里最稳的路线是先把“调用点”找出来。库调用题在加解密函数附近下断，自实现题在最终比较前下断，看程序拿什么东西和你的输入结果比较。这样做不丢人，逆向本来就是能动态拿就别硬熬静态。</p>
+<h2>7. 做题时怎么接下去</h2>
+<p>如果后面要继续写，不建议再往 AES 的数学细节里钻。更适合接一个完整的小例题，按下面这个顺序展开：</p>
+<ol>
+<li>先贴关键伪代码，说明为什么怀疑 AES/DES。</li>
+<li>标出识别点，比如 S 盒、Rcon、16 字节循环、<code>EVP_aes_128_cbc()</code>。</li>
+<li>追 key、iv、ciphertext 从哪里来。</li>
+<li>检查有没有初始化函数、TLS callback、反调试或全局变量修改。</li>
+<li>写 Python 脚本复现解密。</li>
+<li>如果第一次解不出来，说明怎么排查 mode、padding、hex/base64、大小端这些问题。</li>
+</ol>
+<p>也就是说，这篇文章到这里就够了：它负责讲“怎么认、怎么追、怎么复现”。真正让逆向能力涨起来的是后面的例题，而不是继续把有限域乘法推到更细。</p>
+<h2>8. 代码实现：Python 调用留档</h2>
 <p>安装：</p>
 <pre><code>pip install pycryptodome
 </code></pre>
@@ -355,7 +304,7 @@ dec.update(aad)
 assert dec.decrypt_and_verify(ct, tag) == pt
 </code></pre>
 <p>GCM 解密必须验证 tag。只 <code>decrypt()</code> 不 <code>verify()</code> 等于丢掉认证。</p>
-<h2>9. 代码实现：C 语言 OpenSSL EVP 调用</h2>
+<h2>9. 代码实现：C 语言 OpenSSL EVP 调用留档</h2>
 <p>EVP 接口统一，AES/DES 只需要换 <code>EVP_aes_128_cbc()</code> 或 <code>EVP_des_cbc()</code>。</p>
 <pre><code>#include &#x3C;openssl/evp.h>
 #include &#x3C;stdio.h>
@@ -403,7 +352,7 @@ int main(void) {
 <pre><code>gcc aes_des_evp_demo.c -o aes_des_evp_demo -lcrypto
 </code></pre>
 <p>OpenSSL 3.x 中 DES 可能受 legacy provider 影响。如果报 <code>unsupported</code>，先检查 provider 配置。</p>
-<h2>10. 代码实现：AES/DES 离线工具脚本</h2>
+<h2>10. 代码实现：AES/DES 离线工具脚本留档</h2>
 <p>保存为 <code>aes_des_tool.py</code>。依赖 <code>pycryptodome</code>，支持 AES、DES、3DES 的 ECB/CBC/CTR，以及 AES-GCM。</p>
 <pre><code>#!/usr/bin/env python3
 import argparse
@@ -493,43 +442,16 @@ python aes_des_tool.py &#x3C;cipher_hex> -a aes -k &#x3C;key_hex> --iv &#x3C;iv_
 python aes_des_tool.py 666c61677b6465737d -a des -k 38627974656b6579 --iv 3132333435363738
 python aes_des_tool.py &#x3C;cipher_hex> -a des -k 38627974656b6579 --iv 3132333435363738 -d
 </code></pre>
-<h2>11. 魔改与做题时怎么想</h2>
-<h3>11.1 ECB 识别</h3>
-<p>AES 按 16 字节切块，DES 按 8 字节切块：</p>
-<pre><code>blocks = [ct[i:i+16] for i in range(0, len(ct), 16)]
-print(len(blocks), len(set(blocks)))
-</code></pre>
-<p>重复块多就怀疑 ECB。AES 题按 16 字节切，DES 题按 8 字节切，切错了就会误判。</p>
-<h3>11.2 CBC bit flipping</h3>
-<pre><code>P_i = D_K(C_i) XOR C_{i-1}
-</code></pre>
-<p>修改 <code>C_{i-1}</code> 可以定点翻转 <code>P_i</code>。如果目标字段在第一块，就不要去动密文块，直接改 IV。很多权限伪造题就是把 <code>admin=0</code> 一类字段翻成 <code>admin=1</code>。</p>
-<h3>11.3 Padding oracle</h3>
-<p>padding oracle 这个词听起来吓人，其实先记住一句话就行：程序如果把“padding 对”和“padding 错”表现得不一样，攻击者就可能拿这个差异反推 CBC 明文。HTTP 状态码、错误信息、响应长度、响应时间、连接是否断开，都可能成为这种差异。新手阶段不一定要马上手搓完整攻击，但看到 CBC + padding 报错不同，要知道这是危险信号。</p>
-<h3>11.4 CTR/GCM nonce 复用</h3>
-<p>CTR 复用 nonce：</p>
-<pre><code>C1 XOR C2 = P1 XOR P2
-</code></pre>
-<p>CTR 复用 nonce 会复用密钥流，两个密文一 XOR 就会露出两个明文的 XOR。GCM 底层也用了 CTR 思路，所以 nonce 复用同样很危险；至于更深入的 tag 伪造，先知道“会比 CTR 更严重”就够了，后面遇到专题题再展开。</p>
-<h3>11.5 key/iv 编码坑</h3>
-<pre><code>key = b"00112233445566778899aabbccddeeff"              # 32 字节 ASCII，AES-256
-key = bytes.fromhex("00112233445566778899aabbccddeeff") # 16 字节，AES-128
-</code></pre>
-<p>DES key 必须 8 字节，AES key 必须 16/24/32 字节。长度不对时，先查 MD5/SHA256/base64/hex。</p>
-<h2>12. 参考资料</h2>
+<h2>11. 参考资料</h2>
 <ul>
 <li>参考博客 AES/DES 结构写法：<a href="https://goodapple.top/archives/162">https://goodapple.top/archives/162</a></li>
 <li>NIST FIPS 197 AES：<a href="https://csrc.nist.gov/pubs/fips/197/final">https://csrc.nist.gov/pubs/fips/197/final</a></li>
 <li>NIST FIPS 46-3 DES：<a href="https://csrc.nist.gov/pubs/fips/46-3/final">https://csrc.nist.gov/pubs/fips/46-3/final</a></li>
 <li>PyCryptodome AES 文档：<a href="https://pycryptodome.readthedocs.io/en/stable/src/cipher/aes.html">https://pycryptodome.readthedocs.io/en/stable/src/cipher/aes.html</a></li>
 <li>PyCryptodome DES 文档：<a href="https://pycryptodome.readthedocs.io/en/stable/src/cipher/des.html">https://pycryptodome.readthedocs.io/en/stable/src/cipher/des.html</a></li>
-<li>OpenSSL EVP 文档：<a href="https://docs.openssl.org/master/man3/EVP%5C_EncryptInit/">https://docs.openssl.org/master/man3/EVP\_EncryptInit/</a></li>
-<li>CTF Wiki 分组密码模式：<a href="https://ctf-wiki.org/crypto/blockcipher/mode/">https://ctf-wiki.org/crypto/blockcipher/mode/</a></li>
-<li>The Cryptopals Crypto Challenges：<a href="https://cryptopals.com/">https://cryptopals.com/</a></li>
-</ul>
-<p>‍</p>6:["$","div",null,{"id":"article-content","className":"prose prose-slate dark:prose-invert prose-base md:prose-lg max-w-none text-slate-800 dark:text-slate-200 transition-colors duration-700 scroll-smooth","dangerouslySetInnerHTML":{"__html":"$b"}}]
+</ul>6:["$","div",null,{"id":"article-content","className":"prose prose-slate dark:prose-invert prose-base md:prose-lg max-w-none text-slate-800 dark:text-slate-200 transition-colors duration-700 scroll-smooth","dangerouslySetInnerHTML":{"__html":"$b"}}]
 7:["$","div",null,{"className":"mt-12 md:mt-16","children":["$","$Lc",null,{}]}]
-8:["$","aside",null,{"className":"w-full lg:w-[320px] flex flex-col gap-6 flex-shrink-0","children":[["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl text-center","children":[["$","div",null,{"className":"w-20 h-20 mx-auto rounded-full p-1 bg-gradient-to-tr from-indigo-500 to-purple-500 shadow-md mb-4 transition-transform duration-500 hover:rotate-3","children":["$","img",null,{"src":"/img/zipai.png","alt":"avatar","className":"w-full h-full rounded-full object-cover bg-white"}]}],["$","h3",null,{"className":"text-xl font-bold text-slate-900 dark:text-white mb-2","children":"Tooki"}],"",["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl","children":[["$","h3",null,{"className":"font-black text-slate-900 dark:text-white mb-4 border-l-4 border-indigo-500 pl-2 text-sm","children":"RECOMMENDED"}],["$","div",null,{"className":"space-y-4","children":[["$","$Lf","rc4",{"href":"/posts/rc4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"RC4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:12"}]]}],["$","$Lf","sm4",{"href":"/posts/sm4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"SM4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:56"}]]}],["$","$Lf","tea-family",{"href":"/posts/tea-family","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"TEA"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:25:28"}]]}]]}]]}],["$","$L10",null,{"toc":[{"level":2,"text":"实战识别","id":"实战识别"},{"level":2,"text":"1. 总览对照","id":"1.-总览对照"},{"level":2,"text":"2. 算法详解：分组密码共同框架","id":"2.-算法详解：分组密码共同框架"},{"level":2,"text":"3. DES 原理","id":"3.-des-原理"},{"level":3,"text":"3.1 DES 参数","id":"3.1-des-参数"},{"level":3,"text":"3.2 Feistel 结构","id":"3.2-feistel-结构"},{"level":3,"text":"3.3 DES 轮函数 F","id":"3.3-des-轮函数-f"},{"level":3,"text":"3.4 DES 密钥调度","id":"3.4-des-密钥调度"},{"level":3,"text":"3.5 3DES","id":"3.5-3des"},{"level":2,"text":"4. AES 原理","id":"4.-aes-原理"},{"level":3,"text":"4.1 AES 参数","id":"4.1-aes-参数"},{"level":3,"text":"4.2 AES 加密流程","id":"4.2-aes-加密流程"},{"level":3,"text":"4.3 SubBytes","id":"4.3-subbytes"},{"level":3,"text":"4.4 ShiftRows","id":"4.4-shiftrows"},{"level":3,"text":"4.5 MixColumns","id":"4.5-mixcolumns"},{"level":3,"text":"4.6 AddRoundKey","id":"4.6-addroundkey"},{"level":3,"text":"4.7 AES 密钥扩展","id":"4.7-aes-密钥扩展"},{"level":2,"text":"5. DES 与 AES 的结构关联","id":"5.-des-与-aes-的结构关联"},{"level":3,"text":"5.1 Feistel vs SPN","id":"5.1-feistel-vs-spn"},{"level":3,"text":"5.2 AES 为什么替代 DES","id":"5.2-aes-为什么替代-des"},{"level":2,"text":"6. 工作模式","id":"6.-工作模式"},{"level":3,"text":"6.1 ECB","id":"6.1-ecb"},{"level":3,"text":"6.2 CBC","id":"6.2-cbc"},{"level":3,"text":"6.3 CTR","id":"6.3-ctr"},{"level":3,"text":"6.4 GCM","id":"6.4-gcm"},{"level":2,"text":"7. Padding","id":"7.-padding"},{"level":2,"text":"8. 代码实现：Python 调用","id":"8.-代码实现：python-调用"},{"level":3,"text":"8.1 AES-CBC","id":"8.1-aes-cbc"},{"level":3,"text":"8.2 DES-CBC","id":"8.2-des-cbc"},{"level":3,"text":"8.3 AES-GCM","id":"8.3-aes-gcm"},{"level":2,"text":"9. 代码实现：C 语言 OpenSSL EVP 调用","id":"9.-代码实现：c-语言-openssl-evp-调用"},{"level":2,"text":"10. 代码实现：AES/DES 离线工具脚本","id":"10.-代码实现：aes/des-离线工具脚本"},{"level":2,"text":"11. 魔改与做题时怎么想","id":"11.-魔改与做题时怎么想"},{"level":3,"text":"11.1 ECB 识别","id":"11.1-ecb-识别"},{"level":3,"text":"11.2 CBC bit flipping","id":"11.2-cbc-bit-flipping"},{"level":3,"text":"11.3 Padding oracle","id":"11.3-padding-oracle"},{"level":3,"text":"11.4 CTR/GCM nonce 复用","id":"11.4-ctr/gcm-nonce-复用"},{"level":3,"text":"11.5 key/iv 编码坑","id":"11.5-key/iv-编码坑"},{"level":2,"text":"12. 参考资料","id":"12.-参考资料"}]}]]}]
+8:["$","aside",null,{"className":"w-full lg:w-[320px] flex flex-col gap-6 flex-shrink-0","children":[["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl text-center","children":[["$","div",null,{"className":"w-20 h-20 mx-auto rounded-full p-1 bg-gradient-to-tr from-indigo-500 to-purple-500 shadow-md mb-4 transition-transform duration-500 hover:rotate-3","children":["$","img",null,{"src":"/img/zipai.png","alt":"avatar","className":"w-full h-full rounded-full object-cover bg-white"}]}],["$","h3",null,{"className":"text-xl font-bold text-slate-900 dark:text-white mb-2","children":"Tooki"}],"",["$","$Ld",null,{}]]}],["$","$Le",null,{}],["$","div",null,{"className":"bg-white/60 dark:bg-slate-800/50 backdrop-blur-xl rounded-3xl p-6 border border-white/40 dark:border-white/10 shadow-xl","children":[["$","h3",null,{"className":"font-black text-slate-900 dark:text-white mb-4 border-l-4 border-indigo-500 pl-2 text-sm","children":"RECOMMENDED"}],["$","div",null,{"className":"space-y-4","children":[["$","$Lf","rc4",{"href":"/posts/rc4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"RC4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:12"}]]}],["$","$Lf","sm4",{"href":"/posts/sm4","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"SM4"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:24:56"}]]}],["$","$Lf","tea-family",{"href":"/posts/tea-family","className":"group block","children":[["$","h4",null,{"className":"text-sm font-bold text-slate-800 dark:text-slate-200 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors line-clamp-1","children":"TEA"}],["$","p",null,{"className":"text-[10px] text-slate-400 dark:text-slate-500 mt-1 font-bold uppercase","children":"2026-05-13 00:25:28"}]]}]]}]]}],["$","$L10",null,{"toc":[{"level":2,"text":"1. 逆向里先看什么","id":"1.-逆向里先看什么"},{"level":2,"text":"2. 总览对照","id":"2.-总览对照"},{"level":2,"text":"3. 工作模式和 Padding","id":"3.-工作模式和-padding"},{"level":3,"text":"3.1 ECB","id":"3.1-ecb"},{"level":3,"text":"3.2 CBC","id":"3.2-cbc"},{"level":3,"text":"3.3 CTR","id":"3.3-ctr"},{"level":3,"text":"3.4 GCM","id":"3.4-gcm"},{"level":3,"text":"3.5 Padding","id":"3.5-padding"},{"level":2,"text":"4. AES 逆向识别","id":"4.-aes-逆向识别"},{"level":2,"text":"5. DES / 3DES 逆向识别","id":"5.-des-/-3des-逆向识别"},{"level":2,"text":"6. 复现时最容易错的地方","id":"6.-复现时最容易错的地方"},{"level":2,"text":"7. 做题时怎么接下去","id":"7.-做题时怎么接下去"},{"level":2,"text":"8. 代码实现：Python 调用留档","id":"8.-代码实现：python-调用留档"},{"level":3,"text":"8.1 AES-CBC","id":"8.1-aes-cbc"},{"level":3,"text":"8.2 DES-CBC","id":"8.2-des-cbc"},{"level":3,"text":"8.3 AES-GCM","id":"8.3-aes-gcm"},{"level":2,"text":"9. 代码实现：C 语言 OpenSSL EVP 调用留档","id":"9.-代码实现：c-语言-openssl-evp-调用留档"},{"level":2,"text":"10. 代码实现：AES/DES 离线工具脚本留档","id":"10.-代码实现：aes/des-离线工具脚本留档"},{"level":2,"text":"11. 参考资料","id":"11.-参考资料"}]}]]}]
 9:["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/7f6bd37aab40623f.css","precedence":"next"}]
 a:["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]
 13:null
