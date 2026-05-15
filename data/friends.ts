@@ -3,7 +3,7 @@ export interface Friend { id: string; name: string; url: string; description: st
 
 export const friendsData: Friend[] = [
   {
-    "id": "friend_1778773192515",
+    "id": "friend_1778822241859",
     "name": "win8",
     "url": "w1n8.cc",
     "avatar": "https://w1n8.cc/images/tomori.jpg",
