@@ -4,4 +4,4 @@
 :HL["/_next/static/css/7f6bd37aab40623f.css","style"]
 :HL["/uploads/20260514/7f10d92eb61448fa91fe00f8d2eaa354.jpg","image"]
 :HL["/img/zipai.png","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"posts","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sm4","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"KM8QFi1-DQbL7fZO85MUZ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"posts","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"sm4","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"CXo_iX9k9Duqu_pDcaua4"}

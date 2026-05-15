@@ -31,7 +31,11 @@ export const siteConfig = {
   "/img/bizhi.png",
   "/uploads/20260512/b609c4af8a204212ab5468a5189da7cc.png",
   "/uploads/20260512/14a283be08ef4a378e6c38b56a6cfc8a.jpg",
-  "/uploads/20260512/4e49bcaf334e48629343fefbffc02ddf.jpeg"
+  "/uploads/20260512/4e49bcaf334e48629343fefbffc02ddf.jpeg",
+  "/uploads/20260515/e3bfe038ee6b425899d1c9bae973c69d.png",
+  "/uploads/20260515/35fd296409e74000a5074b9610c51146.png",
+  "/uploads/20260515/acb92b511d3d47348902eb1d4357f394.jpg",
+  "/uploads/20260515/99ea42a00cb346b9b7a0349f446b35f2.jpg"
 ],
 
   // 4. 文章默认封面图 (当 Markdown 没写 cover 时显示)

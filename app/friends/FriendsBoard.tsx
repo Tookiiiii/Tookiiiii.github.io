@@ -6,6 +6,16 @@ import BackButton from '../../components/BackButton';
 import { friendsData } from '../../data/friends';
 import Comments from '../../components/Comments';
 
+const normalizeExternalUrl = (url?: string) => {
+  const value = (url || '').trim();
+  if (!value) return '';
+  if (/^(https?:)?\/\//i.test(value)) {
+    return value.startsWith('//') ? `https:${value}` : value;
+  }
+  if (/^(mailto:|tel:)/i.test(value)) return value;
+  return `https://${value.replace(/^\/+/, '')}`;
+};
+
 // Framer Motion 动画变体：交错子元素
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -62,7 +72,7 @@ export default function FriendsBoard() {
         {friendsData.map((friend) => (
           <motion.div key={friend.id} variants={itemVariants} className="h-full">
             <a
-              href={friend.url}
+              href={normalizeExternalUrl(friend.url)}
               target="_blank"
               rel="noopener noreferrer"
               // 🌟 核心修改 2：卡片 padding 缩小，圆角缩小
