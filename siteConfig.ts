@@ -44,14 +44,30 @@ export const siteConfig = {
   // 5. 首页照片墙预览图
   photoWallImage: "/img/bizhi.png",
   cloudMusicIds: [
-  "2003496380",
   "3340114786",
-  "1946480538",
   "2697989521",
   "2676697681",
-  "460099377"
+  "460099377",
+  "2079882237"
 ],
-  localMusic: [],
+  localMusic: [
+  {
+    "id": "local-enjoy-it",
+    "title": "ENJOY IT！",
+    "artist": "QU4RTZ",
+    "cover": "http://p1.music.126.net/Eyvr36fJZO9UnFvCHZ5Qrg==/109951170271329464.jpg?param=130y130",
+    "src": "/audio/enjoy-it.mp3",
+    "lrcUrl": "/audio/enjoy-it.lrc"
+  },
+  {
+    "id": "local-seiza-ni-naretara",
+    "title": "星座になれたら",
+    "artist": "結束バンド",
+    "cover": "http://p2.music.126.net/KcRtt7Vi4b-jWSKmCgb8zQ==/109951168110222499.jpg?param=130y130",
+    "src": "/audio/seiza-ni-naretara.mp3",
+    "lrcUrl": "/audio/seiza-ni-naretara.lrc"
+  }
+],
   social: {
   "github": "https://github.com/tookiiiii",
   "gitee": "",

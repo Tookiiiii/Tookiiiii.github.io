@@ -9,12 +9,17 @@ interface MomentCommentsProps {
 
 export default function MomentComments({ id }: MomentCommentsProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const loadedKeyRef = useRef('');
   const commentConfig = siteConfig.comments || {};
   const repo = commentConfig.repo || 'Tookiiiii/Tookiiiii.github.io';
   const label = commentConfig.label || 'moment';
 
   useEffect(() => {
     if (!containerRef.current) return;
+
+    const key = `${id}|${repo}|${label}|${document.documentElement.classList.contains('dark')}`;
+    if (loadedKeyRef.current === key) return;
+    loadedKeyRef.current = key;
 
     containerRef.current.innerHTML = '';
 

@@ -55,6 +55,7 @@ interface MusicContextType {
   prevSong: () => void;
   handleSeek: (e: React.ChangeEvent<HTMLInputElement>) => void;
   playSong: (index: number) => void;
+  selectSong: (index: number) => void;
   setVolume: (value: number) => void;
   toggleMute: () => void;
   togglePlayMode: () => void;
@@ -63,6 +64,10 @@ interface MusicContextType {
 const MusicContext = createContext<MusicContextType | null>(null);
 
 const getLocalPlaylist = () => (siteConfig.localMusic || []).map((song: any) => ({
+  id: song.id || song.src,
+  title: song.title || song.name || '本地音乐',
+  artist: song.artist || song.author || '本地音频',
+  cover: song.cover || song.pic || siteConfig.defaultPostCover || '/img/bizhi.png',
   ...song,
   lyrics: [],
 }));
@@ -110,19 +115,19 @@ export function MusicProvider({ children }: { children: ReactNode }) {
           .filter(song => song.src);
 
         if (isMounted) {
-          const fallbackPlaylist = getLocalPlaylist();
-          if (mergedPlaylist.length > 0) setPlaylist(mergedPlaylist);
-          else if (fallbackPlaylist.length > 0) {
-            setPlaylist(fallbackPlaylist);
-            setCurrentLyric("♪ 本地歌单已就绪 ♪");
+          const localPlaylist = getLocalPlaylist();
+          const fullPlaylist = [...localPlaylist, ...mergedPlaylist];
+          if (fullPlaylist.length > 0) {
+            setPlaylist(fullPlaylist);
+            if (localPlaylist.length > 0) setCurrentLyric("♪ 本地歌单已就绪 ♪");
           } else setCurrentLyric("暂无可播放音乐");
           setIsLoading(false);
         }
       } catch (error) {
         if (isMounted) {
-          const fallbackPlaylist = getLocalPlaylist();
-          if (fallbackPlaylist.length > 0) {
-            setPlaylist(fallbackPlaylist);
+          const localPlaylist = getLocalPlaylist();
+          if (localPlaylist.length > 0) {
+            setPlaylist(localPlaylist);
             setCurrentLyric("♪ 本地歌单已就绪 ♪");
           } else {
             setCurrentLyric("网络初始化失败");
@@ -134,9 +139,9 @@ export function MusicProvider({ children }: { children: ReactNode }) {
 
     if (siteConfig.cloudMusicIds?.length > 0) fetchMusicData();
     else {
-      const fallbackPlaylist = getLocalPlaylist();
-      if (fallbackPlaylist.length > 0) {
-        setPlaylist(fallbackPlaylist);
+      const localPlaylist = getLocalPlaylist();
+      if (localPlaylist.length > 0) {
+        setPlaylist(localPlaylist);
         setCurrentLyric("♪ 本地歌单已就绪 ♪");
       }
       setIsLoading(false);
@@ -275,7 +280,7 @@ export function MusicProvider({ children }: { children: ReactNode }) {
         playlist, currentIndex, currentSong, isPlaying, progress, currentTime, duration, currentLyric, isLoading,
         volume, isMuted, playMode, // 暴露新状态
         togglePlay, nextSong, prevSong, handleSeek,
-        playSong, setVolume, toggleMute, togglePlayMode // 暴露新方法
+        playSong, selectSong: playSong, setVolume, toggleMute, togglePlayMode // 暴露新方法
     }}>
       {children}
       {currentSong && (

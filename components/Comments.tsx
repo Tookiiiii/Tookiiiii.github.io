@@ -6,6 +6,7 @@ import { siteConfig } from '../siteConfig';
 
 export default function Comments() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const loadedKeyRef = useRef('');
   const pathname = usePathname();
   const commentConfig = siteConfig.comments || {};
   const repo = commentConfig.repo || 'Tookiiiii/Tookiiiii.github.io';
@@ -14,6 +15,10 @@ export default function Comments() {
 
   useEffect(() => {
     if (!containerRef.current) return;
+
+    const key = `${pathname}|${repo}|${issueTerm}|${label}|${document.documentElement.classList.contains('dark')}`;
+    if (loadedKeyRef.current === key) return;
+    loadedKeyRef.current = key;
 
     containerRef.current.innerHTML = '';
 
